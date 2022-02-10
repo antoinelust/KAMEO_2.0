@@ -13,12 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Secondary route includes
 require_once('home.php');
+require_once('companies.php');
 
+// Default route
 Route::get('/', function () {
     return view('index.index');
 });
 
+// Dashboard route
 Route::get('/dashboard', function () {
     return view('dashboard.index');
 })->middleware(['auth'])->name('dashboard.index');
