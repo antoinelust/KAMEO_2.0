@@ -2,7 +2,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 id="modal-label-3" class="modal-title"></h4>
+                <h4 id="modifyCompany-modal-title" class="modal-title"></h4>
                 <button aria-hidden="true" data-bs-dismiss="modal" class="btn-close" type="button">×</button>
             </div>
             <div class="modal-body">
@@ -60,9 +60,40 @@
                         </select>
                     </div>
                 </div>
+                <br>
+                <div style="text-align: right;">
+                    <button id="upload-action-btn" class="btn btn-b" type="button">Sauvegarder</button>
+                </div>
             </div>
+            <div class="separator separator-small"></div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <h3 style="text-align: center;" id="modal-label-3" class="modal-title">Liste de contact</h3>
+                    <div class="col">
+                        <div style="margin-bottom: 10px;">
+                            <button id="add-contactCompany-btn" type="button" class="btn btn-primary btn-sm">Ajouter un contact</button>
+                        </div>
+                        <table style="width: 100%;" id="companies-contact-table" class="table">
+                            <thead>
+                                <tr>
+                                    <th style="text-align: left; scope="col">Prénom</th>
+                                    <th style="text-align: left; scope="col">Nom</th>
+                                    <th style="text-align: left; scope="col">Email</th>
+                                    <th style="text-align: left; scope="col">Gsm</th>
+                                    <th style="text-align: left; scope="col">Fonction</th>
+                                    <th style="text-align: left; scope="col">Type</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <br>
             <div class="modal-footer">
-                <button id="upload-action-btn" class="btn btn-b" type="button">Sauvegarder</button>
                 <button data-bs-dismiss="modal" class="btn btn-b" type="button">Fermer</button>
             </div>
         </div>

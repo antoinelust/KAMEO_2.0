@@ -1,4 +1,4 @@
-<p align="center"><a href="https://www.kameobikes.com/" target="_blank"><img src="images/kameo.png" width="400"></a></p>
+<p align="center"><a href="https://www.kameobikes.com/" target="_blank"><img src="/public/images/kameo.png" width="400"></a></p>
 
 ## Qui sommes-nous ?
 

@@ -1,0 +1,42 @@
+$('#add-contactCompany-btn').click(function (e) { 
+    e.preventDefault();
+    $("#add-contactCompany-modal").modal("toggle");
+    $("#add-contactCompany-modal #add-contactCompany-modal-title").val("Ajouter un contact à " + $(this).data('companyname'));
+    $("#add-companyContact-action-btn").click(function (e) { 
+        console.log($("#modifyCompany-modal input[name=id]").val());
+        e.preventDefault();
+        $.ajax({
+            type: "post",
+            url: "add-contact-company",
+            data: {
+                "company_id":   $("#modifyCompany-modal input[name=id]").val(),
+                "firstname":    $("#add-contactCompany-modal input[name=firstname]").val(),
+                "lastname":     $("#add-contactCompany-modal input[name=lastname]").val(),
+                "email":        $("#add-contactCompany-modal input[name=email]").val(),
+                "phone":        $("#add-contactCompany-modal input[name=phone]").val(),
+                "function":     $("#add-contactCompany-modal input[name=function]").val(),
+                "type":         $("#add-contactCompany-modal #type option:selected").val(),
+
+            },
+            dataType: "json",
+            success: function (response) {
+                if (response.response == 'success') {
+                    $("#addContactCompany-btn").removeData('companyid'); 
+                    $("#addContactCompany-btn").removeData('companyname'); 
+                    $("#companies-contact-table").DataTable().ajax.reload();
+                    $("#add-contactCompany-modal").modal("toggle");
+                    $.notify(
+                        response.message,
+                        response.response
+                    );
+                }
+                else {
+                    $.notify(
+                        response.message,
+                        response.response
+                    );
+                }
+            }
+        });
+    });
+});

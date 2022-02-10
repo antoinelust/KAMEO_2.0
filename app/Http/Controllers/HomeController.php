@@ -8,7 +8,6 @@ use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
 {
-
     // Retrieve necassary datas for the home page
     public function retrieveHomeData(){
         $user = DB::table('users')

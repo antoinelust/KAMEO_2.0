@@ -10,7 +10,7 @@ class CompaniesController extends Controller
 {
 
     // Load data for display companies data table
-    public function getAllForDataTable(){
+    public function getAllForCompaniesDataTable(){
         $companies = DB::table('companies')
             ->select('*')
             ->get();
@@ -25,6 +25,28 @@ class CompaniesController extends Controller
         endforeach;
 
         echo json_encode($companiesList);
+    }
+
+    // Load data for display contacts company table
+    public function getAllForContactsCompanyDataTable(Request $request){
+        $companyContacts = DB::table('companies_contact')
+                                ->select('*')
+                                ->where("companies_id", "=", intval($request["companies_id"]))
+                                ->get();
+
+        $companyContactsList = [];
+        foreach($companyContacts as $companyContact):
+            array_push($companyContactsList, [
+                "firstname"         => $companyContact->firstname,
+                "lastname"          => $companyContact->lastname,
+                "email"             => $companyContact->email,
+                "phone"             => $companyContact->phone,
+                "function"          => $companyContact->function,
+                "type"             => $companyContact->type
+            ]);
+        endforeach;
+
+        echo json_encode($companyContactsList);
     }
 
     // Get all info of a company by company id
@@ -67,7 +89,7 @@ class CompaniesController extends Controller
     }
 
     // Upload and update logo
-    public static function uploadLogoByCompanyId(Request $request){
+    public function uploadLogoByCompanyId(Request $request){
         $request->validate([
             'file' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
@@ -106,5 +128,86 @@ class CompaniesController extends Controller
             $response['data']       = $imageName;
             echo json_encode($response);
         }
+    }
+
+    // Add company and compagnies_contact if audience is company
+    public function addOne(Request $request){
+        if($request['audience'] == "B2B" || $request['audience'] == "INDEPENDANT"){
+
+            $company_id = DB::table('companies')->insertGetId([
+                'name'              => $request['name'],
+                'billing_group'     => 1,
+                'street'            => $request['street'],
+                'zip'               => $request['zip'],
+                'city'              => $request['city'],
+                'vat_number'        => $request['vat_number'],
+                'type'              => $request['type'],
+                'aquisition'        => $request['aquisition'],
+                'audience'          => $request['audience'],
+                'status'            => "actif",
+                'created_at'        => NOW()         
+            ]);
+
+            DB::table('companies_contact')->insert([
+                'lastname'          => $request['contact_firstname'],
+                'firstname'         => $request['contact_lastname'],
+                'email'             => $request['contact_email'],
+                'phone'             => $request['contact_phone'],
+                'function'          => $request['contact_function'],
+                'companies_id'      => $company_id,
+                'created_at'        => NOW()         
+            ]);
+
+            $response['response']   = 'success';
+            $response['message']    = 'Client ajouté avec succès !';
+            echo json_encode($response);
+        }
+        else if($request['audience'] == "B2C"){
+            $company_id = DB::table('companies')->insertGetId([
+                'name'              => $request['name'],
+                'billing_group'     => 1,
+                'street'            => $request['street'],
+                'zip'               => $request['zip'],
+                'city'              => $request['city'],
+                'type'              => $request['type'],
+                'aquisition'        => $request['aquisition'],
+                'audience'          => $request['audience'],
+                'status'            => "actif",
+                'created_at'        => NOW()         
+            ]);
+
+            DB::table('companies_contact')->insert([
+                'lastname'          => $request['firstname'],
+                'firstname'         => $request['lastname'],
+                'email'             => $request['email'],
+                'phone'             => $request['phone'],
+                'function'          => "",
+                'companies_id'      => $company_id,
+                'created_at'        => NOW()         
+            ]);
+
+            $response['response']   = 'success';
+            $response['message']    = 'Client ajouté avec succès !';
+            echo json_encode($response);
+        }
+    }
+
+    // Add contact company by company id
+    public function addContactCompanyByCompanyId(Request $request){
+        
+        DB::table('companies_contact')->insert([
+            'lastname'          => $request['firstname'],
+            'firstname'         => $request['lastname'],
+            'email'             => $request['email'],
+            'phone'             => $request['phone'],
+            'function'          => $request['function'],
+            'companies_id'      => $request['company_id'],
+            'type'              => $request['type'],
+            'created_at'        => NOW()         
+        ]);
+
+        $response['response']   = 'success';
+        $response['message']    = 'Contact ajouté avec succès !';
+        echo json_encode($response);
     }
 }

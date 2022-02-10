@@ -5,6 +5,8 @@ $(document).ready(function () {
         $("#clientsAndProspects-modal .modal-title").html("Clients et propsects");
         // Load data for the companies data table
         $('#companies-table').DataTable({
+            "pageLength": 5,
+            "lengthMenu": [ 5, 10, 25, 50, 75, 100 ],
             "destroy": true,
             "ajax": {
                 "url": "load-data-companies-table", // Route companies

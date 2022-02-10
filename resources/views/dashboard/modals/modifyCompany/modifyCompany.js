@@ -1,4 +1,4 @@
-// Load and display all data to groupedOrders modal
+// Load and display all data to clients and prospects modal
 $("#clientsAndProspects-modal").on("click", '.modify-company', function(){
     $.ajaxSetup({
         headers: {
@@ -14,8 +14,10 @@ $("#clientsAndProspects-modal").on("click", '.modify-company', function(){
         dataType: "json",
         success: function (response) {
             $("#modifyCompany-modal input[name=id]").remove();
+            $("#modifyCompany-modal #add-contactCompany-btn").data('companyid', response.data.company.id);
+            $("#modifyCompany-modal #add-contactCompany-btn").data('companyname', response.data.company.name);
             $('#modifyCompany-modal').append('<input class="hidden" name="id" value="' + response.data.company.id + '" />');
-            $("#modifyCompany-modal .modal-title").html("Modifier les informations de " + response.data.company.name);
+            $("#modifyCompany-modal #modifyCompany-modal-title").html("Modifier les informations de " + response.data.company.name);
             $("#modifyCompany-modal img[name=logo]").attr('src', '../storage/app/public/companies_logo/' + response.data.company.logo)
             $("#modifyCompany-modal input[name=name]").val(response.data.company.name);
             $("#modifyCompany-modal input[name=tva]").val(response.data.company.vat_number);
@@ -53,6 +55,55 @@ $("#clientsAndProspects-modal").on("click", '.modify-company', function(){
                 <option value="actif">actif</option>
                 <option value="inactif">inactif</option>
             `);
+            $('#companies-contact-table').DataTable({
+                "pageLength": 5,
+                "lengthMenu": [ 5, 10, 25, 50, 75, 100 ],
+                "destroy": true,
+                "ajax": {
+                    "url": "load-data-companies-contact-table", // Route companies
+                    "type": "get",
+                    "data": {
+                        companies_id: response.data.company.id
+                    },
+                    "dataType": "json",
+                    "cache": false,
+                    "dataSrc": ""
+                },
+                "columns": [
+                    { data: "firstname" },
+                    { data: "lastname" },
+                    { data: "email" },
+                    { data: "phone" },
+                    { data: "function" },
+                    { data: "type" },
+                ],
+                "language": {
+                    "sProcessing": "Traitement en cours ...",
+                    "sLengthMenu": "Afficher _MENU_ lignes",
+                    "sZeroRecords": "Aucun résultat trouvé",
+                    "sEmptyTable": "Aucune donnée disponible",
+                    "sInfo": "Lignes _START_ à _END_ sur _TOTAL_",
+                    "sInfoEmpty": "Aucune ligne affichée",
+                    "sInfoFiltered": "(Filtrer un maximum de_MAX_)",
+                    "sInfoPostFix": "",
+                    "sSearch": "Chercher:",
+                    "sUrl": "",
+                    "sInfoThousands": ",",
+                    "sLoadingRecords": "Chargement...",
+                    "oPaginate": {
+                        "sFirst": "Premier", "sLast": "Dernier", "sNext": "Suivant", "sPrevious": "Précédent"
+                    },
+                    "oAria": {
+                        "sSortAscending": ": Trier par ordre croissant", "sSortDescending": ": Trier par ordre décroissant"
+                    }
+                },
+                "columnDefs": [
+                    {
+                        "targets": -1,
+                        "className": 'dt-body-right'
+                    }
+                ]
+            });
             $("#modifyCompany-modal").modal("toggle");
         }
     });
