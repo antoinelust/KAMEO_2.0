@@ -1,6 +1,6 @@
 <div class="modal fade" id="addClient-modal" tabindex="-1" role="modal" aria-labelledby="modal-label" aria-hidden="true"
     style="display: none;">
-    <div class="modal-dialog modal-lg">
+    <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="row">

@@ -1,4 +1,4 @@
-<div class="modal fade" id="commandesgroupees" tabindex="-1" role="modal" aria-labelledby="modal-label-3" aria-hidden="true">
+<div class="modal fade modal-dialog modal-fullscreen-sm-down" id="commandesgroupees" tabindex="-1" role="modal" aria-labelledby="modal-label-3" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
