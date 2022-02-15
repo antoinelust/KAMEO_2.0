@@ -1,9 +1,9 @@
 <div class="modal fade" id="add-contactCompany-modal" tabindex="-1" role="modal" aria-labelledby="modal-label-3" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
+    <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-header">
                 <h4 id="add-contactCompany-modal-title" class="modal-title"></h4>
-                <button aria-hidden="true" data-bs-dismiss="modal" class="btn-close" type="button">×</button>
+                <button aria-hidden="true" data-bs-dismiss="modal" class="btn-close float-right" style="font-size:2em" type="button">×</button>
             </div>
             <div class="modal-body">
                 <div class="row">
