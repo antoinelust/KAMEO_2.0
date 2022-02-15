@@ -1,3 +1,4 @@
+// 
 $('#add-contactCompany-btn').click(function (e) { 
     e.preventDefault();
     $("#add-contactCompany-modal").modal("toggle");

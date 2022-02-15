@@ -13,6 +13,11 @@ Route::get('/load-data-companies-contact-table', [CompaniesController::class, 'g
                 ->middleware('auth')
                 ->name('load-data-companies-contact-table');
 
+// Load data for the bike companies table
+Route::get('/load-data-companies-bike-table', [CompaniesController::class, 'getAllForBikesCompanyDataTable'])
+                ->middleware('auth')
+                ->name('load-data-companies-bike-table');
+
 // Get all data
 Route::get('/get-all-by-company-id', [CompaniesController::class, 'getAllByCompanyId'])
                 ->middleware('auth')

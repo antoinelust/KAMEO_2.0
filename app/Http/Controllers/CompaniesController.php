@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Auth;
 class CompaniesController extends Controller
 {
 
-    // Load data for display companies data table
+    // Load data for display contact companies data table
     public function getAllForCompaniesDataTable(){
         $companies = DB::table('companies')
             ->select('*')
@@ -27,6 +27,28 @@ class CompaniesController extends Controller
         echo json_encode($companiesList);
     }
 
+    // Load data for display bike companies data table
+    public function getAllForBikesCompanyDataTable(Request $request){
+        $companyBikes = DB::table('bikes')
+                                ->select('*')
+                                ->where("companies_id", "=", intval($request["companies_id"]))
+                                ->get();
+
+        $companyBikesList = [];
+        foreach($companyBikes as $companyBike):
+            array_push($companyBikesList, [
+                "frame_reference"   => $companyBike->frame_reference,
+                "client_name"       => $companyBike->client_name,
+                "contract_start"    => $companyBike->contract_start,
+                "contract_end"      => $companyBike->contract_end,
+                "btn"               => '<button class="modify button small green button-3d rounded icon-right glyphicon glyphicon-pencil" type="button">
+                                        </button><button class="delete button small red button-3d rounded icon-right glyphicon glyphicon-remove" type="button"></button>'
+            ]);
+        endforeach;
+
+        echo json_encode($companyBikesList);
+    }
+
     // Load data for display contacts company table
     public function getAllForContactsCompanyDataTable(Request $request){
         $companyContacts = DB::table('companies_contact')
@@ -42,7 +64,9 @@ class CompaniesController extends Controller
                 "email"             => $companyContact->email,
                 "phone"             => $companyContact->phone,
                 "function"          => $companyContact->function,
-                "type"             => $companyContact->type
+                "type"              => $companyContact->type,
+                "btn"               => '<button class="modify button small green button-3d rounded icon-right glyphicon glyphicon-pencil" type="button">
+                                        </button><button class="delete button small red button-3d rounded icon-right glyphicon glyphicon-remove" type="button"></button>'
             ]);
         endforeach;
 
