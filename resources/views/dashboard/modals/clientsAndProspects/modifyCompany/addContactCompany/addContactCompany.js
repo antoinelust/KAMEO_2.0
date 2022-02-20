@@ -1,14 +1,18 @@
-// 
+// Add contact company
 $('#add-contactCompany-btn').click(function (e) { 
     e.preventDefault();
+    $("#modifyCompany-modal input[name=id]").val();
+    $('#add-contactCompany-modal').find('input')
+                    .each(function () {
+                        $(this).val(null);
+                    });
     $("#add-contactCompany-modal").modal("toggle");
     $("#add-contactCompany-modal #add-contactCompany-modal-title").val("Ajouter un contact à " + $(this).data('companyname'));
-    $("#add-companyContact-action-btn").click(function (e) { 
-        console.log($("#modifyCompany-modal input[name=id]").val());
+    $("#add-companyContact-action-btn").click(function(e){ 
         e.preventDefault();
         $.ajax({
             type: "post",
-            url: "add-contact-company",
+            url: "add-contact-company", // Companies route
             data: {
                 "company_id":   $("#modifyCompany-modal input[name=id]").val(),
                 "firstname":    $("#add-contactCompany-modal input[name=firstname]").val(),
@@ -17,7 +21,6 @@ $('#add-contactCompany-btn').click(function (e) {
                 "phone":        $("#add-contactCompany-modal input[name=phone]").val(),
                 "function":     $("#add-contactCompany-modal input[name=function]").val(),
                 "type":         $("#add-contactCompany-modal #type option:selected").val(),
-
             },
             dataType: "json",
             success: function (response) {

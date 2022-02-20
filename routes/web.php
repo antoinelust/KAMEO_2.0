@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 // Secondary route includes
 require_once('home.php');
 require_once('companies.php');
+require_once('company_contacts.php');
+require_once('bikes.php');
+require_once('users.php');
 
 // Default route
 Route::get('/', function () {

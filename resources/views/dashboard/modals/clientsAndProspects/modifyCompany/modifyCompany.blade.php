@@ -65,9 +65,8 @@
                     <button id="upload-action-btn" class="btn btn-b" type="button">Sauvegarder</button>
                 </div>
             </div>
-            <div class="separator separator-small"></div>
-            <br>
-            <div class="row">
+            <div id="company-datatable-row" class="row" style="display: none;">
+                <div class="separator separator-small"></div>
                 <div class="col">
                     <h3 style="text-align: center;" id="modal-label-3" class="modal-title">Liste de contact</h3>
                     <div class="col">
@@ -93,9 +92,8 @@
                     </div>
                 </div>
             </div>
-            <div class="separator separator-small"></div>
-            <br>
-            <div class="row">
+            <div id="bike-datatable-row" class="row">
+                <div class="separator separator-small"></div>
                 <div class="col">
                     <h3 style="text-align: center;" id="modal-label-3" class="modal-title">Liste de vélo</h3>
                     <div class="col">
@@ -127,4 +125,4 @@
     </div>
 </div>
 
-<script src="../resources/views/dashboard/modals/modifyCompany/modifyCompany.js"></script>
+<script src="../resources/views/dashboard/modals/clientsAndProspects/modifyCompany/modifyCompany.js"></script>

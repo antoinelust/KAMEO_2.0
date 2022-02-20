@@ -77,7 +77,7 @@ $('#add-client-action').click(function (e) {
         });
         $.ajax({
             type: "post",
-            url: "add-company",
+            url: "add-company", // Companies route
             data: data,
             dataType: "json",
             success: function (response) {
@@ -119,7 +119,7 @@ $('#add-client-action').click(function (e) {
         });
         $.ajax({
             type: "post",
-            url: "add-company",
+            url: "add-company", // Company route
             data: data,
             dataType: "json",
             success: function (response) {
@@ -163,7 +163,7 @@ $('#add-client-action').click(function (e) {
         });
         $.ajax({
             type: "post",
-            url: "add-company",
+            url: "add-company", // Company route
             data: data,
             dataType: "json",
             success: function (response) {

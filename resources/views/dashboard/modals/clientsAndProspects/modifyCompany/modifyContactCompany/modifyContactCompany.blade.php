@@ -1,8 +1,8 @@
-<div class="modal fade" id="add-contactCompany-modal" tabindex="-1" role="modal" aria-labelledby="modal-label-3" aria-hidden="true">
+<div class="modal fade" id="modify-contactCompany-modal" tabindex="-1" role="modal" aria-labelledby="modal-label-3" aria-hidden="true">
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 id="add-contactCompany-modal-title" class="modal-title"></h4>
+                <h4 id="modify-contactCompany-modal-title" class="modal-title"></h4>
                 <button aria-hidden="true" data-bs-dismiss="modal" class="btn-close float-right" style="font-size:2em" type="button">×</button>
             </div>
             <div class="modal-body">
@@ -38,11 +38,11 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button id="add-companyContact-action-btn" class="btn btn-b" type="button">Ajouter</button>
+                <button id="modify-companyContact-action-btn" class="btn btn-b" type="button">Modifier</button>
                 <button data-bs-dismiss="modal" class="btn btn-b" type="button">Fermer</button>
             </div>
         </div>
     </div>
 </div>
 
-<script src="../resources/views/dashboard/modals/addContactCompany/addContactCompany.js"></script>
+<script src="../resources/views/dashboard/modals/clientsAndProspects/modifyCompany/modifyContactCompany/modifyContactCompany.js"></script>

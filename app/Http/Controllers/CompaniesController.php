@@ -3,16 +3,16 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Companie;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Auth;
 
 class CompaniesController extends Controller
 {
 
-    // Load data for display contact companies data table
-    public function getAllForCompaniesDataTable(){
-        $companies = DB::table('companies')
-            ->select('*')
+    // Get All for dataTable
+    public function getAllForDataTable(){
+        $companies = Companie::select('*')
             ->get();
 
         $companiesList = [];
@@ -27,61 +27,25 @@ class CompaniesController extends Controller
         echo json_encode($companiesList);
     }
 
-    // Load data for display bike companies data table
-    public function getAllForBikesCompanyDataTable(Request $request){
-        $companyBikes = DB::table('bikes')
-                                ->select('*')
-                                ->where("companies_id", "=", intval($request["companies_id"]))
-                                ->get();
+    // Get all
+    public function getAll(){
+        $companies = Companie::All();
 
-        $companyBikesList = [];
-        foreach($companyBikes as $companyBike):
-            array_push($companyBikesList, [
-                "frame_reference"   => $companyBike->frame_reference,
-                "client_name"       => $companyBike->client_name,
-                "contract_start"    => $companyBike->contract_start,
-                "contract_end"      => $companyBike->contract_end,
-                "btn"               => '<button class="modify button small green button-3d rounded icon-right glyphicon glyphicon-pencil" type="button">
-                                        </button><button class="delete button small red button-3d rounded icon-right glyphicon glyphicon-remove" type="button"></button>'
-            ]);
-        endforeach;
-
-        echo json_encode($companyBikesList);
+        $response['response']   = 'success';
+        $response['message']    = 'Compagnies chargée avec succès';
+        $response['data']       = [
+            'companies' => $companies
+        ];
     }
 
-    // Load data for display contacts company table
-    public function getAllForContactsCompanyDataTable(Request $request){
-        $companyContacts = DB::table('companies_contact')
-                                ->select('*')
-                                ->where("companies_id", "=", intval($request["companies_id"]))
-                                ->get();
-
-        $companyContactsList = [];
-        foreach($companyContacts as $companyContact):
-            array_push($companyContactsList, [
-                "firstname"         => $companyContact->firstname,
-                "lastname"          => $companyContact->lastname,
-                "email"             => $companyContact->email,
-                "phone"             => $companyContact->phone,
-                "function"          => $companyContact->function,
-                "type"              => $companyContact->type,
-                "btn"               => '<button class="modify button small green button-3d rounded icon-right glyphicon glyphicon-pencil" type="button">
-                                        </button><button class="delete button small red button-3d rounded icon-right glyphicon glyphicon-remove" type="button"></button>'
-            ]);
-        endforeach;
-
-        echo json_encode($companyContactsList);
-    }
-
-    // Get all info of a company by company id
-    public function getAllByCompanyId(Request $request){
-        $company = DB::table('companies')
-            ->select('*')
+    // Get all info for the company by id
+    public function getAllById(Request $request){
+        $company = Companie::select('*')
             ->where('id', '=', intval($request['company_id']))
             ->get()[0];
 
         $response['response']   = 'success';
-        $response['message']   = 'Donnée de la compagnie ' . $company->id . ' chargée avec succès !';
+        $response['message']    = 'Donnée de la compagnie ' . $company->id . ' chargée avec succès !';
         $response['data']       = [
             'company' => $company
         ];
@@ -89,10 +53,9 @@ class CompaniesController extends Controller
         echo json_encode($response);
     }
 
-    // Update company by company id
-    public function updateById(Request $request){
-        DB::table('companies')
-              ->where('id', '=', $request['id'])
+    // Update company by id
+    public function updateByOnById(Request $request){
+        Companie::where('id', '=', $request['id'])
               ->update([
                   'name'            => $request['name'],
                   'vat_number'      => $request['vat_number'],
@@ -140,8 +103,7 @@ class CompaniesController extends Controller
 
             $request->file('file')->storeAs('/public/companies_logo', $imageName);
 
-            DB::table('companies')
-                ->where('id', intval($request->companyId))
+            Companie::where('id', intval($request->companyId))
                 ->update([
                     'logo'          => $imageName,
                     'updated_at'    => NOW()
@@ -158,7 +120,7 @@ class CompaniesController extends Controller
     public function addOne(Request $request){
         if($request['audience'] == "B2B" || $request['audience'] == "INDEPENDANT"){
 
-            $company_id = DB::table('companies')->insertGetId([
+            $company_id = Companie::insertGetId([
                 'name'              => $request['name'],
                 'billing_group'     => 1,
                 'street'            => $request['street'],
@@ -172,7 +134,7 @@ class CompaniesController extends Controller
                 'created_at'        => NOW()         
             ]);
 
-            DB::table('companies_contact')->insert([
+            DB::table('company_contacts')->insert([
                 'lastname'          => $request['contact_firstname'],
                 'firstname'         => $request['contact_lastname'],
                 'email'             => $request['contact_email'],
@@ -187,7 +149,7 @@ class CompaniesController extends Controller
             echo json_encode($response);
         }
         else if($request['audience'] == "B2C"){
-            $company_id = DB::table('companies')->insertGetId([
+            $company_id = Companie::insertGetId([
                 'name'              => $request['name'],
                 'billing_group'     => 1,
                 'street'            => $request['street'],
@@ -200,7 +162,7 @@ class CompaniesController extends Controller
                 'created_at'        => NOW()         
             ]);
 
-            DB::table('companies_contact')->insert([
+            DB::table('company_contacts')->insert([
                 'lastname'          => $request['firstname'],
                 'firstname'         => $request['lastname'],
                 'email'             => $request['email'],
@@ -214,24 +176,5 @@ class CompaniesController extends Controller
             $response['message']    = 'Client ajouté avec succès !';
             echo json_encode($response);
         }
-    }
-
-    // Add contact company by company id
-    public function addContactCompanyByCompanyId(Request $request){
-        
-        DB::table('companies_contact')->insert([
-            'lastname'          => $request['firstname'],
-            'firstname'         => $request['lastname'],
-            'email'             => $request['email'],
-            'phone'             => $request['phone'],
-            'function'          => $request['function'],
-            'companies_id'      => $request['company_id'],
-            'type'              => $request['type'],
-            'created_at'        => NOW()         
-        ]);
-
-        $response['response']   = 'success';
-        $response['message']    = 'Contact ajouté avec succès !';
-        echo json_encode($response);
     }
 }

@@ -56,18 +56,28 @@ $("#clientsAndProspects-modal").on("click", '.modify-company', function(){
                 <option value="inactif">inactif</option>
             `);
             $('#companies-contact-table').DataTable({
-                "pageLength": 5,
-                "lengthMenu": [ 5, 10, 25, 50, 75, 100 ],
                 "destroy": true,
+                "ordering": false,
+                "searching": false,
+                "lengthChange": false,
+                "pageLength": 5,
                 "ajax": {
-                    "url": "load-data-companies-contact-table", // Route companies
+                    "url": "load-data-companies-contact-table", // Route company_contacts
                     "type": "get",
                     "data": {
                         companies_id: response.data.company.id
                     },
                     "dataType": "json",
                     "cache": false,
-                    "dataSrc": ""
+                    "dataSrc": function(data){
+                        if(data.length > 0){
+                            $("#modifyCompany-modal #company-datatable-row").show();
+                            return data;
+                        }
+                        else{
+                            return data;
+                        }
+                    },
                 },
                 "columns": [
                     { data: "firstname" },
@@ -106,9 +116,11 @@ $("#clientsAndProspects-modal").on("click", '.modify-company', function(){
                 ]
             });
             $('#companies-bike-table').DataTable({
-                "pageLength": 5,
-                "lengthMenu": [ 5, 10, 25, 50, 75, 100 ],
                 "destroy": true,
+                "ordering": false,
+                "searching": false,
+                "lengthChange": false,
+                "pageLength": 5,
                 "ajax": {
                     "url": "load-data-companies-bike-table", // Route companies
                     "type": "get",
@@ -117,7 +129,15 @@ $("#clientsAndProspects-modal").on("click", '.modify-company', function(){
                     },
                     "dataType": "json",
                     "cache": false,
-                    "dataSrc": ""
+                    "dataSrc": function(data){
+                        if(data.length > 0){
+                            $("#modifyCompany-modal #bike-datatable-row").show();
+                            return data;
+                        }
+                        else{
+                            return data;
+                        }
+                    },
                 },
                 "columns": [
                     { data: "frame_reference" },
@@ -233,3 +253,5 @@ $("#modifyCompany-modal #upload-logo-form").change(function (e) {
         }
     });
 });
+
+// Show modify client modal
