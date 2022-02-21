@@ -13,7 +13,7 @@ $(document).ready(function () {
                 $("#info-section #info-section-logo").attr('src', '../storage/app/public/companies_logo/' + response.data.company.id + '.png')
                 $("#info-section #info-section-logo").attr('alt', response.data.company.name)
                 // Display dynamics widgets
-                if(response.data.user.permission.includes("fleetManager")){
+                if(response.data.user.permission.includes("admin")){
                     $widget1 = `
                         <div class="col-lg-4">
                             <div class="icon-box effect large fancy">

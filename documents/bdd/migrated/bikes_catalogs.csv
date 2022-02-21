@@ -1,0 +1,552 @@
+﻿1;Conway;Ets 200 se;H;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1610.96;1736;0;inactif;17-02-21 18:44;17-02-21 18:44
+2;Conway;Ets 200 se;F;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1290;1736;0;actif;13-08-20 17:15;13-08-20 17:15
+3;Conway;Ets 200 se;M;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1290;1736;0;inactif;17-02-21 18:44;17-02-21 18:44
+4;Conway;Ets 300;H;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1582;2066;0;actif;13-08-20 17:15;13-08-20 17:15
+5;Conway;Ets 300;F;Ville et chemin;Y;N/A;N/A;N/A;M;2019-2020;1572.96;2066;0;actif;28-01-22 15:10;28-01-22 15:10
+6;Conway;Ets 300;M;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1652;2066;0;inactif;17-02-21 18:44;17-02-21 18:44
+7;Conway;Ets 400;H;Ville et chemin;Y;Bosch, Performance CX, 75 Nm;Bosch, PowerPack 500 Wh, Amovible;Shimano, Deore, 10 vitesses;M,L;2019-2020;1708;2232;0;actif;24-03-21 12:46;24-03-21 12:46
+8;Conway;Ets 400;F;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1708;2232;0;actif;13-08-20 17:15;13-08-20 17:15
+9;Conway;Ets 400;M;Ville et chemin;Y;N/A;N/A;N/A;M,L;2019-2020;1699.11;2232;0;actif;24-03-21 12:54;24-03-21 12:54
+10;Conway;Ets 500;H;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1809;2479;0;inactif;17-02-21 18:44;17-02-21 18:44
+11;Conway;Ets 500;F;Ville et chemin;Y;N/A;N/A;N/A;S,M,L;2019-2020;1809;2479;0;actif;24-03-21 19:46;24-03-21 19:46
+12;Conway;Ets 500;M;Ville et chemin;Y;N/A;N/A;N/A;S,M,L;2019-2020;1888;2479;0;actif;24-03-21 19:47;24-03-21 19:47
+13;Conway;E Urban Tour;H;Ville;Y;N/A;N/A;N/A;NULL;2019-2020;3036.76;2232;0;inactif;17-02-21 18:44;17-02-21 18:44
+14;Conway;Emc 427;H;Tout chemin;Y;N/A;N/A;N/A;NULL;2019-2020;3036.76;1942;0;inactif;17-02-21 18:44;17-02-21 18:44
+15;Conway;Emc 427;M;Tout chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1417;1942;0;inactif;17-02-21 18:44;17-02-21 18:44
+16;Conway;Emc 627;H;Tout chemin;Y;N/A;N/A;N/A;S,M,L;2019-2020;1572.96;2149;0;actif;08-02-22 09:39;08-02-22 09:39
+17;Conway;Emc 627;M;Tout chemin;Y;N/A;N/A;N/A;S,M,L;2019-2020;1636;2149;0;actif;02-06-21 16:27;02-06-21 16:27
+18;Conway;Emc powertube 727;H;Tout chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1689;2314;0;actif;13-08-20 17:15;13-08-20 17:15
+19;Conway;Emc powertube 727;M;Tout chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1689;2314;0;inactif;17-02-21 18:44;17-02-21 18:44
+20;Conway;Emc powertube 827;H;Tout chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1809;2479;0;inactif;17-02-21 18:44;17-02-21 18:44
+21;Conway;Emc powertube 827;M;Tout chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1809;2479;0;inactif;17-02-21 18:44;17-02-21 18:44
+22;Orbea;Gain F10 19;H;Ville;Y;N/A;N/A;N/A;S,M,L;2019-2020;1610.96;2066;0;actif;01-03-21 21:31;01-03-21 21:31
+23;Bzen;Milano;H;Ville;Y;Roue arrière, Bafang, 45Nm;360 Wh, Inamovible;Shimano, Alivio, 9 vitesses;M,L;2019-2020;1650;2615;0;actif;31-05-21 09:00;31-05-21 09:00
+24;Bzen;Amsterdam;F;Ville;Y;Roue arrière, Bafang, 45Nm;360 Wh, Inamovible;Shimano, Alivio, 9 vitesses;unique;2019-2020;1789;2425;0;actif;31-05-21 09:00;31-05-21 09:00
+25;Ahooga;Folding Bike;M;Pliant;Y;N/A;N/A;N/A;NULL;2019-2020;1375.6;1835;0;inactif;13-08-20 17:15;13-08-20 17:15
+26;Ahooga;Modular Bike;H;Ville;Y;N/A;N/A;N/A;NULL;2019-2020;NULL;1835;0;inactif;13-08-20 17:15;13-08-20 17:15
+44;Conway;URB C 601;H;Ville;N;N/A;N/A;N/A;NULL;2019-2020;NULL;909;0;inactif;17-02-21 18:44;17-02-21 18:44
+45;Conway;Ts 300;H;Tout chemin;N;N/A;N/A;N/A;NULL;2019-2020;328;495;0;inactif;17-02-21 18:44;17-02-21 18:44
+46;Conway;Ts 300;M;Tout chemin;N;N/A;N/A;N/A;NULL;2019-2020;328;495;0;inactif;17-02-21 18:44;17-02-21 18:44
+47;Conway;Ts 400;H;Tout chemin;N;N/A;N/A;N/A;NULL;2019-2020;383;578;0;inactif;17-02-21 18:44;17-02-21 18:44
+48;Conway;Ts 400;M;Tout chemin;N;N/A;N/A;N/A;NULL;2019-2020;383;578;0;inactif;17-02-21 18:44;17-02-21 18:44
+49;Conway;Ts 500;H;Tout chemin;N;N/A;N/A;N/A;NULL;2019-2020;478;702;0;inactif;17-02-21 18:44;17-02-21 18:44
+50;Conway;Ts 500;M;Tout chemin;N;N/A;N/A;N/A;NULL;2019-2020;478;702;0;actif;13-08-20 17:15;13-08-20 17:15
+51;Ahooga;Modular Bike;H;Ville;N;N/A;N/A;N/A;NULL;2019-2020;NULL;950;0;inactif;13-08-20 17:15;13-08-20 17:15
+52;HNF Nicolai;XD3;H;Ville;Y;N/A;N/A;N/A;;2019-2020;0;3884;0;actif;18-02-21 20:58;18-02-21 20:58
+53;HNF Nicolai;XD3 speed;H;Speedpedelec;Y;Bosch, Performance Speed, 85 Nm;Bosch, PowerTube 625 Wh, Amovible;Rohloff Speedhub 500, E14;M,L;2019-2020;3330;4132;0;actif;04-03-21 11:44;04-03-21 11:44
+54;HNF Nicolai;UD1 Unisex;F;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;0;3305;0;actif;13-08-20 17:15;13-08-20 17:15
+55;HNF Nicolai;UD1 Unisex;F;Speedpedelec;Y;N/A;N/A;N/A;NULL;2019-2020;NULL;3710;0;inactif;13-08-20 17:15;13-08-20 17:15
+56;Douze Cycle;G4;M;Cargo;Y;N/A;N/A;N/A;unique;2019-2020;3000;468595;0;actif;08-02-22 09:44;08-02-22 09:44
+61;Conway;Ets 480;F;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1629;2232;0;actif;13-08-20 17:15;13-08-20 17:15
+62;Conway;Ets 370;F;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1572.96;2066;0;actif;13-08-20 17:15;13-08-20 17:15
+63;Conway;Cairon T 200 SE 500;F;Ville et chemin;Y;Bosch, Performance, Génération 3, 63 Nm;Bosch,PowerPack 500Wh, Amovible;Shimano, Acera, 9 vitesses;M;2019-2020;1470.95;198347;0;actif;07-02-22 19:01;07-02-22 19:01
+64;Conway;Cairon T 200 SE 500;H;Ville et chemin;Y;Bosch, Performance, Génération 3, 63 Nm;Bosch,PowerPack 500Wh, Amovible;Shimano, Acera, 9 vitesses;M;2019-2020;1470.95;198347;0;actif;17-02-21 20:04;17-02-21 20:04
+65;Conway;Cairon T 200 SE 500;M;Ville et chemin;Y;Bosch, Performance, Génération 3, 63 Nm;Bosch, PowerPack 500 Wh, Amovible;Shimano, Acera, 9 vitesses;M;2019-2020;1470.95;198347;0;actif;17-02-21 20:04;17-02-21 20:04
+66;Conway;Cairon T 400;H;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1794.4;2562;0;inactif;17-02-21 18:44;17-02-21 18:44
+67;Conway;Cairon T 400;F;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1794.4;2562;0;inactif;17-02-21 18:44;17-02-21 18:44
+68;Conway;Cairon T 400;M;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1794.4;2562;0;actif;25-08-20 10:58;25-08-20 10:58
+69;Conway;Cairon T 500;H;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;2025.6;289256;0;inactif;17-02-21 18:44;17-02-21 18:44
+70;Conway;Cairon T 500;F;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;2025.6;289256;0;inactif;17-02-21 18:44;17-02-21 18:44
+71;Conway;Cairon T 500;M;Ville et chemin;Y;N/A;N/A;N/A;XS,S,M,L,XL;2019-2020;2025.6;289256;0;actif;16-04-21 10:49;16-04-21 10:49
+72;Conway;Cairon T 600;H;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;2257.6;322314;0;inactif;17-02-21 18:44;17-02-21 18:44
+73;Conway;Cairon T 600;M;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;2257.6;322314;0;inactif;17-02-21 18:44;17-02-21 18:44
+74;Conway;Cairon T 600;F;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;2257.6;322314;0;inactif;17-02-21 18:44;17-02-21 18:44
+75;Conway;Cairon C 227 SE;H;Tout chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1470.95;198347;0;inactif;17-02-21 18:44;17-02-21 18:44
+76;Conway;Cairon C 227 SE;M;Tout chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1470.95;198347;0;inactif;17-02-21 18:44;17-02-21 18:44
+77;Conway;Cairon C 327;H;Tout chemin;Y;N/A;N/A;N/A;;2019-2020;1620.8;2314;0;actif;04-01-21 13:15;04-01-21 13:15
+78;Conway;Cairon C 327;M;Tout chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1620.8;2314;0;inactif;17-02-21 18:44;17-02-21 18:44
+79;Conway;Cairon C 427;M;Tout chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1736;247933;0;inactif;17-02-21 18:44;17-02-21 18:44
+80;Conway;Cairon C 427;H;Tout chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1736;247933;0;inactif;17-02-21 18:44;17-02-21 18:44
+81;Conway;Cairon C 427;F;Tout chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1736;247933;0;inactif;17-02-21 18:44;17-02-21 18:44
+82;Conway;Cairon C 627;H;Tout chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1852;264462;0;inactif;17-02-21 18:44;17-02-21 18:44
+83;Conway;Cairon C 627;M;Tout chemin;Y;Bosch, Performance CX, Génération 4,  85 Nm;Bosch,PowerPack 500Wh, Amovible;SRAM, SX Eagle, 12 vitesses;M;2019-2020;1852;264462;0;actif;21-04-21 16:32;21-04-21 16:32
+84;Conway;Cairon C 727;H;Tout chemin;Y;N/A;N/A;N/A;NULL;2019-2020;2024;289256;0;inactif;17-02-21 18:44;17-02-21 18:44
+85;Conway;Cairon C 727;M;Tout chemin;Y;N/A;N/A;N/A;NULL;2019-2020;2024;289256;0;inactif;17-02-21 18:44;17-02-21 18:44
+86;Conway;Cairon C 727;F;Tout chemin;Y;N/A;N/A;N/A;NULL;2019-2020;2024;289256;0;inactif;17-02-21 18:44;17-02-21 18:44
+87;Conway;Xyron C 227;H;VTT;Y;N/A;N/A;N/A;NULL;2019-2020;2257.6;322314;0;inactif;17-02-21 18:44;17-02-21 18:44
+88;Conway;Xyron C 427;H;VTT;Y;N/A;N/A;N/A;M;2019-2020;2663.2;380165;0;actif;08-02-22 09:41;08-02-22 09:41
+89;Conway;Xyron 227;H;VTT;Y;N/A;N/A;N/A;NULL;2019-2020;2141.6;305785;0;inactif;17-02-21 18:44;17-02-21 18:44
+90;Conway;Xyron 327;H;VTT;Y;N/A;N/A;N/A;NULL;2019-2020;2431.2;3471;0;inactif;17-02-21 18:44;17-02-21 18:44
+91;Conway;Xyron 427;H;VTT;Y;N/A;N/A;N/A;NULL;2019-2020;2662.4;380165;0;actif;13-08-20 17:15;13-08-20 17:15
+92;Conway;Xyron 527;H;VTT;Y;N/A;N/A;N/A;NULL;2019-2020;3008;429752;0;inactif;17-02-21 18:44;17-02-21 18:44
+93;Conway;Xyron 727 carbon;H;VTT;Y;N/A;N/A;N/A;NULL;2019-2020;3068;438016;0;inactif;17-02-21 18:44;17-02-21 18:44
+94;Conway;Xyron 827 Carbon;H;VTT;Y;N/A;N/A;N/A;S,M,L;2019-2020;3472;495867;0;actif;11-01-22 11:07;11-01-22 11:07
+95;Conway;Xyron 927 Carbon;H;VTT;Y;N/A;N/A;N/A;NULL;2019-2020;4904;6611;0;inactif;17-02-21 18:44;17-02-21 18:44
+96;Conway;Cairon S 227 SE;M;VTT;Y;N/A;N/A;N/A;S,M,L;2019-2020;1470.95;198347;0;actif;16-08-21 10:41;16-08-21 10:41
+97;Conway;Cairon S 227 SE;H;VTT;Y;N/A;N/A;N/A;NULL;2019-2020;1470.95;198347;0;inactif;17-02-21 18:44;17-02-21 18:44
+98;Conway;Cairon S 327;M;VTT;Y;N/A;N/A;N/A;NULL;2019-2020;1562.4;22314;0;inactif;17-02-21 18:44;17-02-21 18:44
+99;Conway;Cairon s 329;H;VTT;Y;N/A;N/A;N/A;NULL;2019-2020;1562.4;22314;0;inactif;17-02-21 18:44;17-02-21 18:44
+100;Conway;Cairon S 427;M;VTT;Y;N/A;N/A;N/A;NULL;2019-2020;1678.4;239669;0;inactif;17-02-21 18:44;17-02-21 18:44
+101;Conway;Cairon S 429;H;VTT;Y;N/A;N/A;N/A;NULL;2019-2020;1678.4;239669;0;inactif;17-02-21 18:44;17-02-21 18:44
+102;Conway;Cairon S 627;M;VTT;Y;N/A;N/A;N/A;NULL;2019-2020;1794.4;2562;0;actif;25-08-20 10:57;25-08-20 10:57
+103;Conway;Cairon S 629;H;VTT;Y;N/A;N/A;N/A;NULL;2019-2020;1794.4;2562;0;actif;13-08-20 17:15;13-08-20 17:15
+104;Conway;Cairon S 727;M;VTT;Y;N/A;N/A;N/A;S,M,L;2019-2020;2025.6;289256;0;inactif;17-02-21 18:44;17-02-21 18:44
+105;Conway;Cairon S 729;H;VTT;Y;N/A;N/A;N/A;NULL;2019-2020;2025.6;289256;0;inactif;17-02-21 18:44;17-02-21 18:44
+106;Conway;Cairon S 827;M;VTT;Y;N/A;N/A;N/A;NULL;2019-2020;2315.2;330578;0;inactif;17-02-21 18:44;17-02-21 18:44
+107;Conway;Cairon S 829;H;VTT;Y;N/A;N/A;N/A;NULL;2019-2020;2315.2;330578;0;inactif;17-02-21 18:44;17-02-21 18:44
+108;Conway;TS 300;H;Ville et chemin;N;N/A;N/A;N/A;NULL;2019-2020;328;495;0;inactif;17-02-21 18:44;17-02-21 18:44
+109;Conway;Ts 600;H;Ville et chemin;N;N/A;N/A;N/A;NULL;2019-2020;563;826;0;inactif;17-02-21 18:44;17-02-21 18:44
+110;Conway;Ts 600;M;Ville et chemin;N;N/A;N/A;N/A;NULL;2019-2020;563;826;0;inactif;17-02-21 18:44;17-02-21 18:44
+111;Conway;GRV 600 Alu;H;Gravel;N;N/A;N/A;N/A;NULL;2019-2020;876;1322;0;inactif;17-02-21 18:44;17-02-21 18:44
+112;Conway;GRV 800 Alu;H;Gravel;N;/;/;Shimano, 11 vitesses;M;2019-2020;986;1487;0;actif;16-06-21 10:18;16-06-21 10:18
+113;Conway;GRV 1000 Carbon;H;Gravel;N;N/A;N/A;N/A;NULL;2019-2020;1408;2066;0;inactif;17-02-21 18:44;17-02-21 18:44
+114;Conway;GRV 1200 Carbon;H;Gravel;N;N/A;N/A;N/A;S,M,L,XL;2019-2020;1688;2479;0;actif;27-04-21 13:56;27-04-21 13:56
+115;Conway;RLC 2;H;VTT;N;N/A;N/A;"SRAM, ""NX"", 12 vitesses";S,M,L,XL;2020-2021;1114;165264;0;actif;17-02-21 18:48;17-02-21 18:48
+116;Conway;RLC 4;H;VTT;N;N/A;N/A;N/A;NULL;2019-2020;1126;1652;0;inactif;17-02-21 18:44;17-02-21 18:44
+117;Conway;RLC 5;H;VTT;N;N/A;N/A;N/A;NULL;2019-2020;1238;1818;0;inactif;17-02-21 18:44;17-02-21 18:44
+118;Conway;RLC 6;H;VTT;N;N/A;N/A;"Shimano, ""Deore XT"", 12 vitesses";S,M,L,XL;2020-2021;1559;223135;0;actif;08-02-22 09:41;08-02-22 09:41
+119;Conway;RLC 7;H;VTT;N;N/A;N/A;"SRAM, ""X0"", 12 vitesses";S,M,L,XL;2020-2021;1792;24793;0;actif;15-09-21 20:33;15-09-21 20:33
+120;Conway;RLC 9;H;VTT;N;N/A;N/A;"Shimano, ""XTR"", 12 vitesses";S,M,L,XL;2020-2021;2958;421464;0;actif;17-02-21 18:48;17-02-21 18:48
+121;Conway;WME 329;H;Tout chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1632;2396;0;inactif;17-02-21 18:44;17-02-21 18:44
+122;Conway;WME 227;H;VTT;N;N/A;N/A;N/A;NULL;2019-2020;1698;2479;0;inactif;17-02-21 18:44;17-02-21 18:44
+123;Conway;WME 427;H;VTT;N;N/A;N/A;N/A;NULL;2019-2020;1970;2892;0;inactif;17-02-21 18:44;17-02-21 18:44
+124;Conway;WME 329;H;VTT;N;N/A;N/A;N/A;NULL;2019-2020;1632;2396;0;inactif;17-02-21 18:44;17-02-21 18:44
+125;Conway;WME 529;H;VTT;N;N/A;N/A;N/A;NULL;2019-2020;1970;2892;0;inactif;17-02-21 18:44;17-02-21 18:44
+127;Conway;WME 729;H;VTT;N;N/A;N/A;N/A;NULL;2019-2020;2421;3553;0;inactif;17-02-21 18:44;17-02-21 18:44
+128;Conway;WME 627;H;VTT;N;N/A;N/A;N/A;NULL;2019-2020;2477;3636;0;inactif;17-02-21 18:44;17-02-21 18:44
+129;Conway;WME 827;H;VTT;N;N/A;N/A;N/A;NULL;2019-2020;3759;5371;0;inactif;17-02-21 18:44;17-02-21 18:44
+132;Ahooga;Folding Bike Power;M;Pliant;Y;Roue arrière, Ansmann, 40Nm;252 Wh, amovible;Shimano, Acera, 7 vitesses;unique;2019-2020;1504.13;214876;0;actif;04-03-21 16:14;04-03-21 16:14
+134;Ahooga;Modular Bike Hybrid;H;Ville;Y;Ansmann, 60Nm;300 Wh, Inamovible;8 vitesses;;2019-2020;1139.09;162727;0;actif;01-09-21 20:51;01-09-21 20:51
+135;Ahooga;Modular Bike Low Step;F;Ville;Y; Ansmann, 60 Nm;300 Wh, Inamovible;8 vitesses;unique;2019-2020;1298.76;185537;0;actif;01-09-21 20:51;01-09-21 20:51
+136;Benno;Benno  Boost E 400Wh;H;Cargo;Y;N/A;N/A;N/A;unique;2019-2020;1799.95;247934;0;actif;12-03-21 10:37;12-03-21 10:37
+137;Benno;Benno Boost E 500Wh 2019;H;Cargo;Y;Bosch, Performance, Génération 3, 63 Nm;Bosch,PowerPack 500Wh, Amovible;Shimano Deore, 10 vitesses;unique;2019-2020;1919.95;264463;0;actif;12-03-21 10:36;12-03-21 10:36
+138;other;Benno eJoy 400Wh;F;Ville;Y;N/A;N/A;N/A;NULL;2019-2020;1619.95;22314;0;inactif;01-04-20 14:59;01-04-20 14:59
+139;other;Benno eJoy 500Wh;F;Ville;Y;N/A;N/A;N/A;NULL;2019-2020;1739.95;239669;0;inactif;01-04-20 14:59;01-04-20 14:59
+140;Victoria;Victoria eUrban 11.8 ;H;Ville;Y;N/A;N/A;N/A;NULL;2019-2020;1966.36;280909;0;inactif;01-04-20 15:00;01-04-20 15:00
+141;Victoria;Victoria eUrban 11.8;F;Ville;Y;N/A;N/A;N/A;NULL;2019-2020;1966.36;280909;0;inactif;01-04-20 15:00;01-04-20 15:00
+142;Victoria;eTrekking 6.3;F;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1330;1900;0;actif;01-04-20 15:01;01-04-20 15:01
+143;Victoria;eTrekking 6.3;M;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1330;1900;0;actif;01-04-20 15:01;01-04-20 15:01
+144;Victoria;Victoria eTrekking 6.4;F;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1445.7;206529;0;actif;17-02-21 19:11;17-02-21 19:11
+145;Victoria;Victoria eTrekking 6.4;M;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1445.7;206529;0;inactif;01-04-20 15:01;01-04-20 15:01
+146;Victoria;Victoria eTrekking 7.7;F;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1734.96;247851;0;inactif;13-07-20 15:03;13-07-20 15:03
+147;Victoria;Victoria eTrekking 7.7;H;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1734.96;247851;0;inactif;13-07-20 15:03;13-07-20 15:03
+148;Victoria;Victoria eUrban 11.9;F;Ville;Y;N/A;N/A;N/A;M,L;2019-2020;2082.07;297439;0;actif;01-04-20 15:22;01-04-20 15:22
+149;Victoria;Victoria eUrban 11.9;H;Ville;Y;N/A;N/A;N/A;M,L;2019-2020;2082.07;297439;0;actif;24-03-21 18:49;24-03-21 18:49
+150;Victoria;Victoria eTrekking 7.9;F;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1734.96;247851;0;inactif;01-04-20 15:23;01-04-20 15:23
+151;Victoria;Victoria eTrekking 8.8;F;Ville et chemin;Y;Bosch, Performance, Génération 3, 63 Nm;Bosch,PowerPack 500Wh, Amovible;N/A;S,M,L;2019-2020;1619.26;231322;0;actif;03-06-21 11:43;03-06-21 11:43
+152;Victoria;Victoria eTrekking 8.8;M;Ville et chemin;Y;N/A;N/A;N/A;S,M,L;2019-2020;1619.26;231322;0;actif;03-06-21 11:43;03-06-21 11:43
+153;Victoria;Victoria eTrekking 8.8;H;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1619.26;231322;0;inactif;13-07-20 15:06;13-07-20 15:06
+154;Victoria;Victoria eTrekking 10.8;F;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1734.96;247851;0;inactif;13-07-20 15:09;13-07-20 15:09
+155;Victoria;Victoria eTrekking 10.8;M;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1734.96;247851;0;inactif;01-04-20 15:23;01-04-20 15:23
+156;Victoria;Victoria eTrekking 10.8;H;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1734.96;247851;0;inactif;01-04-20 15:24;01-04-20 15:24
+157;Victoria;Victoria eTrekking 10.9;F;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1850.66;26438;0;inactif;01-04-20 15:24;01-04-20 15:24
+158;Victoria;Victoria eTrekking 10.9;M;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1850.66;26438;0;inactif;01-04-20 15:24;01-04-20 15:24
+159;Victoria;Victoria eAdventure 8.8;F;Tout chemin;Y;Shimano Mittelmotor;Shimano, 504 Wh, amovible;N/A;S,M,L;2019-2020;1734.96;247851;0;actif;08-02-22 09:39;08-02-22 09:39
+160;Victoria;Victoria eAdventure 8.8;H;Tout chemin;Y;Shimano Mittelmotor;Shimano, 504 Wh, amovible;N/A;M,L,XL;2019-2020;1734.96;247851;0;actif;21-04-21 16:01;21-04-21 16:01
+161;Victoria;Victoria eAdventure 8.9;F;Tout chemin;Y;N/A;N/A;N/A;NULL;2019-2020;2024.21;289174;0;inactif;01-04-20 15:25;01-04-20 15:25
+162;Victoria;Victoria eAdventure 8.9;H;Tout chemin;Y;N/A;N/A;N/A;NULL;2019-2020;2024.21;289174;0;inactif;01-04-20 15:25;01-04-20 15:25
+163;Victoria;Victoria eTouring 6.3;F;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1387.85;198264;0;actif;17-02-21 19:11;17-02-21 19:11
+164;Victoria;Victoria eTouring 6.3;M;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1387.85;198264;0;actif;21-09-20 23:01;21-09-20 23:01
+165;Victoria;Victoria eTouring 6.3;H;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1387.85;198264;0;inactif;01-04-20 15:27;01-04-20 15:27
+166;Victoria;Victoria eTouring 6.4;F;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1561.4;223056;0;actif;17-02-21 19:11;17-02-21 19:11
+167;Victoria;Victoria eTouring 6.4;M;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1561.4;223056;0;inactif;01-04-20 15:28;01-04-20 15:28
+168;Victoria;Victoria eTouring 7.4;F;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1445.7;206529;0;inactif;01-04-20 15:28;01-04-20 15:28
+169;Victoria;Victoria eTouring 7.4;M;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1445.7;206529;0;inactif;01-04-20 15:28;01-04-20 15:28
+170;Victoria;Victoria eTouring 7.6;F;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1734.96;247851;0;inactif;13-07-20 15:19;13-07-20 15:19
+171;Victoria;Victoria eTouring 8.8;F;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1677.11;239587;0;actif;17-02-21 19:11;17-02-21 19:11
+172;Victoria;Victoria eTouring 8.8;M;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1677.11;239587;0;inactif;01-04-20 15:29;01-04-20 15:29
+173;Victoria;Victoria eTouring 8.8;H;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1677.11;239587;0;inactif;01-04-20 15:29;01-04-20 15:29
+174;Victoria;Victoria eTouring 8.9;F;Ville et chemin;Y;N/A;N/A;N/A;M;2019-2020;1850.66;26438;0;actif;14-06-21 14:02;14-06-21 14:02
+175;Victoria;Victoria eTouring 8.9;M;Ville et chemin;Y;N/A;N/A;N/A;M,L;2019-2020;1850.66;26438;0;actif;07-02-22 19:03;07-02-22 19:03
+176;Victoria;Victoria eTouring 8.9;H;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1850.66;26438;0;inactif;01-04-20 15:29;01-04-20 15:29
+177;other;Geebee;M;Tout chemin;Y;N/A;N/A;N/A;NULL;2019-2020;2905;3140;0;actif;04-03-20 15:04;04-03-20 15:04
+178;Conway;ems 240;H;VTT;Y;N/A;N/A;N/A;M,L;2019-2020;1327;1818;0;actif;08-02-22 09:42;08-02-22 09:42
+179;Conway;Cairon C 827;M;Tout chemin;Y;N/A;N/A;N/A;NULL;2019-2020;2314;3305;0;actif;02-04-20 19:30;02-04-20 19:30
+180;Conway;Cairon S 727;H;VTT;Y;N/A;N/A;N/A;;2019-2020;2025;2892;0;actif;05-01-21 12:20;05-01-21 12:20
+181;Conway;WME 929;H;VTT;N;N/A;N/A;SRAM, SX Eagle, 12 vitesses;S,M,L;2019-2020;2579;3;0;actif;17-05-21 21:37;17-05-21 21:37
+182;Bzen;Brussels;F;Ville;Y;N/A;N/A;N/A;S,M,L;2019-2020;1850;2223;0;actif;31-05-21 09:00;31-05-21 09:00
+184;Kayza;Tanana Dry 6;F;Ville et chemin;Y;N/A;N/A;N/A;S,M,L;2019-2020;1560;2148;0;actif;04-06-21 10:12;04-06-21 10:12
+185;Conway;E urban;H;Ville;Y;Bosch, Performance CX, Génération 3, 75 Nm;Bosch,PowerPack 500Wh, Amovible;Shimano XT 11 vitesses;M,L;2019-2020;1450;2231;0;actif;08-02-22 09:43;08-02-22 09:43
+186;Kayza;Tanana Dry 5;F;Ville et chemin;Y;Bosch, Performance, Génération 3, 63 Nm;Bosch,PowerPack 500Wh, Amovible;8 vitesses;S,M;2019-2020;1577;2148;0;actif;07-02-22 19:04;07-02-22 19:04
+187;Conway;eWME 329;H;VTT;Y;N/A;N/A;N/A;M,L;2019-2020;2488;3554;0;actif;16-08-21 10:34;16-08-21 10:34
+188;Kayza;Talik Dry 6;H;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1560;2149;0;actif;10-06-20 13:45;10-06-20 13:45
+189;Conway;Cairon C 329;H;Tout chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1620.8;2314;0;inactif;17-02-21 18:44;17-02-21 18:44
+190;Kayza;Tanana Dry 4;F;Ville et chemin;Y;Bosch, Performance, Génération 3, 63 Nm;Bosch, Powertube 400Wh, amovible;9 vitesses;S;2019-2020;1342;1818;0;actif;07-02-22 19:04;07-02-22 19:04
+191;Conway;ML4;F;VTT;N;N/A;N/A;N/A;NULL;2019-2020;273.6;413;0;actif;25-08-20 10:56;25-08-20 10:56
+192;Kayza;Hydric Dry 6;H;Tout chemin;Y;Bosch, Performance, Génération 3, 63 Nm;Bosch,PowerPack 500Wh, Amovible;10 vitesses;S;2019-2020;1564;214872;0;actif;21-04-21 15:52;21-04-21 15:52
+193;Kayza;Tanana Dry  6;M;Ville et chemin;Y;Bosch, Performance CX, 75 Nm;Bosch,PowerPack 500Wh, Amovible;10 vitesses;M;2019-2020;1560.6;214872;0;actif;26-05-21 19:54;26-05-21 19:54
+194;Kayza;Sapric Dry 6;H;Tout chemin;Y;Bosch, Performance, Génération 3, 63 Nm;Bosch,PowerPack 500Wh, Amovible;10 vitesses;;2019-2020;1559.75;214872;0;actif;12-11-20 16:42;12-11-20 16:42
+195;Victoria;eManufaktur 12.9;H;Ville et chemin;Y;Bosch, Performance CX, Génération 4,  85 Nm;625Wh, amovible;11 vitesses;M,L;2019-2020;2100.8;305702;0;actif;07-02-22 19:08;07-02-22 19:08
+196;Conway;eWME 427;H;VTT;Y;N/A;N/A;N/A;NULL;2019-2020;2488.8;355368;0;inactif;17-02-21 18:44;17-02-21 18:44
+197;Conway;eWME 627;H;VTT;Y;Shimano Mittelmotor;Shimano, 504 Wh, amovible;Shimano Deore, 12 vitesses;L;2019-2020;2944;413219;0;actif;01-03-21 10:28;01-03-21 10:28
+198;Conway;eWME 629;H;VTT;Y;N/A;N/A;N/A;NULL;2019-2020;2944;413219;0;inactif;17-02-21 18:44;17-02-21 18:44
+199;Conway;eWME 827 MX;H;VTT;Y;N/A;N/A;N/A;NULL;2019-2020;3980;454541;0;inactif;17-02-21 18:44;17-02-21 18:44
+200;Kayza;Tanana Dry 3;F;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1381.25;190079;0;inactif;17-02-21 19:16;17-02-21 19:16
+201;Kayza;Tanana Dry 2;M;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1249.5;169417;0;inactif;17-02-21 19:16;17-02-21 19:16
+202;Kayza;Hydric Dry 12_i;H;Tout chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1740.8;239665;0;inactif;17-02-21 19:16;17-02-21 19:16
+203;Kayza;Talik Dry 2;F;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1249.5;169417;0;inactif;17-02-21 19:16;17-02-21 19:16
+204;Kayza;Hydric 2;H;VTT;Y;N/A;N/A;N/A;NULL;2019-2020;1292.85;17355;0;inactif;17-02-21 19:16;17-02-21 19:16
+205;Kayza;Hydric 4;H;VTT;Y;N/A;N/A;N/A;NULL;2019-2020;1406.75;190079;0;inactif;17-02-21 19:16;17-02-21 19:16
+206;Kayza;Hydric 8;H;VTT;Y;N/A;N/A;N/A;NULL;2019-2020;1620.95;223136;0;actif;15-07-20 15:25;15-07-20 15:25
+207;Kayza;Hydric Dry 4;H;Tout chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1377.85;190079;0;inactif;17-02-21 19:16;17-02-21 19:16
+208;Kayza;Sapric 2;H;VTT;Y;N/A;N/A;N/A;NULL;2019-2020;1300.5;177682;0;inactif;17-02-21 19:16;17-02-21 19:16
+209;Kayza;Sapric 4;H;VTT;Y;N/A;N/A;N/A;NULL;2019-2020;1.408;190079;0;inactif;17-02-21 19:16;17-02-21 19:16
+210;Kayza;Sapric 6;H;VTT;Y;N/A;N/A;N/A;NULL;2019-2020;1500.25;206607;0;inactif;17-02-21 19:16;17-02-21 19:16
+211;Kayza;Sapric 8;H;VTT;Y;N/A;N/A;N/A;XS,S,M;2019-2020;1619.25;223136;0;actif;17-02-21 19:16;17-02-21 19:16
+212;Kayza;Sapric Dry 4;H;Tout chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1380.4;190079;0;inactif;17-02-21 19:16;17-02-21 19:16
+213;Kayza;Hydric 12_i;H;VTT;Y;N/A;N/A;N/A;XS,S,M,L;2019-2020;1768;239665;0;actif;25-03-21 11:19;25-03-21 11:19
+214;Kayza;Talik Dry 4;H;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1338.75;181814;0;inactif;17-02-21 19:16;17-02-21 19:16
+215;Kayza;Tanana Dry 4;M;Ville et chemin;Y;N/A;N/A;N/A;NULL;2019-2020;1.338;181814;0;inactif;17-02-21 19:16;17-02-21 19:16
+218;Kayza;Williwaw 6;H;VTT;Y;N/A;N/A;N/A;NULL;2019-2020;1755.25;239665;0;inactif;17-02-21 19:16;17-02-21 19:16
+219;other;Kalkhoff Agattu impulse;F;Ville et chemin;Y;N/A;N/A;N/A;unique;2019-2020;0;0;0;actif;12-08-21 15:21;12-08-21 15:21
+220;Victoria;E folding 7.1;M;Pliant;Y;Bosch, Active Line Plus, Génération 3, 50 Nm;400Wh, amovible;8 vitesses;unique;2019-2020;1712;2479;0;actif;08-02-22 09:45;08-02-22 09:45
+221;Benno;Boost E 10D performance;F;Cargo;Y;Bosch, Performance, Génération 4, 65 Nm;Bosch,PowerPack 500Wh, Amovible;Shimano Deore, 10 vitesses;unique;2020-2021;2411.76;347107;0;actif;09-12-21 11:54;09-12-21 11:54
+223;Conway;Cairon S 427 2021;M;VTT;Y;N/A;N/A;N/A;NULL;2019-2020;1775;239669;0;inactif;17-02-21 18:44;17-02-21 18:44
+224;Victoria;E folding 7.2;M;Pliant;Y;Bosch, Active Line Plus, Génération 3, 50 Nm;400Wh, amovible;8 vitesses;unique;2019-2020;1712;2479;0;actif;08-02-22 09:45;08-02-22 09:45
+225;HNF Nicolai;SD3 Urban;M;Ville;Y;Bosch, Active Line Plus, Génération 3, 50 Nm;Bosch, Powertube 500Wh, amovible;Enviolo;M,L;2020-2021;2526.67;305372;0;actif;08-02-22 09:43;08-02-22 09:43
+226;Benno;Boost E 10D performance ;H;Cargo;Y;Bosch, Performance, Génération 4, 65 Nm;Bosch,PowerPack 500Wh, Amovible;Shimano Deore, 10 vitesses;unique;2020-2021;2411.76;347107;0;actif;09-12-21 11:54;09-12-21 11:54
+227;Victoria;e adventure 125;F;Tout chemin;Y;Shimano EP8 85 Nm;Shimano Intube 630 Wh;Shimano XT 11 vitesses;S,M,L;2020-2021;2180;297438;0;actif;08-02-22 09:40;08-02-22 09:40
+228;Victoria;e adventure 125;H;Tout chemin;Y;Shimano EP8 85 Nm;Shimano Intube 630 Wh;Shimano XT 11 vitesses;M,L,XL;2020-2021;2180;297438;0;actif;18-02-21 21:09;18-02-21 21:09
+229;Victoria;eFolding 7.6;Unisex;Pliant;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"SHIMANO ""Nexus"" 8-Gg. LL";;2020-2021;2038.67;2974;0;actif;01-12-20 10:34;01-12-20 10:34
+230;Victoria;eTrekking 7.8;H;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"SHIMANO ""Nexus"", 5-Gg.";S,M,L,XL;2020-2021;1747.35;2561;0;actif;01-12-20 10:35;01-12-20 10:35
+231;Victoria;eTrekking 7.8;M;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"SHIMANO ""Nexus"", 5-Gg.";S,M;2020-2021;1747.35;2561;0;actif;01-12-20 10:35;01-12-20 10:35
+232;Victoria;eTrekking 7.8;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"SHIMANO ""Nexus"", 5-Gg.";S,M;2020-2021;1747.35;2561;0;actif;01-12-20 10:35;01-12-20 10:35
+234;Victoria;eTrekking 9.8;H;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"SHIMANO ""Nexus"", 5-Gg.";S,M,L;2020-2021;1922.14;2809;0;actif;07-02-22 19:05;07-02-22 19:05
+235;Victoria;eTrekking 9.8;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"SHIMANO ""Nexus"", 5-Gg.";S,M,L;2020-2021;1922.14;2809;0;actif;07-02-22 19:05;07-02-22 19:05
+236;Victoria;eTrekking 11.8;H;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";BOSCH Lithium-Ionen mit BMS, 625 Wh;"SHIMANO ""Nexus"", 5-Gg.";M,L,XL;2020-2021;2038.67;2974;0;actif;01-12-20 10:37;01-12-20 10:37
+237;Victoria;eTrekking 11.8;M;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";BOSCH Lithium-Ionen mit BMS, 625 Wh;"SHIMANO ""Nexus"", 5-Gg.";M,L;2020-2021;2038.67;2974;0;actif;02-02-22 17:34;02-02-22 17:34
+238;Victoria;eTrekking 11.8;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";BOSCH Lithium-Ionen mit BMS, 625 Wh;"SHIMANO ""Nexus"", 5-Gg.";M,L,XL;2020-2021;2038.67;2974;0;actif;01-12-20 10:37;01-12-20 10:37
+240;Victoria;eManufaktur 11.8;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"SHIMANO ""Nexus"", 5-Gg.";M,L,XL;2020-2021;2038.67;2974;0;actif;01-12-20 10:37;01-12-20 10:37
+241;Victoria;eManufaktur 11.9;H;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";BOSCH Lithium-Ionen mit BMS, 625 Wh;ENVIOLO, Drehgriff stufenlos;M,L,XL;2020-2021;2330;3387;0;actif;01-12-20 10:37;01-12-20 10:37
+242;Victoria;eManufaktur 11.9;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";BOSCH Lithium-Ionen mit BMS, 625 Wh;ENVIOLO, Drehgriff stufenlos;S,M,L,XL;2020-2021;2330;3387;0;actif;01-12-20 10:37;01-12-20 10:37
+243;Victoria;eUrban 11.8;F;Ville;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";BOSCH Lithium-Ionen mit BMS, 625 Wh;"ENVIOLO ""SP"" stufenlos  ";S,M,L;2020-2021;2330;2891;0;actif;01-12-20 10:37;01-12-20 10:37
+244;Victoria;eUrban 11.9;F;Ville;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";BOSCH Lithium-Ionen mit BMS, 625 Wh;"ENVIOLO ""TR"" stufenlos  ";S,M,L;2020-2021;2096.94;3057;0;actif;01-12-20 10:37;01-12-20 10:37
+245;Victoria;eUrban 11.9;H;Ville;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";BOSCH Lithium-Ionen mit BMS, 625 Wh;"ENVIOLO ""TR"" stufenlos  ";S,M,L;2020-2021;2096.94;3057;0;actif;17-02-21 18:29;17-02-21 18:29
+246;Victoria;eUrban 13.8;F;Ville;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";BOSCH Lithium-Ionen mit BMS, 1000 Wh;"SHIMANO ""Nexus"", 5-Gg.";S,M,L;2020-2021;2501;3552;0;actif;01-12-20 10:37;01-12-20 10:37
+247;Victoria;eUrban 13.9;F;Ville;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";BOSCH Lithium-Ionen mit BMS, 625 Wh;"ENVIOLO ""TR"" stufenlos  ";S,M,L;2020-2021;2560;3800;0;actif;01-12-20 10:37;01-12-20 10:37
+248;Conway;MS 120;Unisex;Enfant;N;N/A;N/A;N/A;;2020-2021;144.02;22309;0;actif;01-12-20 10:38;01-12-20 10:38
+249;Conway;MS 160;M;Enfant;N;N/A;N/A;N/A;;2020-2021;202.28;30574;0;actif;01-12-20 10:38;01-12-20 10:38
+250;Conway;MC 200 Rigid;M;Enfant;N;N/A;N/A;"Shimano, ""TX-35"", 7 vitesses";;2020-2021;312.99;46276;0;actif;01-12-20 10:38;01-12-20 10:38
+251;Conway;MC 200 Suspension;M;Enfant;N;N/A;N/A;"Shimano, ""TX-35"", 7 vitesses";;2020-2021;312.99;46276;0;actif;01-12-20 10:38;01-12-20 10:38
+252;Conway;MC 240 Rigid;M;Enfant;N;N/A;N/A;"Shimano, ""Altus"", 8 vitesses";;2020-2021;336.29;49582;0;actif;01-12-20 10:38;01-12-20 10:38
+253;Conway;MC 240 Suspension;M;Enfant;N;N/A;N/A;"Shimano, ""Altus"", 8 vitesses";;2020-2021;336.29;49582;0;actif;01-12-20 10:38;01-12-20 10:38
+254;Conway;MC 260 Rigid;M;Enfant;N;N/A;N/A;"Shimano, ""Altus"", 9 vitesses";M,L;2020-2021;353.77;52062;0;actif;01-12-20 10:38;01-12-20 10:38
+255;Conway;MC 260 Suspension;M;Enfant;N;N/A;N/A;"Shimano, ""Altus"", 9 vitesses";M,L;2020-2021;353.77;52062;0;actif;01-12-20 10:38;01-12-20 10:38
+256;Conway;MS 200 Rigid;M;Enfant;N;N/A;N/A;"Shimano, ""TX-35"", 7 vitesses";;2020-2021;266.38;39665;0;actif;01-12-20 10:38;01-12-20 10:38
+257;Conway;MS 200 Suspension;M;Enfant;N;N/A;N/A;"Shimano, ""TX-35"", 7 vitesses";;2020-2021;266.38;39665;0;actif;01-12-20 10:38;01-12-20 10:38
+258;Conway;MS 240 Rigid;M;Enfant;N;N/A;N/A;"Shimano, ""Altus"", 8 vitesses";;2020-2021;278.03;41318;0;actif;01-12-20 10:38;01-12-20 10:38
+259;Conway;MS 240 Suspension;M;Enfant;N;N/A;N/A;"Shimano, ""Altus"", 8 vitesses";;2020-2021;278.03;41318;0;actif;01-12-20 10:38;01-12-20 10:38
+260;Conway;MS 260 Rigid;M;Enfant;N;N/A;N/A;"Shimano, ""Altus"", 9 vitesses";M,L;2020-2021;301.33;44624;0;actif;01-12-20 10:39;01-12-20 10:39
+261;Conway;MS 260 Suspension;M;Enfant;N;N/A;N/A;"Shimano, ""Altus"", 9 vitesses";M,L;2020-2021;301.33;44624;0;actif;01-12-20 10:39;01-12-20 10:39
+262;Conway;MC 327;H;Tout chemin;N;N/A;N/A;"Shimano, ""TX800"", 21 vitesses";XS,S,M,L;2020-2021;347.95;51235;0;actif;17-02-21 18:48;17-02-21 18:48
+263;Conway;MC 427;H;Tout chemin;N;N/A;N/A;"Shimano, ""Acera"", 24 vitesses";XS,S,M,L;2020-2021;423.69;61979;0;actif;17-02-21 18:48;17-02-21 18:48
+264;Conway;MC 527;H;Tout chemin;N;N/A;N/A;"Shimano, ""Alivio"", 27 vitesses";XS,S,M,L;2020-2021;481.95;70243;0;actif;17-02-21 18:48;17-02-21 18:48
+265;Conway;MS 327;H;VTT;N;N/A;N/A;"Shimano, ""TX800"", 21 vitesses";XS,S,M,L;2020-2021;289.68;42971;0;actif;17-02-21 18:48;17-02-21 18:48
+266;Conway;MS 427;H;VTT;N;N/A;N/A;"Shimano, ""Acera"", 24 vitesses";XS,S,M,L;2020-2021;336.29;49582;0;actif;17-02-21 18:48;17-02-21 18:48
+267;Conway;MS 527;H;VTT;N;N/A;N/A;"Shimano, ""Alivio"", 27 vitesses";S,M,L;2020-2021;394.56;57847;0;actif;17-02-21 18:48;17-02-21 18:48
+268;Conway;MS 627;H;VTT;N;N/A;N/A;"Shimano, ""Deore"", 27 vitesses";S,M,L;2020-2021;452.82;66111;0;actif;17-02-21 18:48;17-02-21 18:48
+269;Conway;MC 329;H;VTT;N;N/A;N/A;"Shimano, ""TX800"", 21 vitesses";S,M,L,XL;2020-2021;347.95;51235;0;actif;17-02-21 18:48;17-02-21 18:48
+270;Conway;MC 429;H;VTT;N;N/A;N/A;"Shimano, ""Acera"", 24 vitesses";S,M,L,XL;2020-2021;423.69;61979;0;actif;17-02-21 18:48;17-02-21 18:48
+271;Conway;MC 529;H;VTT;N;N/A;N/A;"Shimano, ""Alivio"", 27 vitesses";S,M,L,XL;2020-2021;481.95;70243;0;actif;17-02-21 18:48;17-02-21 18:48
+272;Conway;MS 329;H;VTT;N;N/A;N/A;"Shimano, ""TX800"", 21 vitesses";S,M,L,XL;2020-2021;289.68;42971;0;actif;17-02-21 18:48;17-02-21 18:48
+273;Conway;MS 429;H;VTT;N;N/A;N/A;"Shimano, ""Acera"", 24 vitesses";S,M,L,XL;2020-2021;336.29;49582;0;actif;17-02-21 18:48;17-02-21 18:48
+274;Conway;MS 529;H;VTT;N;N/A;N/A;"Shimano, ""Alivio"", 27 vitesses";S,M,L,XL;2020-2021;394.56;57847;0;actif;17-02-21 18:48;17-02-21 18:48
+275;Conway;MS 629;H;VTT;N;N/A;N/A;"Shimano, ""Deore"", 27 vitesses";S,M,L,XL;2020-2021;452.82;66111;0;actif;17-02-21 18:48;17-02-21 18:48
+276;Conway;MS 829;H;VTT;N;N/A;N/A;"Shimano, ""Deore"", 12 vitesses";S,M,L,XL;2020-2021;569.35;8264;0;actif;17-02-21 18:48;17-02-21 18:48
+277;Conway;MS 929;H;VTT;N;N/A;N/A;"SRAM, ""NX"", 12 vitesses";S,M,L,XL;2020-2021;627.62;90904;0;actif;17-02-21 18:48;17-02-21 18:48
+278;Conway;ML 3;F;VTT;N;N/A;N/A;"Shimano, ""TX800"", 21 vitesses";XS,S,M;2020-2021;289.68;42971;0;actif;17-02-21 18:48;17-02-21 18:48
+279;Conway;ML 4;F;VTT;N;N/A;N/A;"Shimano, ""Acera"", 24 vitesses";XS,S,M;2020-2021;336.29;49582;0;actif;17-02-21 18:48;17-02-21 18:48
+280;Conway;ML 5;H;VTT;N;N/A;N/A;"Shimano, ""Alivio"", 27 vitesses";XS,S,M;2020-2021;394.56;57847;0;actif;17-02-21 18:48;17-02-21 18:48
+281;Conway;MCL 3;H;Tout chemin;N;N/A;N/A;"Shimano, ""TX800"", 21 vitesses";XS,S,M;2020-2021;347.95;51235;0;actif;17-02-21 18:48;17-02-21 18:48
+282;Conway;MCL 4;H;Tout chemin;N;N/A;N/A;"Shimano, ""Acera"", 24 vitesses";XS,S,M;2020-2021;423.69;61979;0;actif;17-02-21 18:48;17-02-21 18:48
+284;Conway;RLC FS 4;H;VTT;N;N/A;N/A;"SRAM, ""GX"", 12 vitesses";S,M,L,XL;2020-2021;1792.9;256194;0;actif;17-02-21 18:48;17-02-21 18:48
+285;Conway;RLC FS 6;H;VTT;N;N/A;N/A;"Shimano, ""Deore XT"", 12 vitesses";S,M,L,XL;2020-2021;2200.76;314045;0;actif;17-02-21 18:48;17-02-21 18:48
+286;Conway;RLC FS 7;H;VTT;N;N/A;N/A;"SRAM, ""XX1"", 12 vitesses";S,M,L,XL;2020-2021;2725.14;388425;0;actif;17-02-21 18:48;17-02-21 18:48
+288;Conway;Cairon C 227;H;Tout chemin;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";Bosch, 500Wh;"Shimano, ""Altus"", 9 vitesses";S,M,L;2020-2021;1443.32;206607;0;actif;17-02-21 18:48;17-02-21 18:48
+289;Conway;Cairon C 227;M;Tout chemin;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";Bosch, 500Wh;"Shimano, ""Altus"", 9 vitesses";XS,S,M,L;2020-2021;1443.32;206607;0;actif;17-02-21 18:48;17-02-21 18:48
+291;Conway;Cairon SUV 125;F;Tout chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 500Wh;"Shimano, ""Deore"", 10 vitesses";S,M,L,XL;2020-2021;1618.11;2314;0;actif;17-02-21 18:48;17-02-21 18:48
+292;Conway;Cairon SUV 327;F;Tout chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 500Wh;"Shimano, ""Deore"", 10 vitesses";S,M,L,XL;2020-2021;1792.9;256194;0;actif;17-02-21 18:48;17-02-21 18:48
+293;Conway;Cairon SUV 527;F;Tout chemin;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";Bosch, 625 Wh;"Shimano, ""Deore"", 11 vitesses";S,M,L,XL;2020-2021;2084.23;297516;0;actif;17-02-21 18:48;17-02-21 18:48
+294;Conway;Cairon SUV X 627;F;Tout chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore"", 11 vitesses";S,M,L,XL;2020-2021;2142.49;305781;0;actif;17-02-21 18:48;17-02-21 18:48
+295;Conway;Cairon SUV 727;F;Tout chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"SRAM, ""NX"", 12 vitesses";S,M,L,XL;2020-2021;2317.28;330574;0;actif;17-02-21 18:48;17-02-21 18:48
+296;Conway;Cairon SUV FS 427;F;Tout chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore"", 10 vitesses";S,M,L,XL;2020-2021;2492.08;355367;0;actif;17-02-21 18:48;17-02-21 18:48
+297;Conway;Cairon SUV FSX 527;F;Tout chemin;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";Bosch, 625 Wh;"Shimano, ""Deore"", 11 vitesses";S,M,L,XL;2020-2021;2550.34;363632;0;actif;17-02-21 18:48;17-02-21 18:48
+298;Conway;Cairon SUV FS 627;F;Tout chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore XT"", 12 vitesses";S,M,L,XL;2020-2021;2725.14;388425;0;actif;17-02-21 18:48;17-02-21 18:48
+299;Conway;Cairon SUV FS 827;F;Tout chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore XT"", 12 vitesses";S,M,L,XL;2020-2021;2958.19;421483;0;actif;17-02-21 18:48;17-02-21 18:48
+300;Conway;eMS 240;M;Tout chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";Bosch, 400 Wh;"Shimano, ""Acera"", 9 vitesses";;2020-2021;1326.79;190078;0;actif;17-02-21 18:48;17-02-21 18:48
+301;Conway;Cairon S 227;H;VTT;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 500Wh;"Shimano, ""Altus"", 9 vitesses";S,M,L;2020-2021;1443.32;206607;0;actif;17-02-21 18:48;17-02-21 18:48
+302;Conway;Cairon S 227;M;VTT;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 500Wh;"Shimano, ""Altus"", 9 vitesses";XS,S,M,L;2020-2021;1443.32;206607;0;actif;17-02-21 18:48;17-02-21 18:48
+303;Conway;Cairon S 327;H;VTT;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 500Wh;"Shimano, ""Deore"", 10 vitesses";S,M,L;2020-2021;1618.11;2314;0;actif;17-02-21 18:48;17-02-21 18:48
+305;Conway;Cairon C 229;H;Tout chemin;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";Bosch, 500Wh;"Shimano, ""Altus"", 9 vitesses";S,M,L,XL;2020-2021;1443.32;206607;0;actif;17-02-21 18:48;17-02-21 18:48
+307;Conway;Cairon C 429;H;Tout chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore"", 10 vitesses";S,M,L,XL;2020-2021;1792.9;256194;0;actif;17-02-21 18:48;17-02-21 18:48
+308;Conway;Cairon C 629;H;Tout chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore"", 11 vitesses";S,M,L,XL;2020-2021;2142.49;305781;0;actif;17-02-21 18:48;17-02-21 18:48
+309;Conway;Cairon C 729;H;Tout chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"SRAM, ""NX"", 12 vitesses";S,M,L,XL;2020-2021;2375.55;338838;0;actif;17-02-21 18:48;17-02-21 18:48
+310;Conway;Cairon S 229;H;VTT;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 500Wh;"Shimano, ""Altus"", 9 vitesses";S,M,L,XL;2020-2021;1443.32;206607;0;actif;17-02-21 18:48;17-02-21 18:48
+313;Conway;Cairon S 529;H;VTT;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore"", 10 vitesses";S,M,L,XL;2020-2021;1851.17;264458;0;actif;17-02-21 18:48;17-02-21 18:48
+317;Conway;Cairon X 300;H;Tout chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore"", 10 vitesses";S,M,L,XL;2020-2021;1792.9;256194;0;actif;17-02-21 18:48;17-02-21 18:48
+318;Conway;Cairon X 300;M;Tout chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore"", 10 vitesses";S,M,L,XL;2020-2021;1792.9;256194;0;actif;17-02-21 18:48;17-02-21 18:48
+319;Conway;Cairon T 100 400;H;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";Bosch, 400 Wh;"Shimano, ""Altus"", 9 vitesses";S,M,L,XL;2020-2021;1385.05;198343;0;actif;18-03-21 10:08;18-03-21 10:08
+320;Conway;Cairon T 100 400;M;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";Bosch, 400 Wh;"Shimano, ""Altus"", 9 vitesses";S,M,L,XL;2020-2021;1385.05;198343;0;actif;18-03-21 10:08;18-03-21 10:08
+321;Conway;Cairon T 100 400;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";Bosch, 400 Wh;"Shimano, ""Altus"", 9 vitesses";S,M,L,XL;2020-2021;1385.05;198343;0;actif;18-03-21 10:08;18-03-21 10:08
+322;Conway;Cairon T 170 400;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";Bosch, 400 Wh;"Shimano, ""Nexus"", 7 vitesses";S,M,L,XL;2020-2021;1385.05;198343;0;actif;18-03-21 10:09;18-03-21 10:09
+323;Conway;Cairon T 100 500;H;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";Bosch, 500Wh;"Shimano, ""Acera"", 9 vitesses";S,M,L,XL;2020-2021;1501.58;214871;0;actif;18-03-21 10:09;18-03-21 10:09
+324;Conway;Cairon T 100 500;M;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";Bosch, 500Wh;"Shimano, ""Acera"", 9 vitesses";S,M,L,XL;2020-2021;1501.58;214871;0;actif;18-03-21 10:09;18-03-21 10:09
+325;Conway;Cairon T 100 500;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";Bosch, 500Wh;"Shimano, ""Acera"", 9 vitesses";S,M,L,XL;2020-2021;1501.58;214871;0;actif;18-03-21 10:09;18-03-21 10:09
+326;Conway;Cairon T 200;H;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";Bosch, 625 Wh;"Shimano, ""Altus"", 9 vitesses";S,M,L,XL;2020-2021;1618.11;2314;0;actif;07-02-22 19:08;07-02-22 19:08
+327;Conway;Cairon T 200;M;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";Bosch, 625 Wh;"Shimano, ""Altus"", 9 vitesses";S,M,L,XL;2020-2021;1618.11;2314;0;actif;15-03-21 18:10;15-03-21 18:10
+328;Conway;Cairon T 200;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";Bosch, 625 Wh;"Shimano, ""Altus"", 9 vitesses";S,M,L,XL;2020-2021;1618.11;2314;0;actif;17-02-21 18:48;17-02-21 18:48
+329;Conway;Cairon T 270;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";Bosch, 625 Wh;"Shimano, ""Deore"", 10 vitesses";S,M,L,XL;2020-2021;1618.11;2314;0;actif;18-03-21 10:10;18-03-21 10:10
+330;Conway;Cairon T 300 500;H;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 500Wh;"Shimano, ""Deore"", 10 vitesses";S,M,L,XL;2020-2021;1734.64;247929;0;actif;18-03-21 10:21;18-03-21 10:21
+331;Conway;Cairon T 300 500;M;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 500Wh;"Shimano, ""Deore"", 10 vitesses";S,M,L,XL;2020-2021;1734.64;247929;0;actif;18-03-21 10:21;18-03-21 10:21
+332;Conway;Cairon T 300 500;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 500Wh;"Shimano, ""Deore"", 10 vitesses";S,M,L,XL;2020-2021;1734.64;247929;0;actif;18-03-21 10:22;18-03-21 10:22
+333;Conway;Cairon T 380 500 LL;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";Bosch, 500Wh;"Shimano, ""Nexus"", 8 vitesses";S,M,L,XL;2020-2021;1734.64;247929;0;actif;18-03-21 10:10;18-03-21 10:10
+334;Conway;Cairon T 380 500 RBN;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";Bosch, 500Wh;"Shimano, ""Nexus"", 8 vitesses";S,M,L,XL;2020-2021;1734.64;247929;0;actif;18-03-21 10:10;18-03-21 10:10
+335;Conway;Cairon T 300 625;H;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore"", 10 vitesses";S,M,L,XL;2020-2021;1851.17;264458;0;actif;07-02-22 09:47;07-02-22 09:47
+336;Conway;Cairon T 300 625;M;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";Bosch, 625 Wh;"Shimano, ""Deore"", 10 vitesses";S,M,L,XL;2020-2021;1851.17;264458;0;actif;17-02-21 18:48;17-02-21 18:48
+337;Conway;Cairon T 300 625;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore"", 10 vitesses";S,M,L,XL;2020-2021;1851.17;264458;0;actif;07-02-22 09:48;07-02-22 09:48
+338;Conway;Cairon T 380 625 LL;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";Bosch, 625 Wh;"Shimano, ""Nexus"", 8 vitesses";S,M,L,XL;2020-2021;1851.17;264458;0;actif;18-03-21 10:10;18-03-21 10:10
+339;Conway;Cairon T 380 625 RBN;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";Bosch, 625 Wh;"Shimano, ""Nexus"", 8 vitesses";S,M,L,XL;2020-2021;1851.17;264458;0;actif;18-03-21 10:11;18-03-21 10:11
+340;Conway;Cairon T 450 RBN;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";Bosch, 625 Wh;"Shimano, ""Nexus"", 5 vitesses";S,M,L,XL;2020-2021;2084.23;297516;0;actif;18-03-21 10:11;18-03-21 10:11
+342;Conway;Cairon T 550 LL;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Nexus"", 5 vitesses";S,M,L,XL;2020-2021;2259.02;322309;0;actif;18-03-21 10:11;18-03-21 10:11
+344;Conway;Xyron S 227;H;VTT;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 500Wh;"Shimano, ""Deore"", 10 vitesses";S,M,L,XL;2020-2021;2084.23;297516;0;actif;17-02-21 18:48;17-02-21 18:48
+345;Conway;Xyron S 327;H;VTT;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore"", 11 vitesses";S,M,L,XL;2020-2021;2550.34;363632;0;actif;08-02-22 09:42;08-02-22 09:42
+346;Conway;Xyron S 427;H;VTT;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"SRAM, ""NX"", 12 vitesses";S,M,L,XL;2020-2021;2841.67;404954;0;actif;17-02-21 18:48;17-02-21 18:48
+347;Conway;Xyron S 527;H;VTT;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore XT"", 12 vitesses";S,M,L,XL;2020-2021;3132.99;446276;0;actif;17-02-21 18:48;17-02-21 18:48
+348;Conway;Xyron S 727;H;VTT;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore XT"", 12 vitesses";S,M,L,XL;2020-2021;3307.78;47107;0;actif;17-02-21 18:48;17-02-21 18:48
+349;Conway;Xyron S 827;H;VTT;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore XT"", 12 vitesses";S,M,L,XL;2020-2021;3540.84;504128;0;actif;17-02-21 18:48;17-02-21 18:48
+350;Conway;Xyron S 927;H;VTT;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"SRAM, ""X0 AXS"", 12 vitesses";S,M,L,XL;2020-2021;5288.77;752062;0;actif;17-02-21 18:48;17-02-21 18:48
+353;Conway;Xyron C 527;H;VTT;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore XT"", 12 vitesses";S,M,L,XL;2020-2021;2899.93;413219;0;actif;17-02-21 18:48;17-02-21 18:48
+355;Conway;eWME 429;H;VTT;Y;Shimano;Shimano, 630 Wh;"Shimano, ""XT"", 12 vitesses";S,M,L,XL;2020-2021;3016.46;429747;0;actif;21-09-21 21:28;21-09-21 21:28
+357;Conway;eWME 529 MX;H;VTT;Y;Shimano;Shimano, 630 Wh;"Shimano, ""XTR"", 12 vitesses";S,M,L,XL;2020-2021;3249.52;462805;0;actif;17-02-21 18:48;17-02-21 18:48
+358;Conway;eWME 829 MX;H;VTT;Y;Shimano;Shimano, 630 Wh;"Shimano, ""XTR"", 12 vitesses";S,M,L,XL;2020-2021;4123.48;586772;0;actif;17-02-21 18:48;17-02-21 18:48
+360;Conway;GRV 500 C;H;Gravel;N;N/A;N/A;"Shimano, ""Tiagra"", 20 vitesses";S,M,L,XL;2020-2021;1035.47;148756;0;actif;17-02-21 18:48;17-02-21 18:48
+361;Conway;GRV 800 Alu;H;Gravel;N;N/A;N/A;"Shimano, ""RX 810"", 22 vitesses";S,M,L,XL;2020-2021;1093.73;15702;0;actif;17-02-21 18:48;17-02-21 18:48
+362;Conway;GRV 1000 Carbon;H;Gravel;N;N/A;N/A;"Shimano, ""RX 810"", 22 vitesses";S,M,L,XL;2020-2021;1501.58;214871;0;actif;17-02-21 18:48;17-02-21 18:48
+363;Conway;GRV 1200 Carbon;H;Gravel;N;N/A;N/A;"Shimano, ""RX 810"", 22 vitesses";S,M,L,XL;2020-2021;1792.9;256194;0;actif;27-04-21 13:59;27-04-21 13:59
+364;Conway;WME 227;H;VTT;N;N/A;N/A;"Shimano, ""Deore"", 11 vitesses";S,M,L,XL;2020-2021;1734.64;247929;0;actif;17-02-21 18:48;17-02-21 18:48
+365;Conway;WME 427;H;VTT;N;N/A;N/A;"SRAM, ""NX"", 12 vitesses";S,M,L,XL;2020-2021;2142.49;305781;0;actif;17-02-21 18:48;17-02-21 18:48
+366;Conway;WME 627;H;VTT;N;N/A;N/A;"SRAM, ""X0"", 12 vitesses";S,M,L,XL;2020-2021;2666.87;380161;0;actif;17-04-21 15:59;17-04-21 15:59
+367;Conway;WME 329;H;VTT;N;N/A;N/A;"Shimano, ""Deore"", 11 vitesses";S,M,L,XL;2020-2021;1734.64;247929;0;actif;17-02-21 18:48;17-02-21 18:48
+368;Conway;WME 529;H;VTT;N;N/A;N/A;"Shimano, ""Deore XT"", 12 vitesses";S,M,L,XL;2020-2021;1909.43;272723;0;actif;17-02-21 18:48;17-02-21 18:48
+369;Conway;WME 729;H;VTT;N;N/A;N/A;"Shimano, ""Deore XT"", 12 vitesses";S,M,L,XL;2020-2021;2375.55;338838;0;actif;17-02-21 18:48;17-02-21 18:48
+370;Conway;WME 829;H;VTT;N;N/A;N/A;"Shimano, ""XTR"", 12 vitesses";S,M,L,XL;2020-2021;3540.84;504128;0;actif;17-02-21 18:48;17-02-21 18:48
+371;Conway;Cairon C 327;H;Tout chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 500Wh;"Shimano, ""Deore"", 10 vitesses";S,M,L;2020-2021;1676.38;239665;0;actif;17-02-21 18:48;17-02-21 18:48
+372;Conway;Cairon C 327;M;Tout chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 500Wh;"Shimano, ""Deore"", 10 vitesses";XS,S,M,L;2020-2021;1676.38;239665;0;actif;17-02-21 18:48;17-02-21 18:48
+373;Conway;Cairon C 427;H;Tout chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore"", 10 vitesses";S,M,L;2020-2021;1793.38;256198;0;actif;05-04-21 15:48;05-04-21 15:48
+374;Conway;Cairon C 427;M;Tout chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore"", 10 vitesses";XS,S,M,L;2020-2021;1793.38;256198;0;actif;26-08-21 15:52;26-08-21 15:52
+375;Conway;Cairon C 627;H;Tout chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore"", 11 vitesses";S,M,L,XL;2020-2021;2187.15;305784;0;actif;17-02-21 18:48;17-02-21 18:48
+376;Conway;Cairon C 627;M;Tout chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore"", 11 vitesses";XS,S,M,L;2020-2021;2187.15;305784;0;actif;17-02-21 18:48;17-02-21 18:48
+377;Conway;Cairon C 727;M;Tout chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"SRAM, ""NX"", 12 vitesses";XS,S,M,L;2020-2021;2375.55;338838;0;actif;17-02-21 18:48;17-02-21 18:48
+378;Conway;RLC 4;H;VTT;N;N/A;N/A;"Shimano, ""Deore XT"", 12 vitesses";S,M,L,XL;2020-2021;1326.79;190078;0;actif;17-02-21 18:48;17-02-21 18:48
+383;Conway;Cairon T 500;H;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore"", 12 vitesses";S,M,L,XL;2020-2021;2200.76;314045;0;actif;17-02-21 18:48;17-02-21 18:48
+384;Conway;Cairon T 500;M;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore"", 12 vitesses";S,M,L,XL;2020-2021;2200.76;314045;0;actif;17-02-21 18:48;17-02-21 18:48
+385;Conway;Cairon T 500;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore"", 12 vitesses";S,M,L,XL;2020-2021;2200.76;314045;0;actif;17-02-21 18:48;17-02-21 18:48
+386;Conway;Cairon T 600;H;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""XT"", 12 vitesses";S,M,L,XL;2020-2021;2433.81;347103;0;actif;18-03-21 10:23;18-03-21 10:23
+387;Conway;Cairon T 600;M;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""XT"", 12 vitesses";S,M,L,XL;2020-2021;2433.81;347103;0;actif;18-03-21 10:23;18-03-21 10:23
+388;Conway;Cairon T 600;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""XT"", 12 vitesses";S,M,L,XL;2020-2021;2433.81;347103;0;actif;18-03-21 10:24;18-03-21 10:24
+389;Moustache Bikes;Friday 27 FS Speed;H;Speedpedelec;Y;Bosch, Performance line speed, Génération 4, 85 Nm;Powertube 625 Wh;Shimano, XT, RD-M8000-GS, 11 vitesses;S,M,L,XL;2020-2021;3221.67;479256;0;actif;26-05-21 19:41;26-05-21 19:41
+390;Conway;TS 300;H;Ville et chemin;N;N/A;N/A;"Shimano, ""TX 800"", 21 vitesses";S,M,L,XL;2020-2021;394.56;57847;0;actif;17-02-21 18:48;17-02-21 18:48
+391;Conway;TS 300;M;Ville et chemin;N;N/A;N/A;"Shimano, ""TX 800"", 21 vitesses";S,M,L;2020-2021;394.56;57847;0;actif;17-02-21 18:48;17-02-21 18:48
+392;Conway;TS 400;H;Ville et chemin;N;N/A;N/A;"Shimano, ""Acera"", 24 vitesses";S,M,L,XL;2020-2021;452.82;66111;0;actif;17-02-21 18:48;17-02-21 18:48
+393;Conway;TS 400;M;Ville et chemin;N;N/A;N/A;"Shimano, ""Acera"", 24 vitesses";S,M,L;2020-2021;452.82;66111;0;actif;17-02-21 18:48;17-02-21 18:48
+394;Conway;TS 500;H;Ville et chemin;N;N/A;N/A;"Shimano, ""Deore"", 30 vitesses";S,M,L,XL;2020-2021;540.22;78508;0;actif;17-02-21 18:48;17-02-21 18:48
+395;Conway;TS 500;M;Ville et chemin;N;N/A;N/A;"Shimano, ""Deore"", 30 vitesses";S,M,L;2020-2021;540.22;78508;0;actif;17-02-21 18:48;17-02-21 18:48
+396;Conway;TS 600;H;Ville et chemin;N;N/A;N/A;"Shimano, ""Deore XT"", 30 vitesses";S,M,L,XL;2020-2021;627.62;90904;0;actif;17-02-21 18:48;17-02-21 18:48
+397;Conway;TS 600;M;Ville et chemin;N;N/A;N/A;"Shimano, ""Deore XT"", 30 vitesses";S,M,L;2020-2021;627.62;90904;0;actif;17-02-21 18:48;17-02-21 18:48
+398;Conway;GRV 600 Alu;H;Gravel;N;N/A;N/A;"Shimano, ""RX 400"", 20 vitesses";S,M,L,XL;2020-2021;918.94;132227;0;actif;17-02-21 18:48;17-02-21 18:48
+399;Conway;eWME 629;H;VTT;Y;Shimano;Shimano, 630 Wh;"Shimano, ""XTR"", 12 vitesses";S,M,L,XL;2020-2021;3366.05;479334;0;actif;17-02-21 18:48;17-02-21 18:48
+400;Conway;eWME 329;H;VTT;Y;Shimano;Shimano, 630 Wh;"Shimano, ""XTR"", 12 vitesses";S,M,L,XL;2020-2021;2783.4;39669;0;actif;17-02-21 18:48;17-02-21 18:48
+401;Conway;Cairon S 329;H;VTT;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 500Wh;"Shimano, ""Deore"", 9 vitesses";S,M,L,XL;2020-2021;1618.11;2314;0;actif;17-02-21 18:48;17-02-21 18:48
+402;Conway;Cairon S 429;H;VTT;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore"", 10 vitesses";S,M,L,XL;2020-2021;1734.64;247929;0;actif;26-05-21 19:51;26-05-21 19:51
+403;Conway;Cairon C 329;H;Tout chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 500Wh;"Shimano, ""Deore"", 10 vitesses";S,M,L,XL;2020-2021;1676.38;239665;0;actif;17-02-21 18:48;17-02-21 18:48
+404;Conway;Cairon S 327;M;VTT;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 500Wh;"Shimano, ""Deore"", 10 vitesses";XS,S,M,L;2020-2021;1618.11;2314;0;actif;17-02-21 18:48;17-02-21 18:48
+405;Conway;Cairon S 427;H;VTT;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore"", 10 vitesses";S,M,L;2020-2021;1734.64;247929;0;actif;17-02-21 18:48;17-02-21 18:48
+406;Conway;Cairon S 427;M;VTT;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore"", 10 vitesses";XS,S,M,L;2020-2021;1734.64;247929;0;actif;17-02-21 18:48;17-02-21 18:48
+407;Conway;Cairon S 527;H;VTT;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore"", 10 vitesses";S,M,L;2020-2021;1851.17;264458;0;actif;17-02-21 18:48;17-02-21 18:48
+408;Conway;Cairon S 527;M;VTT;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore"", 10 vitesses";XS,S,M,L;2020-2021;1851.17;264458;0;actif;17-02-21 18:48;17-02-21 18:48
+409;Conway;Cairon S 627;H;VTT;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"SRAM, ""SX"", 12 vitesses";S,M,L,XL;2020-2021;2140.15;289256;0;actif;17-02-21 18:48;17-02-21 18:48
+410;Conway;Cairon S 627;M;VTT;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"SRAM, ""SX"", 12 vitesses";XS,S,M,L,XL;2020-2021;2140.15;299256;0;actif;17-02-21 18:48;17-02-21 18:48
+411;Conway;Cairon S 727;H;VTT;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore XT"", 12 vitesses";S,M,L;2020-2021;2142.49;305781;0;actif;08-02-22 09:41;08-02-22 09:41
+412;Conway;Cairon S 727;M;VTT;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore XT"", 12 vitesses";XS,S,M,L;2020-2021;2142.49;305781;0;actif;17-02-21 18:48;17-02-21 18:48
+423;Conway;Cairon S 629;H;VTT;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore"", 11 vitesses";S,M,L,XL;2020-2021;2025.96;289252;0;actif;17-02-21 18:48;17-02-21 18:48
+424;Conway;Cairon S 729;H;VTT;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"SRAM, ""NX"", 12 vitesses";S,M,L,XL;2020-2021;2142.49;305781;0;actif;17-02-21 18:48;17-02-21 18:48
+425;Conway;Cairon S 829;H;VTT;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"Shimano, ""Deore"", 10 vitesses";S,M,L,XL;2020-2021;2375.55;338838;0;actif;17-02-21 18:48;17-02-21 18:48
+427;Conway;Xyron C 227;H;VTT;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 500Wh;"Shimano, ""Deore"", 10 vitesses";S,M,L,XL;2020-2021;2200.76;314045;0;actif;17-02-21 18:48;17-02-21 18:48
+428;Conway;Xyron C 427;H;VTT;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";Bosch, 625 Wh;"SRAM, ""NX"", 12 vitesses";S,M,L,XL;2020-2021;2666.87;380161;0;actif;08-02-22 09:42;08-02-22 09:42
+431;Moustache Bikes;Lundi 27.1;F;Ville;Y;Bosch, Active Line +, Génération 3, 50 Nm;Bosch, PowerTube, 400 Wh;"Shimano, ""Deore"", 10 vitesses";unique;2020-2021;1666.11;247851;0;actif;22-02-21 10:46;22-02-21 10:46
+432;Moustache Bikes;Lundi 27.3;F;Ville;Y;Bosch, Active Line +, Génération 4, 65 Nm;Bosch, PowerTube, 500 Wh;"Shimano, ""Deore"", 10 vitesses";S,M,L,XL;2020-2021;1888.33;280909;0;actif;25-02-21 11:51;25-02-21 11:51
+433;Moustache Bikes;Lundi 27.5;F;Ville;Y;Bosch, Active Line +, Génération 4, 65 Nm;Bosch, PowerTube, 500 Wh;"Enviolo, ""TR"", variation continue";unique;2020-2021;2166.11;322231;0;actif;10-05-21 11:39;10-05-21 11:39
+434;Moustache Bikes;Friday 28.3;H;Ville;Y;Bosch, Active Line +, Génération 3, 50 Nm;Bosch, PowerPack, 500 Wh;"Shimano, ""Tiagra"", 10 vitesses";S,M,L,XL;2020-2021;1888.33;280909;0;actif;25-02-21 11:51;25-02-21 11:51
+435;Moustache Bikes;Friday 28.3 Open;M;Ville;Y;Bosch, Active Line +, Génération 3, 50 Nm;Bosch, PowerPack, 500 Wh;"Shimano, ""Tiagra"", 10 vitesses";S,M,L;2020-2021;1888.33;280909;0;actif;21-12-20 12:32;21-12-20 12:32
+436;Moustache Bikes;Friday 28.5;H;Ville;Y;Bosch, Performance Line, Génération 4, 65 Nm;Bosch, PowerPack, 500 Wh;"Shimano, ""Tiagra"", 10 vitesses";S,M,L;2020-2021;2166.11;322231;0;actif;25-02-21 11:51;25-02-21 11:51
+437;Moustache Bikes;Friday 28.5 Open;M;Ville;Y;Bosch, Performance Line, Génération 4, 65 Nm;Bosch, PowerPack, 500 Wh;"Shimano, ""Tiagra"", 10 vitesses";M,L,XL;2020-2021;2166.11;322231;0;actif;21-12-20 12:32;21-12-20 12:32
+438;Moustache Bikes;Friday 28.7;H;Ville;Y;Bosch, Performance Line, Génération 4, 65 Nm;Bosch, PowerTube, 500 Wh;"Shimano, ""Tiagra"", 10 vitesses";M,L;2020-2021;2443.89;363554;0;actif;25-02-21 11:51;25-02-21 11:51
+440;Moustache Bikes;Samedi 28.1;H;Ville et chemin;Y;Bosch, Active Line, 40 Nm;Bosch, PowerPack, 400 Wh;"Shimano, ""Altus"", 9 vitesses";M,L,XL;2020-2021;1166.11;173471;0;actif;17-04-21 15:40;17-04-21 15:40
+441;Moustache Bikes;Samedi 28.1 Open;M;Ville et chemin;Y;Bosch, Active Line, 40 Nm;Bosch, PowerPack, 400 Wh;"Shimano, ""Altus"", 9 vitesses";M,L,XL;2020-2021;1166.11;173471;0;actif;17-04-21 15:40;17-04-21 15:40
+442;Moustache Bikes;Samedi 28.2;H;Ville et chemin;Y;Bosch, Active Line +, Génération 3, 50 Nm;Bosch, PowerTube, 500 Wh;"Shimano, ""Altus"", 9 vitesses";M,L,XL;2020-2021;1499.44;239586;0;actif;07-02-22 09:45;07-02-22 09:45
+444;Moustache Bikes;Samedi 28.2 Open;F;Ville et chemin;Y;Bosch, Active Line +, Génération 3, 50 Nm;Bosch, PowerTube, 500 Wh;"Shimano, ""Altus"", 9 vitesses";S,M,L;2020-2021;1499.44;239586;0;actif;07-02-22 19:02;07-02-22 19:02
+445;Moustache Bikes;Samedi 28.3;H;Ville et chemin;Y;Bosch, Active Line +, Génération 3, 50 Nm;Bosch, PowerTube, 500 Wh;"Shimano, ""Nexus"", 5 vitesses";S,M,L;2020-2021;1777.22;26438;0;actif;17-04-21 15:41;17-04-21 15:41
+446;Moustache Bikes;Samedi 28.3 Open;F;Ville et chemin;Y;Bosch, Active Line +, Génération 3, 50 Nm;Bosch, PowerTube, 500 Wh;"Shimano, ""Nexus"", 5 vitesses";S,M,L;2020-2021;1777.22;26438;0;actif;17-04-21 15:41;17-04-21 15:41
+447;Moustache Bikes;Samedi 28.5;H;Ville et chemin;Y;Bosch, Performance Line, Génération 4, 65 Nm;Bosch, PowerTube, 500 Wh;"Shimano, ""Deore"", 10 vitesses";S,M,L;2020-2021;1943.89;289173;0;actif;17-04-21 15:42;17-04-21 15:42
+448;Moustache Bikes;Samedi 28.5 Open;F;Ville et chemin;Y;Bosch, Performance Line, Génération 4, 65 Nm;Bosch, PowerTube, 500 Wh;"Shimano, ""Deore"", 10 vitesses";S,M,L;2020-2021;1943.89;289173;0;actif;27-05-21 11:28;27-05-21 11:28
+449;Moustache Bikes;Samedi 28.7;H;Ville et chemin;Y;Bosch, Performance Line, Génération 4, 65 Nm;Bosch, PowerTube, 625 Wh;"Shimano, ""Deore"", 11 vitesses";unique;2020-2021;2166.11;322231;0;actif;17-04-21 15:42;17-04-21 15:42
+450;Moustache Bikes;Samedi 28.7 Open;F;Ville et chemin;Y;Bosch, Performance Line, Génération 4, 65 Nm;Bosch, PowerTube, 625 Wh;"Shimano, ""Deore"", 11 vitesses";unique;2020-2021;2166.11;322231;0;actif;17-04-21 15:43;17-04-21 15:43
+451;Moustache Bikes;Samedi 27 Xroad 1;H;Tout chemin;Y;Bosch, Active Line +, Génération 3, 50 Nm;Bosch, PowerTube, 400 Wh;"Shimano, ""Altus"", 9 vitesses";unique;2020-2021;1499.44;223057;0;actif;25-02-21 11:51;25-02-21 11:51
+452;Moustache Bikes;Samedi 27 Xroad 1 Open;F;Tout chemin;Y;Bosch, Active Line +, Génération 3, 50 Nm;Bosch, PowerTube, 400 Wh;"Shimano, ""Altus"", 9 vitesses";unique;2020-2021;1499.44;223057;0;actif;21-12-20 12:33;21-12-20 12:33
+453;Moustache Bikes;Samedi 27 Xroad 2;H;Tout chemin;Y;Bosch, Performance Line, Génération 4, 65 Nm;Bosch, PowerTube, 500 Wh;"Shimano, ""Altus"", 9 vitesses";S,M,L,XL;2020-2021;1777.22;26438;0;actif;01-03-21 21:32;01-03-21 21:32
+454;Moustache Bikes;Samedi 27 Xroad 2 Open;F;Tout chemin;Y;Bosch, Performance Line, Génération 4, 65 Nm;Bosch, PowerTube, 500 Wh;"Shimano, ""Altus"", 9 vitesses";S,M,L;2020-2021;1777.22;26438;0;actif;26-05-21 13:35;26-05-21 13:35
+455;Moustache Bikes;Samedi 27 Xroad 3;H;Tout chemin;Y;Bosch, Performance Line, Génération 4, 65 Nm;Bosch, PowerTube, 625 Wh;"Shimano, ""Deore"", 10 vitesses";M,L;2020-2021;1999.44;297438;0;actif;21-12-20 12:33;21-12-20 12:33
+456;Moustache Bikes;Samedi 27 Xroad 3 Open;F;Tout chemin;Y;Bosch Performance Line, Génération 4, 65 Nm;Bosch, PowerTube, 625 Wh;"Shimano,""Deore"", 10 vitesses";unique;2020-2021;1999.44;297438;0;actif;21-12-20 12:33;21-12-20 12:33
+457;Moustache Bikes;Samedi 27 Xroad 5;H;Tout chemin;Y;Bosch Performance Line CX, Génération 4, 85 Nm;Bosch, PowerTube, 625 Wh;"Shimano, ""Deore"", 11 vitesses";unique;2020-2021;2277.22;33876;0;actif;25-02-21 11:51;25-02-21 11:51
+458;Moustache Bikes;Samedi 27 Xroad 5 Open;M;Tout chemin;Y;Bosch Performance Line CX, Génération 4, 85 Nm;Bosch, PowerTube, 625 Wh;"Shimano, ""Deore"", 11 vitesses";unique;2020-2021;2277.22;33876;0;actif;16-02-21 14:06;16-02-21 14:06
+459;Moustache Bikes;Samedi 27 Xroad 7;H;Tout chemin;Y;Bosch Performance Line CX, Génération 4, 85 Nm;Bosch, PowerTube, 625 Wh;"Shimano, ""XT"", 11 vitesses";S,M,L;2020-2021;2610.55;388347;0;actif;24-11-21 10:32;24-11-21 10:32
+460;Moustache Bikes;Samedi 27 Xroad 7 Open;M;Tout chemin;Y;Bosch Performance Line CX, Génération 4, 85 Nm;Bosch, PowerTube, 625 Wh;"Shimano, ""XT"", 11 vitesses";M,L;2020-2021;2610.55;388347;0;actif;22-02-21 13:54;22-02-21 13:54
+461;Moustache Bikes;Samedi 27 Xroad FS 3;M;Tout chemin;Y;Bosch Performance Line CX, Génération 4, 85 Nm;Bosch, PowerTube, 500 Wh;"Shimano, ""Deore"", 10 vitesses";M,L;2020-2021;2332.77;347024;0;actif;21-12-20 12:33;21-12-20 12:33
+462;Moustache Bikes;Samedi 27 Xroad FS 5;M;Tout chemin;Y;Bosch Performance Line CX, Génération 4, 85 Nm;Bosch, PowerTube, 625 Wh;"Shimano, ""Deore"", 11 vitesses";XS,S,M,L;2020-2021;2610.55;388347;0;actif;22-02-21 14:03;22-02-21 14:03
+463;Moustache Bikes;Samedi 27 Xroad FS 7;M;Tout chemin;Y;Bosch Performance Line CX, Génération 4, 85 Nm;Bosch, PowerTube, 625 Wh;"Shimano, ""XT"", 11 vitesses";XS,S,M,L;2020-2021;2999.44;446198;0;actif;21-12-20 16:16;21-12-20 16:16
+464;Moustache Bikes;Dimanche 28.1;H;Route;Y;Bosch, Active Line +, Génération 3, 50 Nm;Bosch, PowerPack, 500 Wh;"Shimano, ""Tiagra"", 10 vitesses";XS,S,M,L;2020-2021;1832.77;272644;0;actif;25-02-21 11:51;25-02-21 11:51
+465;Moustache Bikes;Dimanche 28.1 Open;M;Route;Y;Bosch, Active Line +, Génération 3, 50 Nm;Bosch, PowerPack, 500 Wh;"Shimano, ""Tiagra"", 10 vitesses";XS,S,M,L;2020-2021;1832.77;272644;0;actif;21-12-20 12:33;21-12-20 12:33
+466;Moustache Bikes;Dimanche 28.3;H;Route;Y;Bosch, Active Line +, Génération 3, 50 Nm;Bosch, PowerPack, 500 Wh;"Shimano, ""Tiagra"", 10 vitesses";XS,S,M,L;2020-2021;2166.11;322231;0;actif;25-02-21 11:51;25-02-21 11:51
+467;Moustache Bikes;Dimanche 28.3 Open;M;Route;Y;Bosch, Active Line +, Génération 3, 50 Nm;Bosch, PowerPack, 500 Wh;"Shimano, ""Tiagra"", 10 vitesses";S,M,L;2020-2021;2166.11;322231;0;actif;21-12-20 12:33;21-12-20 12:33
+468;Moustache Bikes;Dimanche 28.5;H;Route;Y;Bosch, Active Line +, Génération 3, 50 Nm;Bosch, PowerPack, 500 Wh;"Shimano, ""Ultegra"", 11 vitesses";S,M,L;2020-2021;2610.55;388347;0;actif;25-02-21 11:51;25-02-21 11:51
+469;Moustache Bikes;Dimanche 28.5 Open;M;Route;Y;Bosch, Active Line +, Génération 3, 50 Nm;Bosch, PowerPack, 500 Wh;"Shimano, ""Ultegra"", 11 vitesses";S,M,L,XL;2020-2021;2610.55;388347;0;actif;21-12-20 12:33;21-12-20 12:33
+470;Moustache Bikes;Dimanche 28.7;H;Route;Y;Bosch, Active Line +, Génération 3, 50 Nm;Bosch, PowerPack, 500 Wh;"Shimano, ""Ultegra"", 11 vitesses";S,M,L,XL;2020-2021;3110.55;462727;0;actif;25-02-21 11:51;25-02-21 11:51
+471;Moustache Bikes;Dimanche 29.3 Gravel;H;Gravel;Y;Bosch, Performance Line, Génération 4, 65 Nm;Bosch, PowerPack, 500 Wh;"Shimano, ""GRX"", 10 vitesses";S,M,L,XL;2020-2021;2221.66;330495;0;actif;18-03-21 09:55;18-03-21 09:55
+472;Moustache Bikes;Dimanche 29.5 Gravel;H;Gravel;Y;Bosch, Performance Line, Génération 4, 65 Nm;Bosch, PowerPack, 500 Wh;"Shimano, ""GRX"", 11 vitesses";S,M,L,XL;2020-2021;2610.55;388347;0;actif;08-02-22 09:46;08-02-22 09:46
+473;Moustache Bikes;Samedi 26 Off;M;VTT;Y;Bosch, Active Line +, Génération 3, 50 Nm;Bosch, PowerPack, 300 Wh;"Shimano, ""Altus"", 9 vitesses";S,M,L,XL;2020-2021;1388.33;206528;0;actif;25-02-21 11:51;25-02-21 11:51
+474;Moustache Bikes;Samedi 27 Off 2;H;VTT;Y;Bosch Performance Line, Génération 4, 65 Nm;Bosch, PowerTube, 500 Wh;"Shimano, ""Deore"", 11 vitesses";S,M,L,XL;2020-2021;1721.66;256115;0;actif;25-02-21 11:51;25-02-21 11:51
+475;Moustache Bikes;Samedi 27 Off 2 Open;F;VTT;Y;Bosch Performance Line, Génération 4, 65 Nm;Bosch, PowerTube, 500 Wh;"Shimano, ""Deore"", 10 vitesses";S,M,L,XL;2020-2021;1721.66;256115;0;actif;25-02-21 11:51;25-02-21 11:51
+476;Moustache Bikes;Samedi 27 Off 4;H;VTT;Y;Bosch Performance Line CX, Génération 4, 85 Nm;Bosch, PowerTube, 625 Wh;"Shimano, ""Deore"", 11 vitesses";S,M,L,XL;2020-2021;2277.22;33876;0;actif;21-12-20 12:33;21-12-20 12:33
+477;Moustache Bikes;Samedi 27 Off 4 Open;M;VTT;Y;Bosch Performance Line CX, Génération 4, 85 Nm;Bosch, PowerTube, 625 Wh;"Shimano, ""Deore"", 11 vitesses";S,M,L,XL;2020-2021;2277.22;33876;0;actif;21-12-20 12:33;21-12-20 12:33
+478;Moustache Bikes;Samedi 26 Fat 4;H;VTT;Y;Bosch Performance Line CX, Génération 4, 85 Nm;Bosch, PowerTube, 625 Wh;"Shimano, ""Deore"", 11 vitesses";XS,S,M;2020-2021;2943.88;437933;0;actif;25-02-21 11:51;25-02-21 11:51
+479;Moustache Bikes;Samedi 27 Wide 2;M;VTT;Y;Bosch Performance Line CX, Génération 4, 85 Nm;Bosch, PowerTube, 500 Wh;"Shimano, ""Deore"", 11 vitesses";XS,S,M;2020-2021;2332.77;347024;0;actif;25-02-21 11:51;25-02-21 11:51
+480;Moustache Bikes;Samedi 27 Wide 4;M;VTT;Y;Bosch Performance Line CX, Génération 4, 85 Nm;Bosch, PowerTube, 625 Wh;"Shimano, ""Deore"", 11 vitesses";XS,S,M;2020-2021;2610.55;388347;0;actif;25-02-21 11:51;25-02-21 11:51
+481;Moustache Bikes;Samedi 27 Wide 6;M;VTT;Y;Bosch Performance Line CX, Génération 4, 85 Nm;Bosch, PowerTube, 625 Wh;"Shimano, ""Deore"", 11 vitesses";XS,S,M;2020-2021;2943.88;437933;0;actif;25-02-21 11:51;25-02-21 11:51
+482;Moustache Bikes;Samedi 29 Trail 2;H;VTT;Y;Bosch Performance Line CX, Génération 4, 85 Nm;Bosch, PowerTube, 625 Wh;"Shimano, ""Deore"", 11 vitesses";XS,S,M;2020-2021;2666.11;396611;0;actif;25-02-21 11:51;25-02-21 11:51
+483;Moustache Bikes;Samedi 29 Trail 4;H;VTT;Y;Bosch Performance Line CX, Génération 4, 85 Nm;Bosch, PowerTube, 625 Wh;"Shimano, ""Deore"", 11 vitesses";S,M,L,XL;2020-2021;2943.88;437933;0;actif;22-02-21 13:56;22-02-21 13:56
+484;Moustache Bikes;Samedi 29 Trail 6;H;VTT;Y;Bosch Performance Line CX, Génération 4, 85 Nm;Bosch, PowerTube, 625 Wh;"Shimano, ""Deore"", 11 vitesses";S,M,L,XL;2020-2021;3221.67;479256;0;actif;22-12-20 14:42;22-12-20 14:42
+485;Moustache Bikes;Samedi 29 Trail 8;H;VTT;Y;Bosch Performance Line CX, Génération 4, 85 Nm;Bosch, PowerTube, 625 Wh;"Shimano, ""XTR"", 12 vitesses";S,M,L,XL;2020-2021;3554.99;528842;0;actif;25-02-21 11:51;25-02-21 11:51
+486;Moustache Bikes;Samedi 29 Trail 10;H;VTT;Y;Bosch Performance Line CX, Génération 4, 85 Nm;Bosch, PowerTube, 625 Wh;"Shimano, ""XTR"", 12 vitesses";S,M,L,XL;2020-2021;4332.77;644545;0;actif;25-02-21 11:51;25-02-21 11:51
+487;Moustache Bikes;Samedi 29 Game 4;H;VTT;Y;Bosch Performance Line CX, Génération 4, 85 Nm;Bosch, PowerTube, 625 Wh;"Shimano, ""XT"", 12 vitesses";S,M,L,XL;2020-2021;2943.88;437933;0;actif;22-02-21 13:59;22-02-21 13:59
+488;Moustache Bikes;Samedi 29 Game 6;H;VTT;Y;Bosch Performance Line CX, Génération 4, 85 Nm;Bosch, PowerTube, 625 Wh;"Shimano, ""XT"", 12 vitesses";S,M,L,XL;2020-2021;3277.22;48752;0;actif;22-02-21 14:00;22-02-21 14:00
+489;Moustache Bikes;Samedi 29 Game 8;H;VTT;Y;Bosch Performance Line CX, Génération 4, 85 Nm;Bosch, PowerTube, 625 Wh;"Shimano, ""XT"", 12 vitesses";S,M,L,XL;2020-2021;3666.1;545371;0;actif;25-02-21 11:51;25-02-21 11:51
+490;Moustache Bikes;Samedi 29 Game 10;H;VTT;Y;Bosch Performance Line CX, Génération 4, 85 Nm;Bosch, PowerTube, 625 Wh;"Shimano, ""XT"", 12 vitesses";S,M,L,XL;2020-2021;4443.89;661074;0;actif;25-02-21 11:51;25-02-21 11:51
+491;Moustache Bikes;Samedi 27 X2 VTT;Tandem;Tandem;Y;Bosch Performance Line CX, Génération 4, 85 Nm;Bosch, PowerPack, 500 Wh;"Shimano, ""Deore"", 11 vitesses";S,M,L,XL;2020-2021;3721.66;553636;0;actif;21-12-20 12:34;21-12-20 12:34
+492;Moustache Bikes;Samedi 27 X2 TRK;Tandem;Tandem;Y;Bosch Performance Line CX, Génération 4, 85 Nm;Bosch, PowerPack, 500 Wh;"Shimano, ""Deore"", 11 vitesses";S,M,L,XL;2020-2021;3832.78;570165;0;actif;21-12-20 12:34;21-12-20 12:34
+493;Moustache Bikes;Samedi 27 Weekend FS Dual;H;VTT;Y;Bosch Performance Line CX, Génération 4, 85 Nm;Bosch, PowerTube, 625 Wh;"Shimano, ""Deore"", 12 vitesses";S,M,L,XL;2020-2021;3666.11;545372;0;actif;25-02-21 11:51;25-02-21 11:51
+494;Moustache Bikes;Samedi 27 Weekend FS Dual EQ;H;VTT;Y;Bosch Performance Line CX, Génération 4, 85 Nm;Bosch, PowerTube, 625 Wh;"Shimano, ""Deore"", 12 vitesses";S,M,L,XL;2020-2021;3777.22;5619;0;actif;25-02-21 11:51;25-02-21 11:51
+495;Moustache Bikes;Mercredi 12;Draisienne;Draisienne;N;N/A;N/A;N/A;S,M,L,XL;2020-2021;127.225;18926;0;actif;21-12-20 12:34;21-12-20 12:34
+498;Victoria;eTouring 8.8;H;Ville et chemin;Y;Shimano E7000 60 Nm;504 Wh amovible;Shimano Deore, 10 Vitesses;S,M,L,XL;2020-2021;1652;2478;0;actif;12-01-21 20:57;12-01-21 20:57
+499;Moustache Bikes;Friday 28.1;H;Ville;Y;Bosch, Active Line Plus, Génération 3, 50 Nm;Bosch,PowerPack 400Wh, Amovible;Shimano Tiagra 10 vitesses;XL;2019-2020;1666.11;247851;0;actif;13-01-21 12:16;13-01-21 12:16
+500;other;Bizbike Genious Neat;M;Pliant;Y;N/A;N/A;N/A;unique;2019-2020;0;0;0;actif;19-01-21 17:48;19-01-21 17:48
+501;other;BizBike Genious Sound;F;Tout chemin;Y;N/A;N/A;N/A;unique;2019-2020;0;0;0;actif;19-01-21 17:48;19-01-21 17:48
+502;Tern;Eclipse X22;M;Pliant;N;-;-;-;;2020-2021;1798;210743;0;actif;09-02-21 18:23;09-02-21 18:23
+503;Kayza;Hydric 4;H;VTT;Y;Moteur central, Bosch;BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano, ""Altus"", 9 vitesses";M,L;2020-2021;1515.95;214872;0;actif;10-02-21 19:27;10-02-21 19:27
+504;Kayza;Hydric 6;H;VTT;Y;Moteur central, Bosch;BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano, ""Deore"", 10 vitesses";XS,S,M,L;2020-2021;1721.25;239665;0;actif;10-02-21 19:28;10-02-21 19:28
+505;Kayza;Hydric 8;H;VTT;Y;Moteur central, Bosch;BOSCH Lithium-Ionen mit BMS, 625 Wh;"SRAM, ""SX Eagle"", 12 vitesses";XS,S,M,L;2020-2021;1967.75;272723;0;actif;10-02-21 20:16;10-02-21 20:16
+506;Kayza;Hydric Dry 6;H;Tout chemin;Y;Moteur central, Bosch;BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano, ""Deore"", 10 vitesses";XS,S,M;2020-2021;1776.6;24793;0;actif;10-02-21 19:28;10-02-21 19:28
+507;Kayza;Hydric Dry 8;H;Tout chemin;Y;Moteur central, Bosch;BOSCH Lithium-Ionen mit BMS, 625 Wh;"SRAM, ""SX Eagle"", 12 vitesses";XS,S,M;2020-2021;2023;280988;0;actif;10-02-21 20:12;10-02-21 20:12
+508;Kayza;Hydric SUV;F;Tout chemin;Y;Moteur central, Bosch;BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano, ""Deore"", 10 vitesses";S,M,L,XL;2020-2021;1657.5;231401;0;actif;08-02-22 09:40;08-02-22 09:40
+509;Kayza;Sapric 4;H;VTT;Y;Moteur central, Bosch;BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano, ""Altus"", 9 vitesses";XS,S,M;2020-2021;1515.95;214872;0;actif;10-02-21 20:15;10-02-21 20:15
+510;Kayza;Sapric 6;H;VTT;Y;Moteur central, Bosch;BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano, ""Deore"", 10 vitesses";XS,S,M,L;2020-2021;1721.25;239665;0;actif;10-02-21 19:28;10-02-21 19:28
+511;Kayza;Sapric 8;H;VTT;Y;Moteur central, Bosch;BOSCH Lithium-Ionen mit BMS, 625 Wh;"SRAM, ""SX Eagle"", 12 vitesses";XS,S,M;2020-2021;1967.75;272723;0;actif;10-02-21 19:28;10-02-21 19:28
+512;Kayza;Sapric Dry 6;H;Tout chemin;Y;Moteur central, Bosch;BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano, ""Deore"", 10 vitesses";XS,S,M;2020-2021;1776.5;24793;0;actif;10-02-21 19:28;10-02-21 19:28
+513;Kayza;Sapric Dry 8;H;Tout chemin;Y;Moteur central, Bosch;BOSCH Lithium-Ionen mit BMS, 625 Wh;"SRAM, ""SX Eagle"", 12 vitesses";XS,S,M,L;2020-2021;2023;280988;0;actif;10-02-21 19:28;10-02-21 19:28
+514;Kayza;Talik Dry 4;H;Ville et chemin;Y;Moteur central, Bosch;BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano, ""Alivio"", 9 vitesses";M,L,XL;2020-2021;1530;214872;0;actif;18-03-21 10:24;18-03-21 10:24
+515;Kayza;Talik Dry 6;H;Ville et chemin;Y;Moteur central, Bosch;BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano, ""Deore"", 10 vitesses";M,L,XL;2020-2021;1657.5;231401;0;actif;18-03-21 10:24;18-03-21 10:24
+516;Kayza;Talik Dry 7;H;Ville et chemin;Y;Moteur central, Bosch;BOSCH Lithium-Ionen mit BMS, 625 Wh;"Shimano, ""Nexus"", 5 vitesses";M,L,XL;2020-2021;1967.75;272723;0;actif;18-03-21 10:25;18-03-21 10:25
+517;Kayza;Talik Dry 8;H;Ville et chemin;Y;Moteur central, Bosch;BOSCH Lithium-Ionen mit BMS, 625 Wh;"Shimano, ""Deore"", 11 vitesses";M,L,XL;2020-2021;1967.75;272723;0;actif;18-03-21 10:25;18-03-21 10:25
+518;Kayza;Tanana Dry 3;F;Ville et Chemin;Y;Moteur central, Bosch;BOSCH Lithium-Ionen mit BMS, 400 Wh;"Shimano, ""Nexus"", 8 vitesses";M,L,XL;2020-2021;1466.25;206607;0;actif;10-02-21 19:28;10-02-21 19:28
+519;Kayza;Tanana Dry 4;M;Ville et Chemin;Y;Moteur central, Bosch;BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano, ""Alivio"", 9 vitesses";S,M,L;2020-2021;1530;214872;0;actif;10-02-21 19:28;10-02-21 19:28
+520;Kayza;Tanana Dry 4;F;Ville et Chemin;Y;Moteur central, Bosch;BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano, ""Alivio"", 9 vitesses";M,L,XL;2020-2021;1530;214872;0;actif;10-02-21 19:28;10-02-21 19:28
+521;Kayza;Tanana Dry 6;M;Ville et chemin;Y;Moteur central, Bosch;BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano, ""Alivio"", 10 vitesses";S,M,L;2020-2021;1657.5;231401;0;actif;29-03-21 19:27;29-03-21 19:27
+522;Kayza;Tanana Dry 6;F;Ville et chemin;Y;Moteur central, Bosch;BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano, ""Alivio"", 10 vitesses";S,M,L;2020-2021;1657.5;231401;0;actif;29-03-21 19:27;29-03-21 19:27
+523;Kayza;Tanana Dry 7;F;Ville et Chemin;Y;Moteur central, Bosch;BOSCH Lithium-Ionen mit BMS, 625 Wh;"Shimano, ""Nexus Inter E"", 5 vitesses";M,L,XL;2020-2021;1967.75;272723;0;actif;10-02-21 19:28;10-02-21 19:28
+524;Kayza;Tanana Dry 8;M;Ville et Chemin;Y;Moteur central, Bosch;BOSCH Lithium-Ionen mit BMS, 625 Wh;"Shimano, ""Deore"", 11 vitesses";M,L,XL;2020-2021;1967.75;272723;0;actif;10-02-21 19:28;10-02-21 19:28
+525;Victoria;eAdventure 12.10;H;Tout chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";BOSCH Lithium-Ionen mit BMS, 625 Wh;"Shimano ""Deore XT"" 12 vitesses";S,M,L;2020-2021;2222.2;3222;0;actif;15-02-21 17:40;15-02-21 17:40
+526;Victoria;eAdventure 12.10;F;Tout chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";BOSCH Lithium-Ionen mit BMS, 625 Wh;"Shimano ""Deore XT"" 12 vitesses";S,M,L;2020-2021;2222.2;3222;0;actif;15-02-21 17:41;15-02-21 17:41
+527;Victoria;eAdventure 12.8;H;Tout chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";BOSCH Lithium-Ionen mit BMS, 625 Wh;"Shimano ""Deore"" 12 vitesses";S,M,L;2020-2021;2041.8;2974;0;actif;26-02-21 08:05;26-02-21 08:05
+528;Victoria;eAdventure 12.8;F;Tout chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";BOSCH Lithium-Ionen mit BMS, 625 Wh;"Shimano ""Deore"" 12 vitesses";S,M,L;2020-2021;2041.8;2974;0;actif;26-02-21 08:05;26-02-21 08:05
+529;Victoria;eAdventure 12.9;H;Tout chemin;Y;"Moteur central Shimano, ""EP8""";BOSCH Lithium-Ionen mit BMS, 630 Wh;"Shimano ""Deore XT"" 12 vitesses";M,L,XL;2020-2021;2345.2;3387;0;actif;15-02-21 17:41;15-02-21 17:41
+530;Victoria;eAdventure 12.9;F;Tout chemin;Y;"Moteur central Shimano, ""EP8""";BOSCH Lithium-Ionen mit BMS, 630 Wh;"Shimano ""Deore XT"" 12 vitesses";S,M,L;2020-2021;2345.2;3387;0;actif;15-02-21 17:41;15-02-21 17:41
+531;Victoria;eAdventure 8.8;H;Tout chemin;Y;"Moteur central Shimano ""E7000""";BOSCH Lithium-Ionen mit BMS, 504 Wh;"Shimano ""Deore"" 10 vitesses";M,L,XL;2020-2021;1749.06;2561;0;actif;15-02-21 17:41;15-02-21 17:41
+532;Victoria;eAdventure 8.8;F;Tout chemin;Y;"Moteur central Shimano ""E7000""";BOSCH Lithium-Ionen mit BMS, 504 Wh;"Shimano ""Deore"" 10 vitesses";S,M,L;2020-2021;1749.06;2561;0;actif;15-02-21 17:41;15-02-21 17:41
+533;Victoria;eClassic 3.1;F;Ville et chemin;Y;"Mini Moyeu moteur avant, BAFANG  ""FM G370""";"Bafang, Lithium-ion ""BT CO1"", 447 WH";"Shimano ""Nexus"" 7 vitesses";S,M;2020-2021;995.48;1486;0;actif;15-02-21 17:41;15-02-21 17:41
+534;Victoria;eClassic 3.1 H;F;Ville et chemin;Y;"Mini Moyeu moteur avant, BAFANG  ""FM G370""";"Bafang, Lithium-ion ""BT CO1"", 447 WH";"Shimano ""Nexus"" 7 vitesses";S,M;2020-2021;995.48;1486;0;actif;15-02-21 17:41;15-02-21 17:41
+535;Victoria;eFolding 7.1;Unisex;Pliant;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";BOSCH Lithium-Ionen mit BMS, 400 Wh;"Shimano ""Nexus"" 8 vitesses";unique;2020-2021;1754.8;2561;0;actif;15-02-21 17:41;15-02-21 17:41
+536;Victoria;eFolding 7.2;M;Pliant;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";BOSCH Lithium-Ionen mit BMS, 400 Wh;"Shimano ""Nexus"" 8 vitesses";unique;2020-2021;1754.8;2561;0;actif;18-02-21 21:07;18-02-21 21:07
+537;Victoria;eFolding 7.5;Unisex;Pliant;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Nexus"" 5 vitesses";unique;2020-2021;1869.6;2726;0;actif;15-02-21 17:41;15-02-21 17:41
+538;Victoria;eManufaktur 10.9;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Deore"" 11 vitesses";S,M,L;2020-2021;1749.06;2561;0;actif;15-02-21 17:41;15-02-21 17:41
+539;Victoria;eManufaktur 10.9;H;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Deore"" 11 vitesses";S,M,L;2020-2021;1749.06;2561;0;actif;15-02-21 17:41;15-02-21 17:41
+540;Victoria;eManufaktur 12.8;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Deore"" 10 vitesses";S,M,L;2020-2021;1927;2809;0;actif;15-02-21 17:41;15-02-21 17:41
+541;Victoria;eManufaktur 12.8;H;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Deore"" 10 vitesses";M,L,XL;2020-2021;1927;2809;0;actif;15-02-21 17:41;15-02-21 17:41
+542;Victoria;eManufaktur 12.9;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";BOSCH Lithium-Ionen mit BMS, 625 Wh;"Shimano ""Deore XT"" 11 vitesses";S,M,L,XL;2020-2021;2156.6;3139;0;actif;15-02-21 17:41;15-02-21 17:41
+543;Victoria;eManufaktur 12.9;H;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";BOSCH Lithium-Ionen mit BMS, 625 Wh;"Shimano ""Deore XT"" 11 vitesses";S,M,L,XL;2020-2021;2156.6;3139;0;actif;15-02-21 17:41;15-02-21 17:41
+544;Victoria;eManufaktur 9.8;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Nexus"" 5 vitesses";S,M,L;2020-2021;1689.2;2561;0;actif;15-02-21 17:41;15-02-21 17:41
+545;Victoria;eTouring 12.9;H;Ville et chemin;Y;"Moteur central Shimano ""E7000""";BOSCH Lithium-Ionen mit BMS, 630 Wh;"Shimano, ""Deore"", 12 vitesses";M,L,XL;2020-2021;2041.8;2974;0;actif;15-02-21 17:41;15-02-21 17:41
+546;Victoria;eTouring 12.9;M;Ville et chemin;Y;"Moteur central Shimano ""E7000""";BOSCH Lithium-Ionen mit BMS, 630 Wh;"Shimano, ""Deore"", 12 vitesses";S,M;2020-2021;2041.8;2974;0;actif;15-02-21 17:41;15-02-21 17:41
+547;Victoria;eTouring 12.9;F;Ville et chemin;Y;"Moteur central Shimano ""E7000""";BOSCH Lithium-Ionen mit BMS, 630 Wh;"Shimano, ""Deore"", 12 vitesses";S,M,L;2020-2021;2041.8;2974;0;actif;15-02-21 17:41;15-02-21 17:41
+549;Victoria;eTouring 6.4;M;Ville et chemin;Y;"Moteur central Shimano ""E6100""";BOSCH Lithium-Ionen mit BMS, 504 Wh;"Shimano, ""Alivio"", 9 vitesses";S,M;2020-2021;1574.4;2313;0;actif;15-02-21 17:41;15-02-21 17:41
+550;Victoria;eTouring 6.4;F;Ville et chemin;Y;"Moteur central Shimano ""E6100""";BOSCH Lithium-Ionen mit BMS, 504 Wh;"Shimano, ""Alivio"", 9 vitesses";S,M,L;2020-2021;1574.4;2313;0;actif;05-04-21 12:37;05-04-21 12:37
+551;Victoria;eTouring 7.4;H;Ville et chemin;Y;"Moteur central Shimano ""E5000""";BOSCH Lithium-Ionen mit BMS, 418 Wh;"Shimano, ""Nexus"", 8 vitesses";M,L,XL;2020-2021;1459.6;2147;0;actif;15-02-21 17:41;15-02-21 17:41
+552;Victoria;eTouring 7.4;M;Ville et chemin;Y;"Moteur central Shimano ""E5000""";BOSCH Lithium-Ionen mit BMS, 418 Wh;"Shimano, ""Nexus"", 8 vitesses";S,M;2020-2021;1459.6;2147;0;actif;15-02-21 17:41;15-02-21 17:41
+553;Victoria;eTouring 7.4;F;Ville et chemin;Y;"Moteur central Shimano ""E5000""";BOSCH Lithium-Ionen mit BMS, 418 Wh;"Shimano, ""Nexus"", 8 vitesses";S,M,L;2020-2021;1459.6;2147;0;actif;15-02-21 17:41;15-02-21 17:41
+556;Victoria;eTouring 7.5;F;Ville et chemin;Y;"Moteur central Shimano ""E5000""";BOSCH Lithium-Ionen mit BMS, 418 Wh;"Shimano, ""Nexus"", 8 vitesses";S,M,L;2020-2021;1459.6;2147;0;actif;15-02-21 17:41;15-02-21 17:41
+557;Victoria;eTouring 7.6;F;Ville et chemin;Y;"Moteur central Shimano ""E6100""";BOSCH Lithium-Ionen mit BMS, 504 Wh;"Shimano, ""Nexus DI2"", 8 vitesses";S,M,L;2020-2021;1749.06;2561;0;actif;15-02-21 17:41;15-02-21 17:41
+558;Victoria;eTouring 7.7;H;Ville et chemin;Y;"Moteur central Shimano ""E6100""";BOSCH Lithium-Ionen mit BMS, 504 Wh;"Shimano ""Nexus"" 5 vitesses";M,L,XL;2020-2021;1749.06;2561;0;actif;15-02-21 17:41;15-02-21 17:41
+559;Victoria;eTouring 7.7;M;Ville et chemin;Y;"Moteur central Shimano ""E6100""";BOSCH Lithium-Ionen mit BMS, 504 Wh;"Shimano ""Nexus"" 5 vitesses";S,M;2020-2021;1749.06;2561;0;actif;15-02-21 17:41;15-02-21 17:41
+560;Victoria;eTouring 7.7;F;Ville et chemin;Y;"Moteur central Shimano ""E6100""";BOSCH Lithium-Ionen mit BMS, 504 Wh;"Shimano ""Nexus"" 5 vitesses";S,M,L;2020-2021;1749.06;2561;0;actif;15-02-21 17:41;15-02-21 17:41
+561;Victoria;eTouring 8.8;M;Ville et chemin;Y;"Moteur central Shimano ""E7000""";BOSCH Lithium-Ionen mit BMS, 504 Wh;"Shimano ""Deore"" 10 vitesses";S,M;2020-2021;1693.3;2478;0;actif;05-04-21 12:37;05-04-21 12:37
+562;Victoria;eTouring 8.8;F;Ville et chemin;Y;"Moteur central Shimano ""E7000""";BOSCH Lithium-Ionen mit BMS, 504 Wh;"Shimano ""Deore"" 10 vitesses";S,M,L;2020-2021;1693.3;2478;0;actif;07-02-22 19:06;07-02-22 19:06
+564;Victoria;eTrekking 10.8;M;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Deore"" 10 vitesses";S,M;2020-2021;1749.06;2561;0;actif;15-02-21 17:41;15-02-21 17:41
+565;Victoria;eTrekking 10.8;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Deore"" 10 vitesses";S,M,L;2020-2021;1749.06;2561;0;actif;15-02-21 17:41;15-02-21 17:41
+566;Victoria;eTrekking 10.9;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Deore XT"" 11 vitesses";S,M,L,XL;2020-2021;1865.5;2726;0;actif;15-02-21 17:41;15-02-21 17:41
+567;Victoria;eTrekking 10.9;M;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Deore XT"" 11 vitesses";S,M;2020-2021;1865.5;2726;0;actif;15-02-21 17:41;15-02-21 17:41
+568;Victoria;eTrekking 10.9;H;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Deore XT"" 11 vitesses";S,M,L,XL;2020-2021;1865.5;2726;0;actif;15-02-21 17:41;15-02-21 17:41
+569;Victoria;eTrekking 11.4;H;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Nexus"" 8 vitesses";;2020-2021;1693.3;2478;0;actif;15-02-21 17:41;15-02-21 17:41
+570;Victoria;eTrekking 11.4;M;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Nexus"" 8 vitesses";M;2020-2021;1693.3;2478;0;actif;15-02-21 17:41;15-02-21 17:41
+571;Victoria;eTrekking 11.4;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Nexus"" 8 vitesses";S,M,L,XL;2020-2021;1693.3;2478;0;actif;15-02-21 17:41;15-02-21 17:41
+572;Victoria;eTrekking 11.4 H;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Nexus"" 8 vitesses";M,L;2020-2021;1693.3;2478;0;actif;15-02-21 17:41;15-02-21 17:41
+573;Victoria;eTrekking 11.6;H;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Nexus"" 8 vitesses";M,L,XL;2020-2021;1693.3;2478;0;actif;15-02-21 17:41;15-02-21 17:41
+574;Victoria;eTrekking 11.6;M;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Nexus"" 8 vitesses";S;2020-2021;1693.3;2478;0;actif;15-02-21 17:41;15-02-21 17:41
+575;Victoria;eTrekking 11.6;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Nexus"" 8 vitesses";S,M,L;2020-2021;1693.3;2478;0;actif;15-02-21 17:41;15-02-21 17:41
+576;Victoria;eTrekking 12.8;H;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";BOSCH Lithium-Ionen mit BMS, 625 Wh;"Shimano ""Deore"" 10 vitesses";M,L,XL;2020-2021;1809.95;2561;0;actif;15-02-21 17:41;15-02-21 17:41
+577;Victoria;eTrekking 12.8;M;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";BOSCH Lithium-Ionen mit BMS, 625 Wh;"Shimano ""Deore"" 10 vitesses";S,M;2020-2021;1809.95;2561;0;actif;15-02-21 17:41;15-02-21 17:41
+578;Victoria;eTrekking 12.8;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";BOSCH Lithium-Ionen mit BMS, 625 Wh;"Shimano ""Deore"" 10 vitesses";;2020-2021;1809.95;2561;0;actif;15-02-21 17:41;15-02-21 17:41
+579;Victoria;eTrekking 12.9;H;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";BOSCH Lithium-Ionen mit BMS, 625 Wh;"Shimano ""Deore XT"" 11 vitesses";M,L,XL;2020-2021;2041.8;2974;0;actif;15-02-21 17:41;15-02-21 17:41
+580;Victoria;eTrekking 12.9;M;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";BOSCH Lithium-Ionen mit BMS, 625 Wh;"Shimano ""Deore XT"" 11 vitesses";M,L;2020-2021;2041.8;2974;0;actif;15-02-21 17:41;15-02-21 17:41
+581;Victoria;eTrekking 12.9;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";BOSCH Lithium-Ionen mit BMS, 625 Wh;"Shimano ""Deore XT"" 11 vitesses";S,M,L;2020-2021;2041.8;2974;0;actif;15-02-21 17:41;15-02-21 17:41
+582;Victoria;eTrekking 5.10;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Nexus"" 7 vitesses";S,M,L;2020-2021;1359;1982;0;actif;15-02-21 17:41;15-02-21 17:41
+583;Victoria;eTrekking 5.5;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";BOSCH Lithium-Ionen mit BMS, 300 Wh;"Shimano ""Nexus"" 7 vitesses";S,M,L;2020-2021;1129.95;1652;0;actif;15-02-21 17:41;15-02-21 17:41
+584;Victoria;eTrekking 5.5 H;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";BOSCH Lithium-Ionen mit BMS, 300 Wh;"Shimano ""Nexus"" 7 vitesses";M,L;2020-2021;1129.95;1652;0;actif;15-02-21 17:41;15-02-21 17:41
+585;Victoria;eTrekking 5.6;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";BOSCH Lithium-Ionen mit BMS, 300 Wh;"Shimano ""Nexus"" 7 vitesses";S,M,L;2020-2021;1129.95;1652;0;actif;15-02-21 17:41;15-02-21 17:41
+586;Victoria;eTrekking 5.7;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";BOSCH Lithium-Ionen mit BMS, 400 Wh;"Shimano ""Nexus"" 7 vitesses";S,M,L;2020-2021;1249.95;1817;0;actif;15-02-21 17:41;15-02-21 17:41
+587;Victoria;eTrekking 5.7 H;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";BOSCH Lithium-Ionen mit BMS, 400 Wh;"Shimano ""Nexus"" 7 vitesses";S,M,L;2020-2021;1249.95;1817;0;actif;15-02-21 17:41;15-02-21 17:41
+588;Victoria;eTrekking 5.8;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";BOSCH Lithium-Ionen mit BMS, 400 Wh;"Shimano ""Nexus"" 7 vitesses";S,M,L;2020-2021;1249.95;1817;0;actif;15-02-21 17:41;15-02-21 17:41
+589;Victoria;eTrekking 5.9;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Nexus"" 7 vitesses";S,M,L;2020-2021;1359.95;1982;0;actif;15-02-21 17:41;15-02-21 17:41
+590;Victoria;eTrekking 5.9 H;H;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Nexus"" 7 vitesses";S,M;2020-2021;1359.95;1982;0;actif;15-02-21 17:41;15-02-21 17:41
+591;Victoria;eTrekking 5.9 H;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Nexus"" 7 vitesses";S,L;2020-2021;1359.95;1982;0;actif;15-02-21 17:41;15-02-21 17:41
+593;Victoria;eTrekking 6.3;M;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";BOSCH Lithium-Ionen mit BMS, 400 Wh;"Shimano, ""Alivio"", 9 vitesses";S,M;2020-2021;1344.8;1982;0;actif;15-02-21 17:41;15-02-21 17:41
+594;Victoria;eTrekking 6.3;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";BOSCH Lithium-Ionen mit BMS, 400 Wh;"Shimano, ""Alivio"", 9 vitesses";S,M,L;2020-2021;1344.8;1982;0;actif;15-02-21 17:41;15-02-21 17:41
+595;Victoria;eTrekking 6.5;H;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Deore"" 10 vitesses";S,M,L;2020-2021;1459.6;5453;0;actif;15-02-21 17:41;15-02-21 17:41
+596;Victoria;eTrekking 6.5;M;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Deore"" 10 vitesses";S,M;2020-2021;1459.6;5453;0;actif;15-02-21 17:41;15-02-21 17:41
+597;Victoria;eTrekking 6.5;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Deore"" 10 vitesses";S,M,L;2020-2021;1459.6;5453;0;actif;15-02-21 17:41;15-02-21 17:41
+598;Victoria;eTrekking 7.4;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Nexus"" 7 vitesses";S,M,L,XL;2020-2021;1574.4;5619;0;actif;15-02-21 17:41;15-02-21 17:41
+599;Victoria;eTrekking 7.4 H;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Nexus"" 7 vitesses";S,M;2020-2021;1574.4;5619;0;actif;15-02-21 17:41;15-02-21 17:41
+600;Victoria;eTrekking 7.5;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";BOSCH Lithium-Ionen mit BMS, 400 Wh;"Shimano ""Nexus"" 7 vitesses";S,M,L;2020-2021;1459;5453;0;actif;15-02-21 17:41;15-02-21 17:41
+601;Victoria;eTrekking 7.6;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Nexus"" 7 vitesses";S,M,L,XL;2020-2021;1574;5619;0;actif;15-02-21 17:41;15-02-21 17:41
+603;Victoria;eTrekking 8.8;H;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Deore"" 10 vitesses";M,L,XL;2020-2021;1574.4;2313;0;actif;15-02-21 17:41;15-02-21 17:41
+605;Victoria;eTrekking 8.8;M;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Deore"" 10 vitesses";S,M;2020-2021;1574.4;2313;0;actif;15-02-21 17:42;15-02-21 17:42
+606;Victoria;eTrekking 8.8;F;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Deore"" 10 vitesses";S,M,L;2020-2021;1574.4;2313;0;actif;15-02-21 17:42;15-02-21 17:42
+612;Victoria ;eTouring 6.4;H;Ville et chemin;Y;"Moteur central Shimano ""E6100""";BOSCH Lithium-Ionen mit BMS, 504 Wh;"Shimano, ""Alivio"", 9 vitesses";M,L,XL;2020-2021;1574.4;231322;0;actif;16-02-21 12:57;16-02-21 12:57
+615;Victoria ;eTouring 7.5;H;Ville et chemin;Y;"Moteur central Shimano ""E5000""";BOSCH Lithium-Ionen mit BMS, 418 Wh;"Shimano, ""Nexus"", 8 vitesses";M,L,XL;2020-2021;1459.6;214793;0;actif;16-02-21 12:57;16-02-21 12:57
+616;Victoria ;eTouring 7.5;M;Ville et chemin;Y;"Moteur central Shimano ""E5000""";BOSCH Lithium-Ionen mit BMS, 418 Wh;"Shimano, ""Nexus"", 8 vitesses";S,M;2020-2021;1459.6;214793;0;actif;16-02-21 12:57;16-02-21 12:57
+617;Victoria ;eTrekking 10.8;H;Ville et chemin;Y;"BOSCH Mittelmotor Gen.4 ""Performance CX"", 85 Nm";BOSCH Lithium-Ionen mit BMS, 500 Wh;"Shimano ""Deore"" 10 vitesses";S,M,L;2020-2021;1749.06;256116;0;actif;16-02-21 12:57;16-02-21 12:57
+618;Victoria ;eTrekking 6.3;H;Ville et chemin;Y;"BOSCH Mittelmotor Gen.3 ""Active Line PLUS"", 50 Nm";BOSCH Lithium-Ionen mit BMS, 400 Wh;"Shimano, ""Alivio"", 9 vitesses";S,M,L;2020-2021;1344.8;198264;0;actif;16-02-21 12:57;16-02-21 12:57
+622;Benno;Boost E 10D performance CX;F;Cargo;Y;Bosch, Performance CX, Génération 4, 85 Nm;Bosch,PowerPack 500Wh, Amovible;Shimano Deore, 10 vitesses;unique;2020-2021;2587;371901;0;actif;09-12-21 11:53;09-12-21 11:53
+623;Benno;Boost E 10D performance CX;H;Cargo;Y;Bosch, Performance CX, Génération 4,  85 Nm;Bosch,PowerPack 500Wh, Amovible;Shimano Deore, 10 vitesses;unique;2020-2021;2587;371901;0;actif;09-12-21 11:53;09-12-21 11:53
+624;Moustache Bikes;Friday 27 FS Speed dual;H;Speedpedelec;Y;Bosch, Performance Speed, 85 Nm;Bosch Dual 1125 Wh;Shimano XT 11 vitesses;S,M,L,XL;2020-2021;3999.44;594958;0;actif;26-05-21 19:40;26-05-21 19:40
+625;other;BROMPTON NOIR 6V;M;Pliant;N;/;/;/;unique;2019-2020;1206.61;1500;0;actif;24-03-21 13:23;24-03-21 13:23
+626;Victoria;e Urban 11.9;F;Ville;Y;"BOSCH Mittelmotor Gen.3 ""Performance"", 63 Nm";Bosch,PowerPack 500Wh, Amovible;Enviolo;M,L;2019-2020;2161.08;2974;0;actif;24-03-21 18:53;24-03-21 18:53
+629;other;Specialized SJ evo;H;VTT;N;-;-;-;L;2020-2021;4516.52;451652;0;actif;25-03-21 18:50;25-03-21 18:50
+630;other;Decathlon XC 500;H;VTT;N;/;/;/;L;2019-2020;991.74;99174;0;actif;26-03-21 11:36;26-03-21 11:36
+631;Bzen;Amsterdam;F;Ville;Y;Bafang 45Nm;360 Wh;Courroie ou 9 vitesses;M,L;2021-2022;1850;254959;0;actif;31-05-21 09:00;31-05-21 09:00
+632;Bzen;Brussels;M;Ville;Y;Bafang 45Nm;360 Wh;"Shimano, ""Altus"", 9 vitesses";S,M,L;2021-2022;1850;23843;0;actif;27-06-21 12:40;27-06-21 12:40
+633;Bzen;Milano;H;Ville;Y;Bafang 45Nm;360 Wh;Courroie ou 9 vitesses;M,L;2021-2022;1850;26157;0;actif;31-05-21 08:59;31-05-21 08:59
+634;other;BH Atom City Wave;F;Ville;N;-;-;-;unique;2019-2020;0;0;0;actif;31-08-21 14:46;31-08-21 14:46
+635;Ahooga;Folding bike 24V;M;Pliant;Y;35 Nm;125 Wh;7 vitesses;unique;2019-2020;1320;183471;0;actif;18-10-21 09:05;18-10-21 09:05
+636;Moustache Bikes;Samedi 29 Trail 9;H;VTT;Y;-;-;-;M;2022-2023;3730.5;537186;0;actif;10-12-21 10:38;10-12-21 10:38
+637;Bike43;Alpster Eshift;M;Cargo;Y;eMTB Shimano Steps EP8 85Nm mid-motor;500Wh;Shimano Nexus 5;unique;2022-2023;3500;433884;0;actif;17-12-21 11:17;17-12-21 11:17
+638;E-Twow;Booster ES;M;Trottinette;Y;500 W / 15 Nm;36 V, 7.8 Ah;N/A;unique;2021-2022;493.02;57769;0;actif;25-01-22 18:00;25-01-22 18:00
+639;E-Twow;Booster GT SL;M;Trottinette;Y;700 W / 28 Nm;48 V 7.8 Ah;N/A;unique;2021-2022;629.89;742975;0;actif;25-01-22 18:22;25-01-22 18:22
+640;Veloe;Mutli;M;Cargo;Y;Bosch Performance Line CX;Bosch, 500 Wh;Enviolo TR;unique;2021-2022;2600;365289;0;actif;10-01-22 16:56;10-01-22 16:56
