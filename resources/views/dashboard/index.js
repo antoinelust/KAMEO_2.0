@@ -13,7 +13,7 @@ $(document).ready(function () {
                 $("#info-section #info-section-logo").attr('src', '../storage/app/public/companies_logo/' + response.data.company.id + '.png')
                 $("#info-section #info-section-logo").attr('alt', response.data.company.name)
                 // Display dynamics widgets
-                if(response.data.user.permission.includes("admin")){
+                if(response.data.user.permission.includes("fleetManager")){
                     $widget1 = `
                         <div class="col-lg-4">
                             <div class="icon-box effect large fancy">
@@ -28,6 +28,20 @@ $(document).ready(function () {
                         </div>
                     `;
                     $("#widget-list").append($widget1);
+                    $widget2 = `
+                        <div class="col-lg-4">
+                            <div class="icon-box effect large fancy">
+                                <div class="icon">
+                                    <a id="entretiens-modal-btn">
+                                        <i class="fa fa-users"></i>
+                                    </a>
+                                </div>
+                                <h3>Vue sur les entretiens</h3>
+                                <p class="text-primary" style="font-size:3em;">` + response.data.entretiens + `</p>
+                            </div>
+                        </div>
+                    `;
+                    $("#widget-list").append($widget2);
                 }
             }
             else {
@@ -39,7 +53,7 @@ $(document).ready(function () {
         }
     });
     // Reaload tbn
-    $("#info-section-reload").click(function (e){ 
+    $("#info-section-reload").click(function (e){
         e.preventDefault();
         location.reload();
     });
