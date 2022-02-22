@@ -7,3 +7,4 @@
     include_once('../resources/views/dashboard/modals/clientsAndProspects/modifyCompany/addContactCompany/addContactCompany.blade.php');
     include_once('../resources/views/dashboard/modals/clientsAndProspects/modifyCompany/modifyContactCompany/modifyContactCompany.blade.php');
     include_once('../resources/views/dashboard/modals/clientsAndProspects/modifyCompany/deleteContactCompany/deleteContactCompany.blade.php');
+    include_once('../resources/views/dashboard/modals/entretiens/entretiens.blade.php');
