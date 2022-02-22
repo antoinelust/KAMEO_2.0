@@ -14,11 +14,7 @@
                         <div>
                             <table style="width: 100%;" id="companies-table" class="table">
                                 <thead>
-                                    <tr>
-                                        <th style="text-align: left; scope="col">Nom</th>
-                                        <th style="text-align: left; scope="col">Type</th>
-                                        <th style="text-align: left; scope="col">Status</th>
-                                    </tr>
+                                    
                                 </thead>
                                 <tbody>
                                     
