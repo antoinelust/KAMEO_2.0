@@ -8,7 +8,6 @@
             <div class="modal-body">
                 <div style="margin-bottom: 10px;">
                     <button id="addEntretien-btn" type="button" class="btn btn-primary btn-sm">+ Ajouter un Entretien</button>
-                    <button id="consultDevis-btn" type="button" class="btn btn-primary btn-sm">Consulter les devis</button>
                 </div>
                 <div class="row">
                     <div class="col">
@@ -23,11 +22,7 @@
                                         <th style="text-align: left;" scope="col">Date de sortie planifiée</th>
                                         <th style="text-align: left;" scope="col">Date</th>
                                         <th style="text-align: left;" scope="col">Statut</th>
-                                        <th style="text-align: left;" scope="col">Type</th>
                                         <th style="text-align: left;" scope="col">Adresse</th>
-                                        <th style="text-align: left;" scope="col">N° téléphone</th>
-                                        <th style="text-align: left;" scope="col">EMAIL</th>
-                                        <th style="text-align: left;" scope="col">Facturation</th>
                                     </tr>
                                 </thead>
                                 <tbody>

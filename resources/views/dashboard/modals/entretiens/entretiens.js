@@ -17,17 +17,13 @@ $(document).ready(function () {
             },
             "columns": [
                 { data: "id" },
-                { data: "idVelo" },
+                { data: "idBike" },
                 { data: "client" },
-                { data: "modele" },
-                { data: "dateSortie" },
+                { data: "model" },
+                { data: "outDate" },
                 { data: "date" },
-                { data: "statut" },
-                { data: "type" },
-                { data: "adresse" },
-                { data: "tel" },
-                { data: "email" },
-                { data: "facturation" }
+                { data: "status" },
+                { data: "address" }
             ],
             "language": {
                 "sProcessing": "Traitement en cours ...",

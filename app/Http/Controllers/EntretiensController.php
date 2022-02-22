@@ -13,26 +13,27 @@ class EntretiensController extends Controller
     // Get All for dataTable
     public function getAllForDataTable(){
         $entretiens = Entretien::select('*')
+            ->where('external_bike', '=', 0)
             ->get();
 
         $entretiensList = [];
         foreach($entretiens as $entretien):
             array_push($entretiensList, [
                 "id"    => $entretien->id,
-                "idVelo"    => $entretien->bike_id,
+                "idBike"    => $entretien->bike_id,
                 "client"    => "client",
-                "modele"    => "modèle",
-                "dateSortie"    => $entretien->out_date,
-                "date"    => "date",
-                "statut"    => $entretien->status,
-                "type"    => "type",
-                "adresse"    => $entretien->address,
-                "tel"    => "tel",
-                "email"    => "email",
-                "facturation"    => "facturation",
+                "model"    => "modèle",
+                "outDate"    => $entretien->out_date,
+                "date"    => $entretien->date,
+                "status"    => $entretien->status,
+                "address"    => $entretien->address,
             ]);
         endforeach;
 
         echo json_encode($entretiensList);
+    }
+
+    public function addEntretien(Request $request){
+
     }
 }
