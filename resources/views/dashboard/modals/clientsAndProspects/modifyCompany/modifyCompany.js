@@ -56,12 +56,15 @@ $("#clientsAndProspects-modal").on("click", '.modify-company', function(){
                 <option value="inactif">inactif</option>
             `);
             $('#companies-contact-table').DataTable({
-                "destroy": true,
-                "ordering": false,
-                "searching": false,
-                "lengthChange": false,
-                "pageLength": 5,
+                "retrieve": true,
+                "pageLength": datatableLength,
+                "lengthMenu": datatableLengthMenu,
+                "language": datatableLang,
+                "columnDefs": datatableColumnDef,
                 "ajax": {
+                    "headers": {
+                        "X-CSRF-TOKEN": datatableToken
+                    },
                     "url": "load-data-companies-contact-table", // Route company_contacts
                     "type": "get",
                     "data": {
@@ -80,48 +83,49 @@ $("#clientsAndProspects-modal").on("click", '.modify-company', function(){
                     },
                 },
                 "columns": [
-                    { data: "firstname" },
-                    { data: "lastname" },
-                    { data: "email" },
-                    { data: "phone" },
-                    { data: "function" },
-                    { data: "type" },
-                    { data: "btn" },
-                ],
-                "language": {
-                    "sProcessing": "Traitement en cours ...",
-                    "sLengthMenu": "Afficher _MENU_ lignes",
-                    "sZeroRecords": "Aucun résultat trouvé",
-                    "sEmptyTable": "Aucune donnée disponible",
-                    "sInfo": "Lignes _START_ à _END_ sur _TOTAL_",
-                    "sInfoEmpty": "Aucune ligne affichée",
-                    "sInfoFiltered": "(Filtrer un maximum de_MAX_)",
-                    "sInfoPostFix": "",
-                    "sSearch": "Chercher:",
-                    "sUrl": "",
-                    "sInfoThousands": ",",
-                    "sLoadingRecords": "Chargement...",
-                    "oPaginate": {
-                        "sFirst": "Premier", "sLast": "Dernier", "sNext": "Suivant", "sPrevious": "Précédent"
-                    },
-                    "oAria": {
-                        "sSortAscending": ": Trier par ordre croissant", "sSortDescending": ": Trier par ordre décroissant"
-                    }
-                },
-                "columnDefs": [
                     {
-                        "targets": -1,
-                        "className": 'dt-body-right'
-                    }
+                        title: "Prénom",
+                        data: "firstname"
+                    },
+                    {
+                        title: "Nom",
+                        data: "lastname"
+                    },
+                    {
+                        title: "Email",
+                        data: "email"
+                    },
+                    {
+                        title: "Gsm",
+                        data: "phone"
+                    },
+                    {
+                        title: "Fonction",
+                        data: "function"
+                    },
+                    {
+                        title: "type",
+                        data: "type"
+                    },
+                    {
+                        data: "id",
+                        render: function(data){
+                            return '<button data-contactid="' + data + '" type="button" class="btn btn-xs modify"><i class="fa fa-pencil-alt"> </i></button>\
+                            <button data-contactid="' + data + '" type="button" class="btn btn-xs btn-danger delete"><i class="icon-x"> </i></button>'
+                        }
+                    },
                 ]
             });
             $('#companies-bike-table').DataTable({
-                "destroy": true,
-                "ordering": false,
-                "searching": false,
-                "lengthChange": false,
-                "pageLength": 5,
+                "retrieve": true,
+                "pageLength": datatableLength,
+                "lengthMenu": datatableLengthMenu,
+                "language": datatableLang,
+                "columnDefs": datatableColumnDef,
                 "ajax": {
+                    "headers": {
+                        "X-CSRF-TOKEN": datatableToken
+                    },
                     "url": "load-data-companies-bike-table", // Route companies
                     "type": "get",
                     "data": {
@@ -140,36 +144,29 @@ $("#clientsAndProspects-modal").on("click", '.modify-company', function(){
                     },
                 },
                 "columns": [
-                    { data: "frame_reference" },
-                    { data: "client_name" },
-                    { data: "contract_start" },
-                    { data: "contract_end" },
-                    { data: "btn" }
-                ],
-                "language": {
-                    "sProcessing": "Traitement en cours ...",
-                    "sLengthMenu": "Afficher _MENU_ lignes",
-                    "sZeroRecords": "Aucun résultat trouvé",
-                    "sEmptyTable": "Aucune donnée disponible",
-                    "sInfo": "Lignes _START_ à _END_ sur _TOTAL_",
-                    "sInfoEmpty": "Aucune ligne affichée",
-                    "sInfoFiltered": "(Filtrer un maximum de_MAX_)",
-                    "sInfoPostFix": "",
-                    "sSearch": "Chercher:",
-                    "sUrl": "",
-                    "sInfoThousands": ",",
-                    "sLoadingRecords": "Chargement...",
-                    "oPaginate": {
-                        "sFirst": "Premier", "sLast": "Dernier", "sNext": "Suivant", "sPrevious": "Précédent"
-                    },
-                    "oAria": {
-                        "sSortAscending": ": Trier par ordre croissant", "sSortDescending": ": Trier par ordre décroissant"
-                    }
-                },
-                "columnDefs": [
                     {
-                        "targets": -1,
-                        "className": 'dt-body-right'
+                        title: "Référnce",
+                        data: "frame_reference"
+                    },
+                    {
+                        title: "Nom",
+                        data: "client_name"
+                    },
+                    {
+                        title: "Date de début",
+                        data: "contract_start"
+                    },
+                    {
+                        title: "Date de fin",
+                        data: "contract_end"
+                    },
+                    {
+
+                        data: "id",
+                        render: function(data){
+                            return '<button type="button" class="btn btn-xs modify"><i class="fa fa-pencil-alt"> </i></button>\
+                            <button type="button" class="btn btn-xs btn-danger delete"><i class="icon-x"> </i></button>'
+                        }
                     }
                 ]
             });

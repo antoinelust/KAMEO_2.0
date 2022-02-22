@@ -22,8 +22,7 @@ class BikesController extends Controller
                 "client_name"       => $companyBike->client_name,
                 "contract_start"    => $companyBike->contract_start,
                 "contract_end"      => $companyBike->contract_end,
-                "btn"               => '<button type="button" class="btn btn-xs modify"><i class="fa fa-pencil-alt"> </i></button>
-                                        <button type="button" class="btn btn-xs btn-danger delete"><i class="icon-x"> </i></button>'
+                "id"                => $companyBike->id
             ]);
         endforeach;
 

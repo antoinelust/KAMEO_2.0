@@ -7,3 +7,7 @@ use App\Http\Controllers\EntretiensController;
 Route::get('/load-data-entretiens-table', [EntretiensController::class, 'getAllForDataTable'])
                 ->middleware('auth')
                 ->name('load-data-entretiens-table');
+
+Route::post('/add-entretien', [EntretiensController::class, 'addEntretien'])
+->middleware('auth')
+->name('add-entretien');
