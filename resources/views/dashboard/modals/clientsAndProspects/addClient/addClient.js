@@ -1,5 +1,5 @@
 // Open add client modal
-$('#addClient-btn').click(function (e) { 
+$('#addClient-btn').click(function (e) {
     $("#addClient-modal").modal("toggle");
     // Reset all input
     $('#addClient-modal input[name=name]').val(null);
@@ -51,7 +51,7 @@ $('#addClient-modal select[name=audience]').change(function () {
 })
 
 // Add client
-$('#add-client-action').click(function (e) { 
+$('#add-client-action').click(function (e) {
     e.preventDefault();
     if($('#addClient-modal #audience option:selected').val() == "B2B"){
         console.log("b2b");
@@ -63,12 +63,12 @@ $('#add-client-action').click(function (e) {
             'vat_number':           $('#addClient-modal input[name=vat_number]').val(),
             'street':               $('#addClient-modal input[name=street]').val(),
             'zip':                  $('#addClient-modal input[name=zip]').val(),
-            'city':                 $('#addClient-modal input[name=city]').val(),    
+            'city':                 $('#addClient-modal input[name=city]').val(),
             'contact_firstname':    $('#addClient-modal input[name=firstname]').val(),
             'contact_lastname':     $('#addClient-modal input[name=lastname]').val(),
             'contact_email':        $('#addClient-modal input[name=email]').val(),
-            'contact_phone':        $('#addClient-modal input[name=phone]').val(),   
-            'contact_function':     $('#addClient-modal input[name=function]').val()                
+            'contact_phone':        $('#addClient-modal input[name=phone]').val(),
+            'contact_function':     $('#addClient-modal input[name=function]').val()
         }
         $.ajaxSetup({
             headers: {
@@ -107,10 +107,10 @@ $('#add-client-action').click(function (e) {
             'firstname':            $('#addClient-modal input[name=firstname]').val(),
             'lastname':             $('#addClient-modal input[name=lastname]').val(),
             'email':                $('#addClient-modal input[name=email]').val(),
-            'phone':                $('#addClient-modal input[name=phone]').val(),  
+            'phone':                $('#addClient-modal input[name=phone]').val(),
             'street':               $('#addClient-modal input[name=street]').val(),
             'zip':                  $('#addClient-modal input[name=zip]').val(),
-            'city':                 $('#addClient-modal input[name=city]').val()                  
+            'city':                 $('#addClient-modal input[name=city]').val()
         }
         $.ajaxSetup({
             headers: {
@@ -149,12 +149,12 @@ $('#add-client-action').click(function (e) {
             'vat_number':           $('#addClient-modal input[name=vat_number]').val(),
             'street':               $('#addClient-modal input[name=street]').val(),
             'zip':                  $('#addClient-modal input[name=zip]').val(),
-            'city':                 $('#addClient-modal input[name=city]').val(),    
+            'city':                 $('#addClient-modal input[name=city]').val(),
             'contact_firstname':    $('#addClient-modal input[name=firstname]').val(),
             'contact_lastname':     $('#addClient-modal input[name=lastname]').val(),
             'contact_email':        $('#addClient-modal input[name=email]').val(),
             'contact_phone':        $('#addClient-modal input[name=phone]').val(),
-            'contact_function':     $('#addClient-modal input[name=function]').val()                    
+            'contact_function':     $('#addClient-modal input[name=function]').val()
         }
         $.ajaxSetup({
             headers: {

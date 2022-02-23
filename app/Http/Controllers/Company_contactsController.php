@@ -22,8 +22,7 @@ class Company_contactsController extends Controller
                 "phone"             => $companyContact->phone,
                 "function"          => $companyContact->function,
                 "type"              => $companyContact->type,
-                "btn"               => '<button data-contactid="' . $companyContact->id . '" type="button" class="btn btn-xs modify"><i class="fa fa-pencil-alt"> </i></button>
-                                        <button data-contactid="' . $companyContact->id . '" type="button" class="btn btn-xs btn-danger delete"><i class="icon-x"> </i></button>'
+                "id"                => $companyContact->id
             ]);
         endforeach;
 

@@ -1,54 +1,38 @@
 $(document).ready(function () {
     // Open clients and prospects modal
-    $("#widget-list").on("click", '#clientsAndProspects-modal-btn', function(){
+    $("#widget-list").on("click", '#clientsAndProspects-modal-btn', function () {
         // Load dynamics zones
         $("#clientsAndProspects-modal .modal-title").html("Clients et propsects");
         // Load data for the companies data table
         $('#companies-table').DataTable({
-            "pageLength": 5,
-            "lengthMenu": [ 5, 10, 25, 50, 75, 100 ],
-            "destroy": true,
+            "retrieve": true,
+            "pageLength": datatableLength,
+            "lengthMenu": datatableLengthMenu,
+            "language": datatableLang,
+            "columnDefs": datatableColumnDef,
             "ajax": {
-                "url": "load-data-companies-table", // Route companies
+                "headers": datatableToken,
                 "type": "get",
                 "dataType": "json",
                 "cache": false,
-                "dataSrc": ""
+                "dataSrc": "",
+                "url": "load-data-companies-table", // Route companies
             },
             "columns": [
-                { data: "name" },
-                { data: "type" },
-                { data: "status" }
-            ],
-            "language": {
-                "sProcessing": "Traitement en cours ...",
-                "sLengthMenu": "Afficher _MENU_ lignes",
-                "sZeroRecords": "Aucun résultat trouvé",
-                "sEmptyTable": "Aucune donnée disponible",
-                "sInfo": "Lignes _START_ à _END_ sur _TOTAL_",
-                "sInfoEmpty": "Aucune ligne affichée",
-                "sInfoFiltered": "(Filtrer un maximum de_MAX_)",
-                "sInfoPostFix": "",
-                "sSearch": "Chercher:",
-                "sUrl": "",
-                "sInfoThousands": ",",
-                "sLoadingRecords": "Chargement...",
-                "oPaginate": {
-                    "sFirst": "Premier", "sLast": "Dernier", "sNext": "Suivant", "sPrevious": "Précédent"
-                },
-                "oAria": {
-                    "sSortAscending": ": Trier par ordre croissant", "sSortDescending": ": Trier par ordre décroissant"
-                }
-            },
-            "columnDefs": [
                 {
-                    "targets": -1,
-                    "className": 'dt-body-right'
+                    title: "Nom",
+                    data: "name"
+                },
+                {
+                    title: "type",
+                    data: "type"
+                },
+                {
+                    title: "Status",
+                    data: "status"
                 }
-            ]
+            ],
         });
         $("#clientsAndProspects-modal").modal("toggle");
     });
 });
-
-
