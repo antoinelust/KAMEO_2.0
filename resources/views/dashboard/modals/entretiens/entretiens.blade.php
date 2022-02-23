@@ -16,18 +16,14 @@
                             <table style="width: 100%;" id="entretiens-table" class="table">
                                 <thead>
                                     <tr>
-                                        <th style="text-align: left;" scope="col">ID</th>
+                                    <th style="text-align: left;" scope="col">ID</th>
                                         <th style="text-align: left;" scope="col">ID Vélo</th>
                                         <th style="text-align: left;" scope="col">Client</th>
                                         <th style="text-align: left;" scope="col">Modèle</th>
                                         <th style="text-align: left;" scope="col">Date de sortie planifiée</th>
                                         <th style="text-align: left;" scope="col">Date</th>
                                         <th style="text-align: left;" scope="col">Statut</th>
-                                        <th style="text-align: left;" scope="col">Type</th>
                                         <th style="text-align: left;" scope="col">Adresse</th>
-                                        <th style="text-align: left;" scope="col">N° téléphone</th>
-                                        <th style="text-align: left;" scope="col">EMAIL</th>
-                                        <th style="text-align: left;" scope="col">Facturation</th>
                                     </tr>
                                 </thead>
                                 <tbody>

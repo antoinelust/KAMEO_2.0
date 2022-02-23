@@ -9,4 +9,8 @@ class Bikes_Catalog extends Model
 {
     use HasFactory;
     public $table = "bikes_catalogs";
+
+    public function bike(){
+        return $this->hasMany('App\Models\Bike', 'id', 'bikes_catalog_id');
+    }
 }

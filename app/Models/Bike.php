@@ -12,4 +12,7 @@ class Bike extends Model
     public function catalog(){
         return $this->belongsTo('App\Models\Bikes_catalog', 'bikes_catalog_id', 'id');
     }
+    public function entretien(){
+        return $this->hasMany('App\Models\Entretien', 'id', 'bike_id');
+    }
 }
