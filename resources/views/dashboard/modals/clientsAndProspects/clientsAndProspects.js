@@ -35,8 +35,4 @@ $(document).ready(function () {
         });
         $("#clientsAndProspects-modal").modal("toggle");
     });
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> 266371308b35d26fe3421f5ff3fb290933857b93

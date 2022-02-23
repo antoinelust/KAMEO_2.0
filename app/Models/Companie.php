@@ -8,4 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Companie extends Model
 {
     use HasFactory;
+
+    public function bike(){
+        return $this->belongsTo('App\Models\Companie', 'id', 'companies_id');
+    }
 }

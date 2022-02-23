@@ -25,7 +25,7 @@ class EntretiensController extends Controller
             array_push($listeEntretiens, [
                 "id"    => $entretien->id,
                 "idBike"    => $entretien->bike_id,
-                "client"    => "client",
+                "client"    => $entretien->bike->companies->name,
                 "model"    => $entretien->bike->catalog->brand . ' ' . $entretien->bike->catalog->model,
                 "outDate"    => $entretien->out_date,
                 "date"    => $entretien->date,

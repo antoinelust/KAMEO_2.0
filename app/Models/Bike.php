@@ -15,4 +15,7 @@ class Bike extends Model
     public function entretien(){
         return $this->hasMany('App\Models\Entretien', 'id', 'bike_id');
     }
+    public function company(){
+        return $this->belongsTo('App\Models\Companie', 'companies_id', 'id');
+    }
 }
