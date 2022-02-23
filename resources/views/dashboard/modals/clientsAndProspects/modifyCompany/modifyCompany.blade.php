@@ -75,6 +75,7 @@
                         </div>
                         <table style="width: 100%;" id="companies-contact-table" class="table">
                             <thead>
+<<<<<<< HEAD
                                 <tr>
                                     <th style="text-align: left" scope="col">Prénom</th>
                                     <th style="text-align: left" scope="col">Nom</th>
@@ -84,6 +85,9 @@
                                     <th style="text-align: left" scope="col">Type</th>
                                     <th style="text-align: right" scope="col"></th>
                                 </tr>
+=======
+
+>>>>>>> 266371308b35d26fe3421f5ff3fb290933857b93
                             </thead>
                             <tbody>
                                 
@@ -102,6 +106,7 @@
                         </div>
                         <table style="width: 100%;" id="companies-bike-table" class="table">
                             <thead>
+<<<<<<< HEAD
                                 <tr>
                                     <th style="text-align: left" scope="col">Référence</th>
                                     <th style="text-align: left" scope="col">Modèle</th>
@@ -109,6 +114,9 @@
                                     <th style="text-align: left" scope="col">Fin</th>
                                     <th style="text-align: right" scope="col"></th>
                                 </tr>
+=======
+                                
+>>>>>>> 266371308b35d26fe3421f5ff3fb290933857b93
                             </thead>
                             <tbody>
                                 

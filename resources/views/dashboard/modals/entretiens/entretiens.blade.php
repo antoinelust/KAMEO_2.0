@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="modal fade" id="entretiens-modal" tabindex="-1" role="modal" aria-labelledby="modal-label-3" aria-hidden="true">
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
@@ -46,3 +47,5 @@
 <script type="text/javascript">
 
 </script>
+=======
+>>>>>>> 266371308b35d26fe3421f5ff3fb290933857b93

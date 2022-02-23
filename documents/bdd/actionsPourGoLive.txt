@@ -1,0 +1,8 @@
+ALTER TABLE `accessories_catalog` DROP FOREIGN KEY `fk_accessories_catalog_accessories1`;
+ALTER TABLE `accessories_catalog` DROP INDEX `fk_accessories_catalog_accessories1_idx`;
+ALTER TABLE `accessories_catalog` DROP `accessories_id`;
+ALTER TABLE `accessories` ADD `accessories_catalog_id` INT NOT NULL AFTER `bikes_id`, ADD INDEX `accessories_catalog_id` (`accessories_catalog_id`);
+ALTER TABLE `accessories` CHANGE `accessories_catalog_id` `accessories_catalog_id` INT(10) UNSIGNED NOT NULL;
+ALTER TABLE `accessories` ADD  CONSTRAINT `fk_accessories_catalog1` FOREIGN KEY (`accessories_catalog_id`) REFERENCES `accessories_catalog`(`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+ALTER TABLE `service_entretiens`  ADD `PRICE_VAT` FLOAT NOT NULL  AFTER `minute`;
