@@ -10,6 +10,13 @@ $('#addEntretien-btn').click(function (e) {
 
     $('#addEntretien-modal input[name=address]').parent().fadeOut();
 
+
+
+    $.get("load-data-companies-table", function(data, status){
+        $.each(JSON.parse(data), function(index, element) {
+            $('#addEntretien-modal select[name=company]').append(new Option(element.name, element.name))
+        });
+    });
 });
 
 $('#addEntretien-modal input[name=maintenanceatKAMEO]').change(function () {
@@ -22,27 +29,20 @@ $('#addEntretien-modal input[name=maintenanceatKAMEO]').change(function () {
 });
 
 $('#sendButtonAddEntretien').click(function () {
-    console.log($('#addEntretien-modal input[name=address]').val());
-    let address = "";
-    if ($('#addEntretien-modal input[name=maintenanceatKAMEO]').is(":checked")) {
-        console.log('dans le if');
-        address = "8 Rue de la brasserie, 4000 Liège";
-        console.log(address);
-    }
-    else {
-        address = $('#addEntretien-modal input[name=address]').val();
-    }
+
+    let checkAtelier = $('#addEntretien-modal input[name=maintenanceatKAMEO]');
+    let address = $('#addEntretien-modal input[name=address]');
 
     let data = {
-        'company':          $('#addEntretien-modal input[name=company]').val(),
-        'model':            $('#addEntretien-modal input[name=velo]').val(),
-        'status':           $('#addEntretien-modal input[name=status]').val(),
+        'company':          $('#addEntretien-modal select[name=company]').val(),
+        'bike':             $('#addEntretien-modal select[name=velo]').val(),
+        'status':           $('#addEntretien-modal select[name=status]').val(),
         'date':             $('#addEntretien-modal input[name=dateMaintenance]').val(),
         'outDate':          $('#addEntretien-modal input[name=dateOutPlanned]').val(),
-        'address':          address,
-        'clientWarned':     $('input[name=clientWarned]').val(),
-        'comment':          $('#addEntretien-modal input[name=comment]').val(),
-        'internalComment':  $('#addEntretien-modal input[name=internalComment]').val()
+        'address':          checkAtelier.is(":checked") ? "8 Rue de la brasserie, 4000 LiÃ¨ge" : address.val(),
+        'clientWarned':     $('#addEntretien-modal input[name=clientWarned]').is(":checked") ? 1 : 0,
+        'comment':          $('#addEntretien-modal textarea[name=comment]').val(),
+        'internalComment':  $('#addEntretien-modal textarea[name=internalComment]').val()
     }
     console.log(data);
     $.ajaxSetup({
@@ -52,7 +52,7 @@ $('#sendButtonAddEntretien').click(function () {
     });
     $.ajax({
         type: "post",
-        url: "add-entretien", // Companies route
+        url: "add-entretien",
         data: data,
         dataType: "json",
         success: function (response) {
@@ -73,4 +73,3 @@ $('#sendButtonAddEntretien').click(function () {
         }
     });
 });
-
