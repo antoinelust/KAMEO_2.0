@@ -1,0 +1,62 @@
+1;Pack;Pack main d'oeuvre et transmission;45;60;2021-04-19 16:14:54;2021-04-19 16:14:54
+2;Pack;Pack main d'oeuvre sécurité;45;60;2021-04-19 16:15:18;2021-04-19 16:15:18
+3;Pack;Forfait remise en état;45;120;2021-04-19 16:15:33;2021-04-19 16:15:33
+4;Pack;Remise en état du freinage;45;55;2021-04-19 16:15:44;2021-04-19 16:15:44
+5;Pack;Entretien basique;45;50;2021-04-19 16:15:59;2021-04-19 16:15:59
+6;Roues;Remplacement d’un rayon;10;18;2021-04-23 14:45:08;2021-04-23 14:45:08
+7;Roues;Passage tubeless (1 roue);20;25;2021-05-11 16:31:12;2021-05-11 16:31:12
+8;Roues;Remplacement chambre à air/pneu;10;8;2021-05-11 17:24:04;2021-05-11 17:24:04
+9;Roues;Remplacement/Réparation d’une chambre à air ou d’un pneu sur vélo Hollandais, moyeux Nexus, frein à tambour;20;20;2021-05-11 17:24:04;2021-05-11 17:24:04
+10;Roues;Révision moyeu roue (démontage-nettoyage-graissage-remontage) ;25;25;2021-05-11 17:24:29;2021-05-11 17:24:29
+11;Roues;Dévoilage d'une roue;12;12;2021-05-11 17:24:29;2021-05-11 17:24:29
+12;Roues;Serrage moyeu;10;10;2021-05-11 17:24:58;2021-05-11 17:24:58
+13;Roues;Montage d'une roue;50;50;2021-05-11 17:24:58;2021-05-11 17:24:58
+14;Roues;Changement roue avant;18;18;2021-05-11 17:25:17;2021-05-11 17:25:17
+15;Roues;Changement roue arrière;24;24;2021-05-11 17:25:17;2021-05-11 17:25:17
+16;Roues;Changement roue arrière (roue à tambour);30;30;2021-05-11 17:25:37;2021-05-11 17:25:37
+17;Roues;Graissage moyeu;25;25;2021-05-11 17:25:37;2021-05-11 17:25:37
+18;Roues;Changement roue ou chambre à air ou pneu sturmey;28;28;2021-05-11 17:25:58;2021-05-11 17:25:58
+19;Roues;Changement roulements d'une roue;28;28;2021-05-11 17:25:58;2021-05-11 17:25:58
+20;Roues;Changement corps roue libre;28;28;2021-05-11 17:26:34;2021-05-11 17:26:34
+21;Transmission;"Remplacement d’un câble et gaine avec réglage	";14;14;2021-05-11 17:26:34;2021-05-11 17:26:34
+22;Transmission;Remplacement de la chaine;10;10;2021-05-11 17:27:07;2021-05-11 17:27:07
+23;Transmission;Remplacement d’une roue libre à vis ou cassette;10;10;2021-05-11 17:27:07;2021-05-11 17:27:07
+24;Transmission;"Réglage d’un dérailleur	";10;10;2021-05-11 17:27:15;2021-05-11 17:27:15
+25;Transmission;Changement ou redressage de la patte de dérailleur;17;17;2021-05-11 17:27:39;2021-05-11 17:27:39
+26;Transmission;Changement d'une manette de dérailleur;20;20;2021-05-11 17:27:39;2021-05-11 17:27:39
+27;Transmission;Montage roue libre ou cassette;10;10;2021-05-11 17:27:59;2021-05-11 17:27:59
+28;Freins;Réglage d’un frein;10;10;2021-05-11 17:27:59;2021-05-11 17:27:59
+29;Freins;Remplacement patins avec réglages;12;12;2021-05-11 17:28:26;2021-05-11 17:28:26
+30;Freins;Remplacement câble et gaine avec réglages;14;14;2021-05-11 17:28:26;2021-05-11 17:28:26
+31;Freins;Remplacement manettes avec réglages;20;20;2021-05-11 17:28:44;2021-05-11 17:28:44
+32;Freins;Changement disque frein;15;15;2021-05-11 17:28:44;2021-05-11 17:28:44
+33;Freins;Changement étrier frein mécanique;16;16;2021-05-11 17:29:03;2021-05-11 17:29:03
+34;Freins;Changement étrier frein hydraulique;30;30;2021-05-11 17:29:03;2021-05-11 17:29:03
+35;Freins;Purge;25;25;2021-05-11 17:29:25;2021-05-11 17:29:25
+36;Direction et pédalier;Réglage du jeu de direction;5;5;2021-05-11 17:29:25;2021-05-11 17:29:25
+37;Direction et pédalier;Réglage du pédalier (le double si vélo hollandais);17;17;2021-05-11 17:29:59;2021-05-11 17:29:59
+38;Direction et pédalier;Changement du pédalier ou de la couronne;20;20;2021-05-11 17:29:59;2021-05-11 17:29:59
+39;Direction et pédalier;Révision et/ou remplacement du jeu de direction ou axe pédalier;25;25;2021-05-11 17:30:13;2021-05-11 17:30:13
+40;Direction et pédalier;Remplacement pédales;7;7;2021-05-11 17:30:36;2021-05-11 17:30:36
+41;Direction et pédalier;Remplacement manivelles;13;13;2021-05-11 17:30:36;2021-05-11 17:30:36
+42;Autres;Montage accessoire;7;7;2021-05-11 17:30:59;2021-05-11 17:30:59
+43;Autres;Montage garde boue ou porte bagage;20;20;2021-05-11 17:30:59;2021-05-11 17:30:59
+44;Autres;Entretien basique;30;30;2021-05-11 17:31:19;2021-05-11 17:31:19
+45;Autres;Pose guidoline;20;20;2021-05-11 17:31:19;2021-05-11 17:31:19
+46;Autres;Pose éclairage dynamo;35;35;2021-05-11 17:31:40;2021-05-11 17:31:40
+47;Autres;Changement guidon VTT - City;20;20;2021-05-11 17:31:40;2021-05-11 17:31:40
+48;Autres;Changement guidon Course;30;30;2021-05-11 17:32:01;2021-05-11 17:32:01
+49;Cadre;Changement cintre (route);20;20;2021-05-11 17:32:01;2021-05-11 17:32:01
+50;Cadre;Changement cintre (vtt);30;30;2021-05-11 17:32:09;2021-05-11 17:32:09
+51;Cadre;Montage entretoises direction;10;10;2021-05-11 17:32:19;2021-05-11 17:32:19
+52;Cadre;Changement étoiles ahead;15;15;2021-05-11 17:32:48;2021-05-11 17:32:48
+53;Cadre;Graissage jeu de direction ou boîtier de pédalier;25;25;2021-05-11 17:32:48;2021-05-11 17:32:48
+54;Cadre;Changement billes jeu de direction;25;25;2021-05-11 17:33:06;2021-05-11 17:33:06
+55;Cadre;Changement jeu de direction;20;20;2021-05-11 17:33:06;2021-05-11 17:33:06
+56;Cadre;Changement potence;25;25;2021-05-11 17:33:25;2021-05-11 17:33:25
+57;Cadre;Changement fourche;45;45;2021-05-11 17:33:25;2021-05-11 17:33:25
+58;Cadre;Montage vélo complet;180;180;2021-05-11 17:33:41;2021-05-11 17:33:41
+59;Cadre;"Changement de la tige de selle ou de la selle	";10;10;2021-05-11 17:33:41;2021-05-11 17:33:41
+60;Autres;Main d oeuvre horaire;60;50;2021-08-25 09:55:08;2021-08-25 09:55:08
+61;Roues;Montage d'un nouveau moyeu ;60;60;2021-10-21 13:46:48;2021-10-21 13:46:48
+62;Autres;Frais de déplacement;20;25;2021-12-21 10:06:37;2021-12-21 10:06:37

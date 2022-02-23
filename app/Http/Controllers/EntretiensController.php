@@ -36,4 +36,31 @@ class EntretiensController extends Controller
 
         echo json_encode($listeEntretiens);
     }
+
+    public function addEntretien(Request $request){
+
+        DB::table('entretiens')->insert([
+
+            // 'bike_id'           => $request['bike'],
+            'bike_id'           => 0,
+            'external_bike'     => 0,
+            'date'              => $request['date'],
+            'address'           => $request['address'],
+            'status'            => $request['status'],
+            'comment'           => $request['comment'],
+            'internal_comment'  => $request['internalComment'],
+            'out_date_planned'  => $request['outDate'],
+            'number_entretien'  => 0,
+            // 'end_date'          => 0,
+            // 'out_date'          => 0,
+            'client_warned'     => $request['clientWarned'],
+            'avoid_billing'     => 0,
+            'leasing_to_bill'   => 0,
+        ]);
+
+        $response['response']   = 'success';
+        $response['message']    = 'Entretien ajouté avec succès !';
+        echo json_encode($response);
+
+    }
 }
