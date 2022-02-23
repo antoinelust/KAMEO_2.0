@@ -10,6 +10,6 @@ class Companie extends Model
     use HasFactory;
 
     public function bike(){
-        return $this->belongsTo('App\Models\Companie', 'id', 'companies_id');
+        return $this->hasMany('App\Models\Bike', 'id', 'companies_id');
     }
 }
