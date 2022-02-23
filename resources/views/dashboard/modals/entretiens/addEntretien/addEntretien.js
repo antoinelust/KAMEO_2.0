@@ -12,9 +12,9 @@ $('#addEntretien-btn').click(function (e) {
 
 
 
-    $.get("load-data-companies-table", function(data, status){
+    $.get("retrieve-company-names-and-id", function(data, status){
         $.each(JSON.parse(data), function(index, element) {
-            $('#addEntretien-modal select[name=company]').append(new Option(element.name, element.name))
+            $('#addEntretien-modal select[name=company]').append(new Option(element.name, element.id));
         });
     });
 });
@@ -28,6 +28,25 @@ $('#addEntretien-modal input[name=maintenanceatKAMEO]').change(function () {
     }
 });
 
+$.ajaxSetup({
+    headers: {
+        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+    }
+});
+
+$('#addEntretien-modal select[name=company]').change(function () {
+
+    $('#addEntretien-modal select[name=velo]').empty();
+
+    let data = {'company_id':          $('#addEntretien-modal select[name=company]').val(),}
+
+    $.post("retrieve-bikesId-by-company-id", data, function(data, status){
+        $.each(JSON.parse(data).data, function(index, element) {
+            $('#addEntretien-modal select[name=velo]').append(new Option(element.id, element.id));
+        });
+    });
+});
+
 $('#sendButtonAddEntretien').click(function () {
 
     let checkAtelier = $('#addEntretien-modal input[name=maintenanceatKAMEO]');
@@ -39,17 +58,12 @@ $('#sendButtonAddEntretien').click(function () {
         'status':           $('#addEntretien-modal select[name=status]').val(),
         'date':             $('#addEntretien-modal input[name=dateMaintenance]').val(),
         'outDate':          $('#addEntretien-modal input[name=dateOutPlanned]').val(),
-        'address':          checkAtelier.is(":checked") ? "8 Rue de la brasserie, 4000 LiÃ¨ge" : address.val(),
+        'address':          checkAtelier.is(":checked") ? "8 Rue de la brasserie, 4000 Liège" : address.val(),
         'clientWarned':     $('#addEntretien-modal input[name=clientWarned]').is(":checked") ? 1 : 0,
         'comment':          $('#addEntretien-modal textarea[name=comment]').val(),
         'internalComment':  $('#addEntretien-modal textarea[name=internalComment]').val()
     }
-    console.log(data);
-    $.ajaxSetup({
-        headers: {
-            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-        }
-    });
+
     $.ajax({
         type: "post",
         url: "add-entretien",

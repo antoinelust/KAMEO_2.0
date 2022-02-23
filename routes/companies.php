@@ -32,3 +32,8 @@ Route::post('/add-company', [CompaniesController::class, 'addOne'])
 Route::get('/retrieve-companies', [CompaniesController::class, 'getAll'])
                 ->middleware('auth')
                 ->name('retrieve-companies');
+
+// Get all company names
+Route::get('/retrieve-company-names-and-id', [CompaniesController::class, 'getAllCompanyNames'])
+                ->middleware('auth')
+                ->name('retrieve-company-names-and-id');

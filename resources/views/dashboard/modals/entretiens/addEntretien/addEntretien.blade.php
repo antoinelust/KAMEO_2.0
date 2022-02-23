@@ -2,12 +2,11 @@
     <div class="modal-dialog modal-xl" style="box-shadow: 1px 1px 1px black;">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 id="modal-label-3" class="modal-title"></h4>
+                <h4 id="modal-label-3" class="modal-title text-primary">Ajouter un entretien</h4>
                 <button aria-hidden="true" data-bs-dismiss="modal" class="btn-close float-right" style="font-size:2em" type="button">×</button>
             </div>
             <div class="modal-body">
                 <div style="margin-bottom: 10px;">
-                    <h4>Ajouter un entretien</h4>
                     <div class="col-md-12">
                         <div class="col-md-4">
                             <label for="utilisateur">Société</label>
@@ -48,12 +47,12 @@
                             <input type="checkbox" name="clientWarned">
                         </div>
                     </div>
-                    <h4 class="text-green">Informations pour client</h4>
+                    <h4 class="text-primary">Informations pour client</h4>
                     <div class="col-md-12">
                         <label for="comment">Description</label>
                         <textarea class="form-control" rows="5" name="comment" style="border: 1px solid; border-color:grey"></textarea>
                     </div>
-                    <h4 class="text-green">Informations confidentielles</h4>
+                    <h4 class="text-primary">Informations confidentielles</h4>
                     <div class="col-md-12">
                         <label for="internalComment">Description</label>
                         <textarea class="form-control" rows="5" name="internalComment" style="border: 1px solid; border-color:grey"></textarea>

@@ -27,6 +27,22 @@ class CompaniesController extends Controller
         echo json_encode($companiesList);
     }
 
+    // Get All company names and ids
+    public function getAllCompanyNames(){
+        $companies = Companie::select('*')
+            ->get();
+
+        $companiesList = [];
+        foreach($companies as $company):
+            array_push($companiesList, [
+                "name"      => $company->name,
+                "id"      => $company->id,
+            ]);
+        endforeach;
+
+        echo json_encode($companiesList);
+    }
+
     // Get all
     public function getAll(){
         $companies = Companie::All();
@@ -67,7 +83,7 @@ class CompaniesController extends Controller
                   'aquisition'      => $request['aquisition'],
                   'audience'        => $request['audience'],
                   'status'          => $request['status'],
-                  'updated_at'      => NOW()  
+                  'updated_at'      => NOW()
                 ]);
 
         $response['response']   = 'success';
@@ -131,7 +147,7 @@ class CompaniesController extends Controller
                 'aquisition'        => $request['aquisition'],
                 'audience'          => $request['audience'],
                 'status'            => "actif",
-                'created_at'        => NOW()         
+                'created_at'        => NOW()
             ]);
 
             DB::table('company_contacts')->insert([
@@ -141,7 +157,7 @@ class CompaniesController extends Controller
                 'phone'             => $request['contact_phone'],
                 'function'          => $request['contact_function'],
                 'companies_id'      => $company_id,
-                'created_at'        => NOW()         
+                'created_at'        => NOW()
             ]);
 
             $response['response']   = 'success';
@@ -159,7 +175,7 @@ class CompaniesController extends Controller
                 'aquisition'        => $request['aquisition'],
                 'audience'          => $request['audience'],
                 'status'            => "actif",
-                'created_at'        => NOW()         
+                'created_at'        => NOW()
             ]);
 
             DB::table('company_contacts')->insert([
@@ -169,7 +185,7 @@ class CompaniesController extends Controller
                 'phone'             => $request['phone'],
                 'function'          => "",
                 'companies_id'      => $company_id,
-                'created_at'        => NOW()         
+                'created_at'        => NOW()
             ]);
 
             $response['response']   = 'success';

@@ -2,13 +2,12 @@
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 id="modal-label-3" class="modal-title"></h4>
+                <h4 id="modal-label-3" class="modal-title text-primary"></h4>
                 <button aria-hidden="true" data-bs-dismiss="modal" class="btn-close float-right" style="font-size:2em" type="button">×</button>
             </div>
             <div class="modal-body">
                 <div style="margin-bottom: 10px;">
                     <button id="addEntretien-btn" type="button" class="btn btn-primary btn-sm">+ Ajouter un Entretien</button>
-                    <button id="consultDevis-btn" type="button" class="btn btn-primary btn-sm">Consulter les devis</button>
                 </div>
                 <div class="row">
                     <div class="col">
@@ -16,7 +15,7 @@
                             <table style="width: 100%;" id="entretiens-table" class="table">
                                 <thead>
                                     <tr>
-                                    <th style="text-align: left;" scope="col">ID</th>
+                                        <th style="text-align: left;" scope="col">ID</th>
                                         <th style="text-align: left;" scope="col">ID Vélo</th>
                                         <th style="text-align: left;" scope="col">Client</th>
                                         <th style="text-align: left;" scope="col">Modèle</th>
