@@ -27,3 +27,8 @@ Route::get('/retrieve-models-by-brand', [BikesController::class, 'getAllModelByB
 Route::get('/retrieve-sizes-by-model', [BikesController::class, 'getAllSizeByModel'])
                 ->middleware('auth')
                 ->name('retrieve-sizes-by-model');
+
+// Get all bikes by company id
+Route::post('/retrieve-bikesId-by-company-id', [BikesController::class, 'getAllByCompanyId'])
+                ->middleware('auth')
+                ->name('retrieve-bikesId-by-company-id');

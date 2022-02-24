@@ -55,8 +55,7 @@ class EntretiensController extends Controller
 
         DB::table('entretiens')->insert([
 
-            // 'bike_id'           => $request['bike'],
-            'bike_id'           => 0,
+            'bike_id'           => $request['bike'],
             'external_bike'     => 0,
             'date'              => $request['date'],
             'address'           => $request['address'],

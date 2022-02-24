@@ -41,6 +41,17 @@ class BikesController extends Controller
         echo json_encode($response);
     }
 
+    // Get all bikes by company id
+    public function getAllByCompanyId(Request $request){
+        $bikeid = Bike::select('*')
+            ->where("companies_id", "=", $request["company_id"])
+            ->get();
+
+        $response['data'] = $bikeid;
+
+        echo json_encode($response);
+    }
+
     // Get all bike brands
     public function getAllBrand(){
         $bikes      = Bike::distinct()->get('bikes_catalog_id');
