@@ -5,6 +5,11 @@ $(document).ready(function () {
         $("#entretiens-modal .modal-title").html("Entretiens:");
         // Load data for the companies data table
         $('#entretiens-table').DataTable({
+            "retrieve": true,
+            "pageLength": datatableLength,
+            "lengthMenu": datatableLengthMenu,
+            "language": datatableLang,
+            "columnDefs": datatableColumnDef,
             "pageLength": 5,
             "lengthMenu": [ 5, 10, 25, 50, 75, 100 ],
             "destroy": true,
@@ -16,7 +21,10 @@ $(document).ready(function () {
                 "dataSrc": ""
             },
             "columns": [
-                { data: "id" },
+                { data: "id",
+                    render: function(data){
+                        return '<a data-entretienid="' + data + '"href="#" class="modify-entretien">' + data + '</a>'
+                } },
                 { data: "idBike" },
                 { data: "client" },
                 { data: "model" },

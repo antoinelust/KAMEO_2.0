@@ -23,7 +23,7 @@ class EntretiensController extends Controller
         foreach($entretiens as $entretien):
 
             array_push($listeEntretiens, [
-                "id"    => '<a data-entretienid="' . $entretien->id . '"href="#" class="modify-entretien">' . $entretien->id . '</a>',
+                "id"    => $entretien->id,
                 "idBike"    => $entretien->bike_id,
                 "client"    => $entretien->bike->company->name,
                 "model"    => $entretien->bike->catalog->brand . ' ' . $entretien->bike->catalog->model,
@@ -37,15 +37,15 @@ class EntretiensController extends Controller
         echo json_encode($listeEntretiens);
     }
 
-    public function getAllById(Request $request){ //////////
+    public function getAllById(Request $request){
         $entretiens = Entretien::select('*')
-            ->where('id', '=', intval($request['entretien_id'])) /////
+            ->where('id', '=', intval($request['entretien_id']))
             ->get()[0];
         
         $response['response']   = 'success';
-        $response['message']    = 'Donnée de l\'entretien chargée avec succès !'; // ' . $entretiens->id . ' 
+        $response['message']    = 'Donnée de l\'entretien ' . $entretiens->id . 'chargée avec succès !';
         $response['data']       = [
-            'entretien' => $entretiens /////
+            'entretien' => $entretiens
         ];
 
         echo json_encode($response);

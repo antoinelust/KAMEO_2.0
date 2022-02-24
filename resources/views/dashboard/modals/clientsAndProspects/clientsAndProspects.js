@@ -21,10 +21,13 @@ $(document).ready(function () {
             "columns": [
                 {
                     title: "Nom",
-                    data: "name"
+                    data: "name",
+                        render: function(data) {
+                            return '<a data-companyid="' + data[0] + '" href="#" class="modify-company">' + data[1] + '</a>'
+                        }
                 },
                 {
-                    title: "type",
+                    title: "Type",
                     data: "type"
                 },
                 {

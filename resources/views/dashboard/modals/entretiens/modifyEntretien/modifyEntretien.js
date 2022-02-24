@@ -9,7 +9,7 @@ $("#entretiens-modal").on("click", '.modify-entretien', function(){
         type: "get",
         url: "get-all-by-entretien-id", // Route companies
         data: {
-            "entretien_id": $(this).data("entretienid") ///// y a l'air d'avoir un pb ici
+            "entretien_id": $(this).data("entretienid")
         },
         dataType: "json",
         success: function (response) {

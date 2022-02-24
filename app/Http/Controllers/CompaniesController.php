@@ -18,7 +18,7 @@ class CompaniesController extends Controller
         $companiesList = [];
         foreach($companies as $company):
             array_push($companiesList, [
-                "name"      => '<a data-companyid="' . $company->id . '" href="#" class="modify-company">' . $company->name . '</a>',
+                "name"      => array($company->id,$company->name),
                 "type"      => $company->type,
                 "status"    => $company->status,
             ]);
