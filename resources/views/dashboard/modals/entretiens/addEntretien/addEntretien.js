@@ -47,10 +47,43 @@ $('#addEntretien-modal select[name=company]').change(function () {
     });
 });
 
+$('#addEntretien-modal button[name=other-plus]').click(function () {
+    $('#table-other > tbody:last-child')
+    .append(`<tr>
+                <td><input type="text" name="other-description" style="width:100%"></td>
+                <td><input type="number" step="0.01" name="other-htva" style="width:100%"></td>
+                <td><input type="number" step="0.01" name="other-tvac" style="width:100%"></td>
+                <td><button class="btn btn-danger btn-sm" type="button" style="font-size: 20px"  name="other-minus">-</button></td>
+            </tr>
+    `);
+    $('#addEntretien-modal #table-other button[name=other-minus]').click(function () {
+        $(this).parent().parent().remove();
+    });
+    $('#addEntretien-modal #table-other input[name=other-tvac]').change(function () {
+        $(this).closest('tr').find('[name=other-htva]').val(Math.round($(this).val()/1.21*100)/100);
+    });
+    $('#addEntretien-modal #table-other input[name=other-htva]').change(function () {
+        $(this).closest('tr').find('[name=other-tvac]').val(Math.round($(this).val()*1.21*100)/100);
+    });
+});
+
+
 $('#sendButtonAddEntretien').click(function () {
 
     let checkAtelier = $('#addEntretien-modal input[name=maintenanceatKAMEO]');
     let address = $('#addEntretien-modal input[name=address]');
+
+    let listTr = $('#addEntretien-modal #table-other').find("tr");
+    let listValuesTr = [];
+
+    $.each(listTr, function() {
+        if($(this).find('[name=other-htva]').val() && $(this).find('[name=other-description]').val()){
+            listValuesTr.push([$(this).find('[name=other-htva]').val(),$(this).find('[name=other-description]').val()]);
+        }
+    });
+
+    console.log(listTr);
+    console.log(listValuesTr);
 
     let data = {
         'company':          $('#addEntretien-modal select[name=company]').val(),
@@ -61,7 +94,8 @@ $('#sendButtonAddEntretien').click(function () {
         'address':          checkAtelier.is(":checked") ? "8 Rue de la brasserie, 4000 Liège" : address.val(),
         'clientWarned':     $('#addEntretien-modal input[name=clientWarned]').is(":checked") ? 1 : 0,
         'comment':          $('#addEntretien-modal textarea[name=comment]').val(),
-        'internalComment':  $('#addEntretien-modal textarea[name=internalComment]').val()
+        'internalComment':  $('#addEntretien-modal textarea[name=internalComment]').val(),
+        'otherTable':       listValuesTr
     }
 
     $.ajax({

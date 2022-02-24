@@ -56,8 +56,8 @@
                 <i class="fa fa-calculator"></i>
                 <span class="manualWorkloadNumber">0</span>
                 <input type="hidden" name="manualWorkloadNumber" value="0" />
-                <button class="button small green button-3d rounded icon-right glyphicon glyphicon-plus" type="button"></button>
-                <button class="button small red button-3d rounded icon-right glyphicon glyphicon-minus" style="display: none;" type="button"></button>
+                <button class="btn btn-primary btn-sm" type="button" style="font-size: 20px">+</button>
+                <button class="btn btn-danger btn-sm" type="button" style="display: none; font-size: 20px">-</button>
               </div>
               <table class="table table-condensed tableFixed manualWorkload">
                 <thead>
@@ -79,10 +79,9 @@
               </div>
               <div class="col-md-12 accessoriesButtons">
                 <i class="fa fa-calculator"></i> <span class="accessoriesNumber">0</span>
-                <button class="button small green button-3d rounded icon-right glyphicon glyphicon-plus" type="button"></button>
-                <button class="button small red button-3d rounded icon-right glyphicon glyphicon-minus" style="display: none;" type="button"></button>
+                <button class="btn btn-primary btn-sm" type="button" style="font-size: 20px" name="catalog-plus">+</button>
               </div>
-              <table class="table table-condensed tableFixed accessoriesTable">
+              <table class="table table-condensed tableFixed accessoriesTable" id="table-catalog">
                 <thead>
                   <th class="accessoriesCategory">
                     <label for="aCategory">Catégorie</label>
@@ -104,6 +103,7 @@
                   <th>Action</th>
                 </thead>
                 <tbody>
+
                 </tbody>
               </table>
             </div>
@@ -114,10 +114,9 @@
               </div>
               <div class="col-md-12">
                 <i class="fa fa-calculator"></i> <span class="otherAccessoriesNumber">0</span>
-                <button class="button small green button-3d rounded icon-right glyphicon glyphicon-plus" type="button"></button>
-                <button class="button small red button-3d rounded icon-right glyphicon glyphicon-minus" style="display: none;" type="button"></button>
+                <button class="btn btn-primary btn-sm" type="button" style="font-size: 20px" name="other-plus">+</button>
               </div>
-              <table class="table table-condensed tableFixed otherAccessoriesTable">
+              <table class="table table-condensed tableFixed otherAccessoriesTable" id="table-other"  style="width: 100%">
                 <thead>
                   <th class="otherAccessoryDescription" style='width:50%'>
                     <label for="otherAccessoryDescription">Description</label>
@@ -133,6 +132,7 @@
                   </th>
                 </thead>
                 <tbody>
+
                 </tbody>
               </table>
             </div>
