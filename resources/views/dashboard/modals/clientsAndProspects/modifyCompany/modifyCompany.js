@@ -56,11 +56,7 @@ $("#clientsAndProspects-modal").on("click", '.modify-company', function(){
                 <option value="inactif">inactif</option>
             `);
             $('#companies-contact-table').DataTable({
-                "retrieve": true,
-                "pageLength": datatableLength,
-                "lengthMenu": datatableLengthMenu,
-                "language": datatableLang,
-                "columnDefs": datatableColumnDef,
+                "destroy": true,
                 "ajax": {
                     "headers": {
                         "X-CSRF-TOKEN": datatableToken
@@ -114,19 +110,19 @@ $("#clientsAndProspects-modal").on("click", '.modify-company', function(){
                             <button data-contactid="' + data + '" type="button" class="btn btn-xs btn-danger delete"><i class="icon-x"> </i></button>'
                         }
                     },
-                ]
-            });
-            $('#companies-bike-table').DataTable({
-                "retrieve": true,
+                ],
                 "pageLength": datatableLength,
                 "lengthMenu": datatableLengthMenu,
                 "language": datatableLang,
                 "columnDefs": datatableColumnDef,
+            });
+            $('#companies-bike-table').DataTable({
+                "destroy": true,
                 "ajax": {
                     "headers": {
                         "X-CSRF-TOKEN": datatableToken
                     },
-                    "url": "load-data-companies-bike-table", // Route companies
+                    "url": "load-data-companies-bike-table", // Route bikes
                     "type": "get",
                     "data": {
                         companies_id: response.data.company.id
@@ -161,15 +157,16 @@ $("#clientsAndProspects-modal").on("click", '.modify-company', function(){
                         data: "contract_end"
                     },
                     {
-
-                        data: "id",
-                        render: function(data){
-                            return '<button type="button" class="btn btn-xs modify"><i class="fa fa-pencil-alt"> </i></button>\
-                            <button type="button" class="btn btn-xs btn-danger delete"><i class="icon-x"> </i></button>'
-                        }
+                        title: "Contrat",
+                        data: "contract_type"
                     }
-                ]
+                ],
+                "pageLength": datatableLength,
+                "lengthMenu": datatableLengthMenu,
+                "language": datatableLang,
+                "columnDefs": datatableColumnDef,
             });
+            console.log("coucou");
             $("#modifyCompany-modal").modal("toggle");
         }
     });

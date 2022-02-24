@@ -27,31 +27,17 @@ class CompaniesController extends Controller
         echo json_encode($companiesList);
     }
 
-    // Get All company names and ids
-    public function getAllCompanyNames(){
-        $companies = Companie::select('*')
-            ->get();
-
-        $companiesList = [];
-        foreach($companies as $company):
-            array_push($companiesList, [
-                "name"      => $company->name,
-                "id"      => $company->id,
-            ]);
-        endforeach;
-
-        echo json_encode($companiesList);
-    }
-
     // Get all
     public function getAll(){
         $companies = Companie::All();
-
+        
         $response['response']   = 'success';
         $response['message']    = 'Compagnies chargée avec succès';
         $response['data']       = [
             'companies' => $companies
         ];
+
+        echo json_encode($response);
     }
 
     // Get all info for the company by id
