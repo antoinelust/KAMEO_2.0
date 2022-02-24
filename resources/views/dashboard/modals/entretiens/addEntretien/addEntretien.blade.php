@@ -15,6 +15,7 @@
                             <select title="velo" class="form-control required form_velo" name="velo" style="border: 1px solid; border-color:grey"></select>
                             <label for="utilisateur">Status</label>
                             <select title="status" class="form-control required" name="status" style="border: 1px solid; border-color:grey">
+                                <option disabled selected value style="display :none"></option>
                                 <option value="CONFIRMED">Confirmé</option>
                                 <option value="AUTOMATICALY_PLANNED">Planifié automatiquement</option>
                                 <option value="MANUALLY_PLANNED">Planifié manuellement</option>
@@ -26,25 +27,31 @@
                                 <option value="DELIVERED_TO_CLIENT">Livré au client</option>
                             </select>
                         </div>
-                        <div class="col-md-4">
-                            <label for="dateMaintenance">Date d'entretien</label>
-                            <input type="date" title="dateMaintenance" name="dateMaintenance" class="required" />
+                        <br>
+                          <div class="row">
+                            <div class="col text-center">
+                                <label for="dateMaintenance">Date d'entretien</label><br>
+                                <input type="date" title="dateMaintenance" name="dateMaintenance" class="required" />
+                            </div>
+                            <div class="col text-center">
+                                <label for="dateOutPlanned">Date de sortie planifié</label><br>
+                                <input type="date" title="dateOutPlanned" name="dateOutPlanned" class="required" />
+                            </div>
                         </div>
-                        <div class="col-md-4">
-                            <label for="dateOutPlanned">Date de sortie planifié</label>
-                            <input type="date" title="dateOutPlanned" name="dateOutPlanned" class="required" />
-                        </div>
-                        <div class="col-md-4 text-center">
-                            <label for="maintenanceatKAMEO">Entretien à l'atelier ?</label>
-                            <input type="checkbox" name="maintenanceatKAMEO">
-                        <div>
-                            <label for="address">Adresse : </label>
-                            <input type="text" name="address">
-                        </div>
-                        </div>
-                        <div class="col-md-4 text-center">
-                            <label for="clientWarned">Client prévenu ?</label>
-                            <input type="checkbox" name="clientWarned">
+                        <br>
+                        <div class="row">
+                          <div class="col text-center">
+                              <label for="maintenanceatKAMEO">Entretien à l'atelier ?</label>
+                              <input type="checkbox" name="maintenanceatKAMEO">
+                          <div>
+                              <label for="address">Adresse : </label>
+                              <input type="text" name="address">
+                          </div>
+                          </div>
+                          <div class="col text-center">
+                              <label for="clientWarned">Client prévenu ?</label>
+                              <input type="checkbox" name="clientWarned">
+                          </div>
                         </div>
                     </div>
                     <div class="separator"></div>
@@ -56,10 +63,10 @@
                 <i class="fa fa-calculator"></i>
                 <span class="manualWorkloadNumber">0</span>
                 <input type="hidden" name="manualWorkloadNumber" value="0" />
-                <button class="btn btn-primary btn-sm" type="button" style="font-size: 20px">+</button>
-                <button class="btn btn-danger btn-sm" type="button" style="display: none; font-size: 20px">-</button>
+                <button class="btn btn-primary btn-sm" type="button" style="font-size: 20px" name="btn-plus-manualWork">+</button>
+                <button class="btn btn-danger btn-sm" type="button" style="display: none; font-size: 20px" name="btn-less-manualWork">-</button>
               </div>
-              <table class="table table-condensed tableFixed manualWorkload">
+              <table style="width: 100%" id="entretien-manualWork-table" class="table table-condensed tableFixed manualWork">
                 <thead>
                   <th class="col-md-2">Catégorie</th>
                   <th class="col-md-2">Description</th>
@@ -75,7 +82,7 @@
             <div class="separator"></div>
             <div class="row maintenanceAccessories">
               <div class="col-md-12">
-                <h4 class="text-primary">Accessoires catalogue: </h4>
+                <h4 class="text-primary">Accessoires catalogue : </h4>
               </div>
               <div class="col-md-12 accessoriesButtons">
                 <i class="fa fa-calculator"></i> <span class="accessoriesNumber">0</span>
@@ -110,7 +117,7 @@
             <div class="separator"></div>
             <div class="row otherAccessoriesMaintenance">
               <div class="col-md-12">
-                <h4 class="text-primary">Accessoires autres: </h4>
+                <h4 class="text-primary">Accessoires autres : </h4>
               </div>
               <div class="col-md-12">
                 <i class="fa fa-calculator"></i> <span class="otherAccessoriesNumber">0</span>

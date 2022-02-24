@@ -13,6 +13,7 @@ $('#addEntretien-btn').click(function (e) {
 
 
     $.get("retrieve-company-names-and-id", function(data, status){
+        $('#addEntretien-modal select[name=company]').append('<option disabled selected value style="display :none"></option>');
         $.each(JSON.parse(data), function(index, element) {
             $('#addEntretien-modal select[name=company]').append(new Option(element.name, element.id));
         });
@@ -121,3 +122,58 @@ $('#sendButtonAddEntretien').click(function () {
         }
     });
 });
+
+$('#addEntretien-modal button[name=btn-plus-manualWork]').click(function () {
+    $('#addEntretien-modal').find('.manualWorkload tbody')
+        .append(`<tr class="manualWorkloadRow form-group">
+            <td class="category">
+                <select title="status" class="form-control required" name="manualWork-category" style="border: 1px solid; border-color:grey">
+                    <option disabled selected value style="display :none"></option>
+                    <option value="Autres">Autres</option>
+                    <option value="Cadre">Cadre</option>
+                    <option value="Direction et pédalier">Direction et pédalier</option>
+                    <option value="Freins">Freins</option>
+                    <option value="Pack">Pack</option>
+                    <option value="Roues">Roues</option>
+                    <option value="Transmission">Transmission</option>
+                </select>
+            </td>
+            <td class="service">
+              <select name="manualWork-description" class="form-control required"></select>
+            </td>
+            <td class="manualWorkloadLength">
+              <input type="number" step='5' class="form-control required" name="manualWorkloadLength[]" value="" />
+            </td>
+            <td class="manualWorkloadTotal">
+              <input type="number" step='0.01' class="form-control required" name="manualWorkloadTotal[]" value="" />
+            </td>
+            <td class="manualWorkloadTotalTVAC">
+              <input type="number" step='0.01' class="form-control required" name="manualWorkloadTotalTVAC[]" value="" />
+            </td>
+            <td><button class="btn btn-danger btn-sm" type="button" style="font-size: 20px"  name="manualWork-delete">-</button></td>
+            <tr>
+        `);
+    $('#addEntretien-modal #entretien-manualWork-table button[name=manualWork-delete]').click(function () {
+        $(this).parent().parent().remove();
+    });
+    $('#addEntretien-modal .manualWorkloadTotal input').off()
+    $('#addEntretien-modal .manualWorkloadTotal input').change(function(){
+      $(this).closest('tr').find('.manualWorkloadTotalTVAC input').val(Math.round($(this).val()*1.06*100)/100);
+    });
+    $('#addEntretien-modal .manualWorkloadTotalTVAC input').off()
+    $('#addEntretien-modal .manualWorkloadTotalTVAC input').change(function(){
+      $(this).closest('tr').find('.manualWorkloadTotal input').val(Math.round($(this).val()/1.06*100)/100);
+    });
+    $('#addEntretien-modal select[name=manualWork-category]').change(function () {
+
+        $('#addEntretien-modal select[name=manualWork-description]').empty();
+    
+            let data = {'category-id':          $(this).val(),}
+            $.post("retrieve-manualwork-description-by-category", data, function(data){
+                $.each(JSON.parse(data).data, function(index, element) {
+                $('#addEntretien-modal select[name=manualWork-description]').append(new Option(element, element));
+            });
+        });
+    });
+});
+
