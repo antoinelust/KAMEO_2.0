@@ -37,6 +37,20 @@ class EntretiensController extends Controller
         echo json_encode($listeEntretiens);
     }
 
+    public function getAllById(Request $request){ //////////
+        $entretiens = Entretien::select('*')
+            ->where('id', '=', intval($request['entretien_id'])) /////
+            ->get()[0];
+        
+        $response['response']   = 'success';
+        $response['message']    = 'Donnée de l\'entretien chargée avec succès !'; // ' . $entretiens->id . ' 
+        $response['data']       = [
+            'entretien' => $entretiens /////
+        ];
+
+        echo json_encode($response);
+    }
+
     public function addEntretien(Request $request){
 
         DB::table('entretiens')->insert([

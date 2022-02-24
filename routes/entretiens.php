@@ -8,6 +8,11 @@ Route::get('/load-data-entretiens-table', [EntretiensController::class, 'getAllF
                 ->middleware('auth')
                 ->name('load-data-entretiens-table');
 
+// Get all data
+Route::get('/get-all-by-entretien-id', [EntretiensController::class, 'getAllById'])
+                ->middleware('auth')
+                ->name('get-all-by-entretien-id');
+
 Route::post('/add-entretien', [EntretiensController::class, 'addEntretien'])
-->middleware('auth')
-->name('add-entretien');
+                ->middleware('auth')
+                ->name('add-entretien');
