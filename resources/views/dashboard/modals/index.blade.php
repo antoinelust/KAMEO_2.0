@@ -1,5 +1,6 @@
 <?php
     include_once('../resources/views/dashboard/modals/entretiens/entretiens.blade.php');
+    include_once('../resources/views/dashboard/modals/entretiens/modifyEntretien/modifyEntretien.blade.php');
     include_once('../resources/views/dashboard/modals/clientsAndProspects/clientsAndProspects.blade.php');
     include_once('../resources/views/dashboard/modals/clientsAndProspects/modifyCompany/modifyCompany.blade.php');
     include_once('../resources/views/dashboard/modals/clientsAndProspects/addClient/addClient.blade.php');
