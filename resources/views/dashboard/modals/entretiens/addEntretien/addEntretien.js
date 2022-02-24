@@ -83,9 +83,6 @@ $('#sendButtonAddEntretien').click(function () {
         }
     });
 
-    console.log(listTr);
-    console.log(listValuesTr);
-
     let data = {
         'company':          $('#addEntretien-modal select[name=company]').val(),
         'bike':             $('#addEntretien-modal select[name=velo]').val(),
