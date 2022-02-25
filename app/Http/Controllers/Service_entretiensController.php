@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Service;
+use App\Models\Service_entretien;
 
 
 class Service_entretiensController extends Controller
@@ -11,7 +11,7 @@ class Service_entretiensController extends Controller
 
 
     public function selectDescription(Request $request){
-        $service_entretiens = Service::select('*')
+        $service_entretiens = Service_entretien::select('*')
             ->where("category", "=", $request["category-id"])
             ->get();
     
