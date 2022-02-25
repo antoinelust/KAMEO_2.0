@@ -20,14 +20,14 @@ class EntretiensController extends Controller
         foreach($entretiens as $entretien):
 
             array_push($listeEntretiens, [
-                "id"    => $entretien->id,
+                "id"        => $entretien->id,
                 "idBike"    => $entretien->bike_id,
                 "client"    => $entretien->bike->company->name,
-                "model"    => $entretien->bike->catalog->brand . ' ' . $entretien->bike->catalog->model,
-                "outDate"    => $entretien->out_date,
-                "date"    => $entretien->date,
+                "model"     => $entretien->bike->catalog->brand . ' ' . $entretien->bike->catalog->model,
+                "outDate"   => $entretien->out_date,
+                "date"      => $entretien->date,
                 "status"    => $entretien->status,
-                "address"    => $entretien->address,
+                "address"   => $entretien->address,
             ]);
         endforeach;
 

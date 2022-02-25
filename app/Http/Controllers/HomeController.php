@@ -24,6 +24,9 @@ class HomeController extends Controller
         $entretiens = DB::table('entretiens')
             ->select('*')
             ->get();
+        $bikes = DB::table('bikes')
+            ->select('*')
+            ->get();
 
         $response['response']  = 'success';
         $response['message']    = 'Données de la home page chargée avec succès !';
@@ -31,7 +34,8 @@ class HomeController extends Controller
             'user'          => $user,
             'company'       => $company,
             'nbCompanies'   => $nbCompanies->count(),
-            'entretiens'   => $entretiens->count()
+            'entretiens'    => $entretiens->count(),
+            'bikes'         => $bikes->count()
         ];
         echo json_encode($response);
     }

@@ -58,7 +58,7 @@
                         <label for="internalComment">Description</label>
                         <textarea class="form-control" rows="5" name="internalComment" style="border: 1px solid; border-color:grey"></textarea>
                     </div>
-                    <button class="btn btn-b" type="button" id="sendButtonAddEntretien">Envoyer</button>
+                    <button class="btn btn-b" type="button" id="sendButtonModifyEntretien">Envoyer</button>
                 </div>
             </div>
             <div id="entretien-datatable-row" class="row" style="display: none;">
@@ -82,7 +82,7 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                
+
                             </tbody>
                         </table>
                     </div>
@@ -105,10 +105,10 @@
                                     <th style="text-align: left" scope="col">Fin</th>
                                     <th style="text-align: right" scope="col"></th>
                                 </tr>
-                                
+
                             </thead>
                             <tbody>
-                                
+
                             </tbody>
                         </table>
                     </div>

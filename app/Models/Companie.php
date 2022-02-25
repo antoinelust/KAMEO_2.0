@@ -12,4 +12,8 @@ class Companie extends Model
     public function bike(){
         return $this->hasMany('App\Models\Bike', 'id', 'companies_id');
     }
+
+    public function employe(){
+        return $this->hasMany('App\Models\Users', 'id', 'companys_id');
+    }
 }

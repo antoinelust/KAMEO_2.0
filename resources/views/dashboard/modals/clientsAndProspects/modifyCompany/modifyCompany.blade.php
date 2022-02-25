@@ -75,15 +75,7 @@
                         </div>
                         <table style="width: 100%;" id="companies-contact-table" class="table">
                             <thead>
-                                <tr>
-                                    <th style="text-align: left" scope="col">Prénom</th>
-                                    <th style="text-align: left" scope="col">Nom</th>
-                                    <th style="text-align: left" scope="col">Email</th>
-                                    <th style="text-align: left" scope="col">Gsm</th>
-                                    <th style="text-align: left" scope="col">Fonction</th>
-                                    <th style="text-align: left" scope="col">Type</th>
-                                    <th style="text-align: right" scope="col"></th>
-                                </tr>
+                                
                             </thead>
                             <tbody>
                                 
@@ -97,18 +89,8 @@
                 <div class="col">
                     <h3 style="text-align: center;" id="modal-label-3" class="modal-title">Liste de vélo</h3>
                     <div class="col">
-                        <div style="margin-bottom: 10px;">
-                            <button id="add-bikeCompany-btn" type="button" class="btn btn-primary btn-sm">Ajouter un vélo</button>
-                        </div>
                         <table style="width: 100%;" id="companies-bike-table" class="table">
                             <thead>
-                                <tr>
-                                    <th style="text-align: left" scope="col">Référence</th>
-                                    <th style="text-align: left" scope="col">Modèle</th>
-                                    <th style="text-align: left" scope="col">Début</th>
-                                    <th style="text-align: left" scope="col">Fin</th>
-                                    <th style="text-align: right" scope="col"></th>
-                                </tr>
                                 
                             </thead>
                             <tbody>

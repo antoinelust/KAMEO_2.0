@@ -8,6 +8,11 @@ Route::get('/load-data-companies-bike-table', [BikesController::class, 'getAllFo
                 ->middleware('auth')
                 ->name('load-data-companies-bike-table');
 
+// Load data for the bike clients table
+Route::get('/load-data-clients-bikes-table', [BikesController::class, 'getAllBikesClientForDataTable'])
+                ->middleware('auth')
+                ->name('load-data-clients-bikes-table');
+
 // Get all bikes
 Route::get('/retrieve-bikes', [BikesController::class, 'getAll'])
                 ->middleware('auth')
@@ -32,3 +37,13 @@ Route::get('/retrieve-sizes-by-model', [BikesController::class, 'getAllSizeByMod
 Route::post('/retrieve-bikesId-by-company-id', [BikesController::class, 'getAllByCompanyId'])
                 ->middleware('auth')
                 ->name('retrieve-bikesId-by-company-id');
+
+// Add one
+Route::post('/add-bike-client', [BikesController::class, 'addOne'])
+                ->middleware('auth')
+                ->name('add-bike-client');
+
+// Retrieve img by bike
+Route::get('/retrieve-bike-img', [BikesController::class, 'retrieveBikeImg'])
+                ->middleware('auth')
+                ->name('retrieve-bike-img');

@@ -42,6 +42,20 @@ $(document).ready(function () {
                         </div>
                     `;
                     $("#widget-list").append($widget2);
+                    $widget3 = `
+                        <div class="col-lg-4">
+                            <div class="icon-box effect large fancy">
+                                <div class="icon">
+                                    <a id="bikes-modal-btn">
+                                        <i class="fa fa-users"></i>
+                                    </a>
+                                </div>
+                                <h3>Vue sur les vélos</h3>
+                                <p class="text-primary" style="font-size:3em;">` + response.data.bikes + `</p>
+                            </div>
+                        </div>
+                    `;
+                    $("#widget-list").append($widget3);
                 }
             }
             else {
