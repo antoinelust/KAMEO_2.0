@@ -83,9 +83,6 @@ $('#sendButtonAddEntretien').click(function () {
         }
     });
 
-    console.log(listTr);
-    console.log(listValuesTr);
-
     let data = {
         'company':          $('#addEntretien-modal select[name=company]').val(),
         'bike':             $('#addEntretien-modal select[name=velo]').val(),
@@ -142,13 +139,13 @@ $('#addEntretien-modal button[name=btn-plus-manualWork]').click(function () {
               <select name="manualWork-description" class="form-control required"></select>
             </td>
             <td class="manualWorkloadLength">
-              <input type="number" step='5' class="form-control required" name="manualWorkloadLength[]" value="" />
+              <input type="number" step='5' class="form-control required" name="manualWorkloadLength" value="" />
             </td>
             <td class="manualWorkloadTotal">
-              <input type="number" step='0.01' class="form-control required" name="manualWorkloadTotal[]" value="" />
+              <input type="number" step='0.01' class="form-control required" name="manualWorkloadTotal" value="" />
             </td>
             <td class="manualWorkloadTotalTVAC">
-              <input type="number" step='0.01' class="form-control required" name="manualWorkloadTotalTVAC[]" value="" />
+              <input type="number" step='0.01' class="form-control required" name="manualWorkloadTotalTVAC" value="" />
             </td>
             <td><button class="btn btn-danger btn-sm" type="button" style="font-size: 20px"  name="manualWork-delete">-</button></td>
             <tr>
@@ -167,12 +164,22 @@ $('#addEntretien-modal button[name=btn-plus-manualWork]').click(function () {
     $('#addEntretien-modal select[name=manualWork-category]').change(function () {
 
         $('#addEntretien-modal select[name=manualWork-description]').empty();
-    
-            let data = {'category-id':          $(this).val(),}
-            $.post("retrieve-manualwork-description-by-category", data, function(data){
-                $.each(JSON.parse(data).data, function(index, element) {
-                $('#addEntretien-modal select[name=manualWork-description]').append(new Option(element, element));
+        let data = {'category-id':          $(this).val(),}
+        $.post("retrieve-manualwork-description-by-category", data, function(data){
+            $('#addEntretien-modal select[name=manualWork-description]').append('<option disabled selected value style="display :none"></option>')
+            $.each(JSON.parse(data).data, function(index, element) {
+                $('#addEntretien-modal select[name=manualWork-description]').append(new Option(element.description,element.minute+'/'+element.PRICE_VAT));
+
             });
+        });
+        $('#addEntretien-modal select[name=manualWork-description]').change(function () {
+            let minute = $(this).val().split("/")[0];
+            let price = $(this).val().split("/")[1];
+            $(this).closest('tr').find('[name=manualWorkloadLength]').val(minute);
+            $(this).closest('tr').find('[name=manualWorkloadTotal]').val(price);
+            let TVAC = $(this).closest('tr').find('[name=manualWorkloadTotal]').val();
+            $(this).closest('tr').find('.manualWorkloadTotalTVAC input').val(Math.round(TVAC*1.06*100)/100);
+
         });
     });
 });
