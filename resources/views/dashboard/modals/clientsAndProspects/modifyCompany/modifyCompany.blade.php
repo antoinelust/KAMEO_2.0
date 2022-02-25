@@ -75,15 +75,7 @@
                         </div>
                         <table style="width: 100%;" id="companies-contact-table" class="table">
                             <thead>
-                                <tr>
-                                    <th style="text-align: left" scope="col">Prénom</th>
-                                    <th style="text-align: left" scope="col">Nom</th>
-                                    <th style="text-align: left" scope="col">Email</th>
-                                    <th style="text-align: left" scope="col">Gsm</th>
-                                    <th style="text-align: left" scope="col">Fonction</th>
-                                    <th style="text-align: left" scope="col">Type</th>
-                                    <th style="text-align: right" scope="col"></th>
-                                </tr>
+                                
                             </thead>
                             <tbody>
                                 

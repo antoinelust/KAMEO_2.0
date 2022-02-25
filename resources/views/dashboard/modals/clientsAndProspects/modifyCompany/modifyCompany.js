@@ -74,6 +74,7 @@ $("#clientsAndProspects-modal").on("click", '.modify-company', function(){
                             return data;
                         }
                         else{
+                            $("#modifyCompany-modal #company-datatable-row").hide();
                             return data;
                         }
                     },
@@ -100,7 +101,7 @@ $("#clientsAndProspects-modal").on("click", '.modify-company', function(){
                         data: "function"
                     },
                     {
-                        title: "type",
+                        title: "Type",
                         data: "type"
                     },
                     {
@@ -135,6 +136,7 @@ $("#clientsAndProspects-modal").on("click", '.modify-company', function(){
                             return data;
                         }
                         else{
+                            $("#modifyCompany-modal #bike-datatable-row").hide();
                             return data;
                         }
                     },
@@ -166,7 +168,6 @@ $("#clientsAndProspects-modal").on("click", '.modify-company', function(){
                 "language": datatableLang,
                 "columnDefs": datatableColumnDef,
             });
-            console.log("coucou");
             $("#modifyCompany-modal").modal("toggle");
         }
     });
