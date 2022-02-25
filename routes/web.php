@@ -20,6 +20,7 @@ require_once('entretiens.php');
 require_once('company_contacts.php');
 require_once('bikes.php');
 require_once('users.php');
+require_once('service_entretiens.php');
 
 // Default route
 Route::get('/', function () {

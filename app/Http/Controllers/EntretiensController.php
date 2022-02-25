@@ -4,10 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Entretien;
-use App\Models\Bike;
-use App\Models\Bikes_Catalog;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Auth;
 
 class EntretiensController extends Controller
 {
@@ -37,15 +34,15 @@ class EntretiensController extends Controller
         echo json_encode($listeEntretiens);
     }
 
-    public function getAllById(Request $request){ //////////
+    public function getAllById(Request $request){
         $entretiens = Entretien::select('*')
-            ->where('id', '=', intval($request['entretien_id'])) /////
+            ->where('id', '=', intval($request['entretien_id']))
             ->get()[0];
         
         $response['response']   = 'success';
-        $response['message']    = 'Donnée de l\'entretien chargée avec succès !'; // ' . $entretiens->id . ' 
+        $response['message']    = 'Donnée de l\'entretien ' . $entretiens->id . 'chargée avec succès !';
         $response['data']       = [
-            'entretien' => $entretiens /////
+            'entretien' => $entretiens
         ];
 
         echo json_encode($response);
@@ -53,7 +50,7 @@ class EntretiensController extends Controller
 
     public function addEntretien(Request $request){
 
-        DB::table('entretiens')->insert([
+        $id_entretien = DB::table('entretiens')->insertGetId([
 
             'bike_id'           => $request['bike'],
             'external_bike'     => 0,
@@ -64,12 +61,23 @@ class EntretiensController extends Controller
             'internal_comment'  => $request['internalComment'],
             'out_date_planned'  => $request['outDate'],
             'number_entretien'  => 0,
-            // 'end_date'          => 0,
-            // 'out_date'          => 0,
             'client_warned'     => $request['clientWarned'],
             'avoid_billing'     => 0,
             'leasing_to_bill'   => 0,
         ]);
+
+        foreach($request['otherTable'] as $otherAccessory):
+
+            DB::table('entretien_details')->insert([
+
+                'item_type'         => "otherAccessory",
+                'item_id'           => 0,
+                'duration'          => 0,
+                'amount'            => $otherAccessory[0],
+                'description'       => $otherAccessory[1],
+                'entretiens_id'     => $id_entretien,
+            ]);
+        endforeach;
 
         $response['response']   = 'success';
         $response['message']    = 'Entretien ajouté avec succès !';
