@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Auth;
 class CompaniesController extends Controller
 {
 
+    
     // Get All for dataTable
     public function getAllForDataTable(){
         $companies = Companie::select('*')
@@ -27,6 +28,20 @@ class CompaniesController extends Controller
         echo json_encode($companiesList);
     }
 
+    public function getAllCompanyNames(){
+        $companies = Companie::select('*')
+            ->get();
+
+        $companiesList = [];
+        foreach($companies as $company):
+            array_push($companiesList, [
+                "name"      => $company->name,
+                "id"      => $company->id,
+            ]);
+        endforeach;
+
+        echo json_encode($companiesList);
+    }
     // Get all
     public function getAll(){
         $companies = Companie::All();

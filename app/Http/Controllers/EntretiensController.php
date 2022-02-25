@@ -50,7 +50,7 @@ class EntretiensController extends Controller
 
     public function addEntretien(Request $request){
 
-        $id_entretien = DB::table('entretiens')->insertGetId([
+        $id_entretien = Entretien::insertGetId([
 
             'bike_id'           => $request['bike'],
             'external_bike'     => 0,
@@ -65,6 +65,18 @@ class EntretiensController extends Controller
             'avoid_billing'     => 0,
             'leasing_to_bill'   => 0,
         ]);
+        foreach($request['manualWorkTable'] as $manualWork):
+
+            DB::table('entretien_details')->insert([
+
+                'item_type'         => "service",
+                'item_id'           => $manualWork[0],
+                'duration'          => $manualWork[2],
+                'amount'            => $manualWork[3],
+                'description'       => $manualWork[1],
+                'entretiens_id'     => $id_entretien,
+            ]);
+        endforeach;
 
         foreach($request['otherTable'] as $otherAccessory):
 

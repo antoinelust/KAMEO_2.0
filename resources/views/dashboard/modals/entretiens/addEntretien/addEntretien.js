@@ -7,6 +7,11 @@ $('#addEntretien-btn').click(function (e) {
     $('#addEntretien-modal input[name=maintenanceatKAMEO]').prop('checked', true);;
     $('#addEntretien-modal input[name=address]').val(null);
     $('#addEntretien-modal input[name=clientWarned]').val(null);
+    $('#addEntretien-modal select[name=velo]').empty();
+    $('#addEntretien-modal select[name=company]').val(null);
+    $('#addEntretien-modal textarea[name=comment]').val(null);
+    $('#addEntretien-modal textarea[name=internalComment]').val(null);
+    $('#table-other tbody').empty();
 
     $('#addEntretien-modal input[name=address]').parent().fadeOut();
 
@@ -74,12 +79,21 @@ $('#sendButtonAddEntretien').click(function () {
     let checkAtelier = $('#addEntretien-modal input[name=maintenanceatKAMEO]');
     let address = $('#addEntretien-modal input[name=address]');
 
-    let listTr = $('#addEntretien-modal #table-other').find("tr");
-    let listValuesTr = [];
+    let listTrManualWork = $('#addEntretien-modal #entretien-manualWork-table').find("tr");
+    let listTrOther = $('#addEntretien-modal #table-other').find("tr");
+    let listValuesTrManualWork= [];
+    let listValuesTrOther = [];
 
-    $.each(listTr, function() {
-        if($(this).find('[name=other-htva]').val() && $(this).find('[name=other-description]').val()){
-            listValuesTr.push([$(this).find('[name=other-htva]').val(),$(this).find('[name=other-description]').val()]);
+    $.each(listTrManualWork, function() {
+        let listValuesTrManualWorkArray= [$(this).find('[name=manualWork-category]').val(), $(this).find('[name=manualWork-description]').val() , $(this).find('[name=manualWorkloadLength]').val(), $(this).find('[name=manualWorkloadTotal]').val()];
+        if(listValuesTrManualWorkArray[0] && listValuesTrManualWorkArray[1] && listValuesTrManualWorkArray[2] &&listValuesTrManualWorkArray[3]){
+            listValuesTrManualWork.push(listValuesTrManualWorkArray);
+        }
+    });
+    $.each(listTrOther, function() {
+        let listTrOtherArray= [$(this).find('[name=other-htva]').val(),$(this).find('[name=other-description]').val()];
+        if(listTrOtherArray[0] && listTrOtherArray[1]){
+            listValuesTrOther.push(listTrOtherArray);
         }
     });
 
@@ -93,7 +107,8 @@ $('#sendButtonAddEntretien').click(function () {
         'clientWarned':     $('#addEntretien-modal input[name=clientWarned]').is(":checked") ? 1 : 0,
         'comment':          $('#addEntretien-modal textarea[name=comment]').val(),
         'internalComment':  $('#addEntretien-modal textarea[name=internalComment]').val(),
-        'otherTable':       listValuesTr
+        'manualWorkTable':  listValuesTrManualWork,
+        'otherTable':       listValuesTrOther
     }
 
     $.ajax({
