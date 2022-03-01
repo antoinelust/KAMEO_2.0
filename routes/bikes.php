@@ -16,7 +16,7 @@ Route::get('/load-data-clients-bikes-table', [BikesController::class, 'getAllBik
 // Get all bikes
 Route::get('/retrieve-bikes', [BikesController::class, 'getAll'])
                 ->middleware('auth')
-                ->name('retrieves-bikes');
+                ->name('retrieve-bikes');
 
 // Get all bike brand
 Route::get('/retrieve-brands', [BikesController::class, 'getAllBrand'])

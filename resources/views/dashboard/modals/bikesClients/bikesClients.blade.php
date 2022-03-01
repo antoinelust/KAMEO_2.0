@@ -31,4 +31,4 @@
     </div>
 </div>
 
-<script src="../resources/views/dashboard/modals/bikesClients/bikesClients.js"></script>
+<script src="{{ asset('js/dashboard/modals/bikesClients/bikesClients.js') }}"></script>

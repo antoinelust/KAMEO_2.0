@@ -1,5 +1,5 @@
 // Load home dynamics zones
-$(document).ready(function () {
+$(document).ready(function(){
     // Ajax request for retrieve nessecary infos for the home page
     $.ajax({
         type: "get",
@@ -10,7 +10,7 @@ $(document).ready(function () {
                 // Display info section data
                 $("#info-section #info-section-firstname").html(response.data.user.firstname)
                 $("#info-section #info-section-lastname").html(response.data.user.lastname)
-                $("#info-section #info-section-logo").attr('src', '../storage/app/public/companies_logo/' + response.data.company.id + '.png')
+                $("#info-section #info-section-logo").attr('src', 'storage/companies_logo/' + response.data.company.id + '.png')
                 $("#info-section #info-section-logo").attr('alt', response.data.company.name)
                 // Display dynamics widgets
                 if(response.data.user.permission.includes("fleetManager")){

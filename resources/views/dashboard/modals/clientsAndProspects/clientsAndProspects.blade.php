@@ -31,8 +31,5 @@
     </div>
 </div>
 
-<script src="../resources/views/dashboard/modals/clientsAndProspects/clientsAndProspects.js"></script>
+<script src="{{ asset('js/dashboard/modals/clientsAndProspects/clientsAndProspects.js') }}"></script>
 
-<script type="text/javascript">
-
-</script>

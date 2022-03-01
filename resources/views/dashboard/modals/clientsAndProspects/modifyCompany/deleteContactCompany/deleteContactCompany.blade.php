@@ -17,4 +17,4 @@
     </div>
 </div>
 
-<script src="../resources/views/dashboard/modals/clientsAndProspects/modifyCompany/deleteContactCompany/deleteContactCompany.js"></script>
+<script src="{{ asset('js/dashboard/modals/clientsAndProspects/modifyCompany/deleteContactCompany/deleteContactCompany.js') }}"></script>

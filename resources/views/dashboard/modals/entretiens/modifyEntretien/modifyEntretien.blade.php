@@ -1,73 +1,120 @@
-<div class="modal fade" id="modifyEntretien-modal" tabindex="-1" role="modal" aria-labelledby="modal-label-3" aria-hidden="true">
+<div class="modal fade" id="modifyEntretien-modal" tabindex="-1" role="modal" aria-labelledby="modal-label-3"
+    aria-hidden="true">
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
+
             <div class="modal-header">
-                <h4 id="modifyEntretien-modal-title" class="modal-title"></h4>
-                <button aria-hidden="true" data-bs-dismiss="modal" class="btn-close float-right" style="font-size:2em" type="button">×</button>
+                <h4 id="modal-label-4" class="modal-title text-primary">Modifier un entretien</h4>
+                <button aria-hidden="true" data-bs-dismiss="modal" class="btn-close float-right" style="font-size:2em"
+                    type="button">×</button>
             </div>
+
             <div class="modal-body">
-            <div style="margin-bottom: 10px;">
-                    <h4>Modifier un entretien</h4>
-                    <div class="col-md-12">
-                        <div class="col-md-4">
-                            <label for="utilisateur">Société</label>
-                            <select title="Veuillez sélectionner" class="form-control required form_company" name="company" data-live-search="true" style="border: 1px solid; border-color:grey"></select>
-                            <label for="utilisateur">Vélo</label>
-                            <select title="velo" class="form-control required form_velo" name="velo" style="border: 1px solid; border-color:grey"></select>
-                            <label for="utilisateur">Status</label>
-                            <select title="status" class="form-control required" name="status" style="border: 1px solid; border-color:grey">
-                                <option value="CONFIRMED">Confirmé</option>
-                                <option value="AUTOMATICALY_PLANNED">Planifié automatiquement</option>
-                                <option value="MANUALLY_PLANNED">Planifié manuellement</option>
-                                <option value="DONE">FAIT</option>
-                                <option value="CANCELLED">ANNULE</option>
-                                <option value="IN_SHOP">A L'atelier</option>
-                                <option value="TO_PLAN">EN Attente de validation du client</option>
-                                <option value="WAITING_PIECES">En attente de pièces</option>
-                                <option value="DELIVERED_TO_CLIENT">Livré au client</option>
-                            </select>
+
+                        <div class="row">
+
+                            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                <label class="form-label" for="utilisateur">Société</label>
+                                <select title="Veuillez sélectionner" class="form-control required form_company"
+                                    name="company" data-live-search="true"
+                                    style="border: 1px solid; border-color:grey">
+                                
+                                </select>
+                            </div>
+
+                            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                <label class="form-label" for="utilisateur">Vélo</label>
+                                <select title="velo" class="form-control required form_velo" name="velo"
+                                    style="border: 1px solid; border-color:grey">
+                                
+                                </select>
+                            </div>
+
+                            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                <label class="form-label" for="utilisateur">Status</label>
+                                <select title="status" class="form-control required" name="status"
+                                    style="border: 1px solid; border-color:grey">
+                                    <option value="CONFIRMED">Confirmé</option>
+                                    <option value="AUTOMATICALY_PLANNED">Planifié automatiquement</option>
+                                    <option value="MANUALLY_PLANNED">Planifié manuellement</option>
+                                    <option value="DONE">FAIT</option>
+                                    <option value="CANCELLED">ANNULE</option>
+                                    <option value="IN_SHOP">A L'atelier</option>
+                                    <option value="TO_PLAN">EN Attente de validation du client</option>
+                                    <option value="WAITING_PIECES">En attente de pièces</option>
+                                    <option value="DELIVERED_TO_CLIENT">Livré au client</option>
+                                </select>
+                            </div>
+
                         </div>
-                        <div class="col-md-4">
-                            <label for="dateMaintenance">Date d'entretien</label>
-                            <input type="date" title="dateMaintenance" name="dateMaintenance" class="required" />
+
+                        <br>
+
+                        <div class="row">
+
+                            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                <label class="form-label" for="dateMaintenance">Date d'entretien</label>
+                                <input type="date" title="dateMaintenance" name="dateMaintenance" class="required form-control" />
+                            </div>
+
+                            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                <label class="form-label" for="dateOutPlanned">Date de sortie planifié</label>
+                                <input type="date" title="dateOutPlanned" name="dateOutPlanned" class="required form-control" />
+                            </div>
+
+                            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 text-center">
+                                <label class="form-label" for="maintenanceatKAMEO">Entretien à l'atelier ?</label>
+                                <input type="checkbox" name="maintenanceatKAMEO">
+                                <div>
+                                    <input class="form-control" type="text" name="address" placeholder="Adresse">
+                                </div>
+                            </div>
+
                         </div>
-                        <div class="col-md-4">
-                            <label for="dateOutPlanned">Date de sortie planifié</label>
-                            <input type="date" title="dateOutPlanned" name="dateOutPlanned" class="required" />
+
+                        <br>
+
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 text-center">
+                                <label for="clientWarned">Client prévenu ?</label>
+                                <input type="checkbox" name="clientWarned">
+                            </div>
                         </div>
-                        <div class="col-md-4 text-center">
-                            <label for="maintenanceatKAMEO">Entretien à l'atelier ?</label>
-                            <input type="checkbox" name="maintenanceatKAMEO">
-                        <div>
-                            <label for="address">Adresse : </label>
-                            <input type="text" name="address">
+
+                        <br>
+
+                        <div class="row">
+
+                            <h3 style="text-align: center;" id="modal-label-3" class="modal-title">Informations complémentaires</h3>
+
+                            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                <textarea placeholder="Informations sur le client..." class="form-control" rows="5" name="comment" style="border: 1px solid; border-color:grey; color: black; resize: none;">
+                                </textarea>
+                            </div>
+
+                            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                <textarea placeholder="Informations confidentiels..." class="form-control" rows="5" name="internalComment" style="border: 1px solid; border-color:grey; color: black; resize: none;">
+                                </textarea>
+                            </div>
+
                         </div>
+
+                        <br>
+
+                        <div style="text-align: right;">
+                            <button style="text-align: right;" class="btn btn-b" type="button" id="sendButtonModifyEntretien">Envoyer</button>
                         </div>
-                        <div class="col-md-4 text-center">
-                            <label for="clientWarned">Client prévenu ?</label>
-                            <input type="checkbox" name="clientWarned">
-                        </div>
-                    </div>
-                    <h4 class="text-green">Informations pour client</h4>
-                    <div class="col-md-12">
-                        <label for="comment">Description</label>
-                        <textarea class="form-control" rows="5" name="comment" style="border: 1px solid; border-color:grey"></textarea>
-                    </div>
-                    <h4 class="text-green">Informations confidentielles</h4>
-                    <div class="col-md-12">
-                        <label for="internalComment">Description</label>
-                        <textarea class="form-control" rows="5" name="internalComment" style="border: 1px solid; border-color:grey"></textarea>
-                    </div>
-                    <button class="btn btn-b" type="button" id="sendButtonModifyEntretien">Envoyer</button>
-                </div>
             </div>
+
+
             <div id="entretien-datatable-row" class="row" style="display: none;">
                 <div class="separator separator-small"></div>
                 <div class="col">
                     <h3 style="text-align: center;" id="modal-label-3" class="modal-title">Liste de contact</h3>
                     <div class="col">
                         <div style="margin-bottom: 10px;">
-                            <button id="add-contactEntretien-btn" type="button" class="btn btn-primary btn-sm">Ajouter un contact</button> <!-- ///// -->
+                            <button id="add-contactEntretien-btn" type="button" class="btn btn-primary btn-sm">Ajouter
+                                un contact</button> <!-- ///// -->
                         </div>
                         <table style="width: 100%;" id="companies-contact-table" class="table">
                             <thead>
@@ -94,7 +141,8 @@
                     <h3 style="text-align: center;" id="modal-label-3" class="modal-title">Liste de vélo</h3>
                     <div class="col">
                         <div style="margin-bottom: 10px;">
-                            <button id="add-bikeEntretien-btn" type="button" class="btn btn-primary btn-sm">Ajouter un vélo</button>
+                            <button id="add-bikeEntretien-btn" type="button" class="btn btn-primary btn-sm">Ajouter un
+                                vélo</button>
                         </div>
                         <table style="width: 100%;" id="companies-bike-table" class="table">
                             <thead>
@@ -122,4 +170,4 @@
     </div>
 </div>
 
-<script src="../resources/views/dashboard/modals/entretiens/modifyEntretien/modifyEntretien.js"></script>
+<script src="{{ asset('js/dashboard/modals/entretiens/modifyEntretien/modifyEntretien.js') }}"></script>

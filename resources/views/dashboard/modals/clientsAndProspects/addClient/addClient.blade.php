@@ -89,4 +89,4 @@
     </div>
 </div>
 
-<script src="../resources/views/dashboard/modals/clientsAndProspects/addClient/addClient.js"></script>
+<script src="{{ asset('js/dashboard/modals/clientsAndProspects/addClient/addClient.js') }}"></script>

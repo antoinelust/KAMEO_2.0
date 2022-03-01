@@ -86,4 +86,4 @@
     </div>
 </div>
 
-<script src="../resources/views/dashboard/modals/bikesClients/addBike/addBike.js"></script>
+<script src="{{ asset('js/dashboard/modals/bikesClients/addBike/addBike.js') }}"></script>

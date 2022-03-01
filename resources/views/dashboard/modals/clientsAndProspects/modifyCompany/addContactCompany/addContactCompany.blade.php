@@ -45,4 +45,4 @@
     </div>
 </div>
 
-<script src="../resources/views/dashboard/modals/clientsAndProspects/modifyCompany/addContactCompany/addContactCompany.js"></script>
+<script src="{{ asset('js/dashboard/modals/clientsAndProspects/modifyCompany/addContactCompany/addContactCompany.js') }}"></script>

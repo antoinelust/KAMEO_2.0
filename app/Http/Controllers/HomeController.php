@@ -28,7 +28,7 @@ class HomeController extends Controller
             ->select('*')
             ->get();
 
-        $response['response']  = 'success';
+        $response['response']   = 'success';
         $response['message']    = 'Données de la home page chargée avec succès !';
         $response['data']       = [
             'user'          => $user,

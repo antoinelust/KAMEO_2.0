@@ -18,27 +18,45 @@ $("#widget-list").on('click', '#bikes-modal-btn', function (e) {
         "columns": [
             {
                 title: "ID",
-                data: "id"
+                data: "id",
+                render: function(data, type, row){
+                    return data;
+                }
             },
             {
                 title: "Société",
-                data: "company"
+                data: "company",
+                render: function(data, type, row){
+                    return data;
+                }
             },
             {
                 title: "Marque",
-                data: "brand"
+                data: "brand",
+                render: function(data, type, row){
+                    return data;
+                }
             },
             {
                 title: "Modèle",
-                data: "model"
+                data: "model",
+                render: function(data, type, row){
+                    return data;
+                }
             },
             {
                 title: "Début du contrat",
-                data: "contract_start"
+                data: "contract_start",
+                render: function(data, type, row){
+                    return data;
+                }
             },
             {
                 title: "Fin du contrat",
-                data: "contract_end"
+                data: "contract_end",
+                render: function(data, type, row){
+                    return data;
+                }
             },
             {
                 title: "Prix de location",
